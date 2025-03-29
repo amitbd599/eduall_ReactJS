@@ -3,7 +3,7 @@ import AboutOne from "../components/AboutOne";
 import BannerOne from "../components/BannerOne";
 import BlogOne from "../components/BlogOne";
 import BrandOne from "../components/BrandOne";
-// import CertificateOne from "../components/CertificateOne";
+import CertificateOne from "../components/CertificateOne";
 import ChooseUsOne from "../components/ChooseUsOne";
 import CounterOne from "../components/CounterOne";
 import ExploreCourseOne from "../components/ExploreCourseOne";
@@ -53,7 +53,7 @@ const HomePageOne = () => {
       <BlogOne />
 
       {/* CertificateOne */}
-      {/* <CertificateOne /> */}
+      <CertificateOne />
 
       {/* FooterOne */}
       {/* <FooterOne /> */}

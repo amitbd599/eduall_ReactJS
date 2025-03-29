@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const CertificateOne = () => {
   return (
     <div className='certificate'>
@@ -15,13 +17,13 @@ const CertificateOne = () => {
                     <h2 className='text-white mb-40 fw-medium wow bounceIn'>
                       Get Quality Skills Certificate From the EduAll
                     </h2>
-                    <a
-                      href=''
+                    <Link
+                      to='#'
                       className='btn btn-white rounded-pill flex-align d-inline-flex gap-8 hover-bg-main-800 wow bounceInUp'
                     >
                       Get Started Now
                       <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className='col-xl-6 d-xl-block d-none'>
