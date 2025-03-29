@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const Breadcrumb = ({ title }) => {
   return (
@@ -44,7 +44,7 @@ const Breadcrumb = ({ title }) => {
               <ul className='breadcrumb__list d-flex align-items-center justify-content-center gap-4'>
                 <li className='breadcrumb__item'>
                   <Link
-                    href='/index-1'
+                    to='/index-1'
                     className='breadcrumb__link text-neutral-500 hover-text-main-600 fw-medium'
                   >
                     <i className='text-lg d-inline-flex ph-bold ph-house' />{" "}
