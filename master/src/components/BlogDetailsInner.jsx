@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const BlogDetailsInner = () => {
   return (
@@ -659,7 +659,7 @@ const BlogDetailsInner = () => {
               <h4 className='mb-16'>More Related Blogs</h4>
               <span className='d-block border border-neutral-30 my-24 border-dashed' />
               <div className='flex-align gap-16'>
-                <Link href='/blog' className='flex-shrink-0'>
+                <Link to='/blog' className='flex-shrink-0'>
                   <img
                     src='assets/images/thumbs/blog-two-img1.png'
                     alt=''
@@ -669,7 +669,7 @@ const BlogDetailsInner = () => {
                 <div className='flex-grow-1'>
                   <h6 className='text-xl mb-10'>
                     <Link
-                      href='/blog'
+                      to='/blog'
                       className='hover-text-main-600 text-line-2'
                     >
                       The Role of Emotional Intelligence{" "}
@@ -680,7 +680,7 @@ const BlogDetailsInner = () => {
               </div>
               <span className='d-block border border-neutral-30 my-24 border-dashed' />
               <div className='flex-align gap-16'>
-                <Link href='/blog' className='flex-shrink-0'>
+                <Link to='/blog' className='flex-shrink-0'>
                   <img
                     src='assets/images/thumbs/blog-two-img2.png'
                     alt=''
@@ -690,7 +690,7 @@ const BlogDetailsInner = () => {
                 <div className='flex-grow-1'>
                   <h6 className='text-xl mb-10'>
                     <Link
-                      href='/blog'
+                      to='/blog'
                       className='hover-text-main-600 text-line-2'
                     >
                       The Psychology of Learning: How Cognitive{" "}
@@ -701,7 +701,7 @@ const BlogDetailsInner = () => {
               </div>
               <span className='d-block border border-neutral-30 my-24 border-dashed' />
               <div className='flex-align gap-16'>
-                <Link href='/blog' className='flex-shrink-0'>
+                <Link to='/blog' className='flex-shrink-0'>
                   <img
                     src='assets/images/thumbs/blog-two-img3.png'
                     alt=''
@@ -711,7 +711,7 @@ const BlogDetailsInner = () => {
                 <div className='flex-grow-1'>
                   <h6 className='text-xl mb-10'>
                     <Link
-                      href='/blog'
+                      to='/blog'
                       className='hover-text-main-600 text-line-2'
                     >
                       The Future of Remote Work: Trends{" "}
@@ -722,7 +722,7 @@ const BlogDetailsInner = () => {
               </div>
               <span className='d-block border border-neutral-30 my-24 border-dashed' />
               <div className='flex-align gap-16'>
-                <Link href='/blog' className='flex-shrink-0'>
+                <Link to='/blog' className='flex-shrink-0'>
                   <img
                     src='assets/images/thumbs/blog-two-img4.png'
                     alt=''
@@ -732,7 +732,7 @@ const BlogDetailsInner = () => {
                 <div className='flex-grow-1'>
                   <h6 className='text-xl mb-10'>
                     <Link
-                      href='/blog'
+                      to='/blog'
                       className='hover-text-main-600 text-line-2'
                     >
                       Crafting Compelling Presentations
@@ -743,7 +743,7 @@ const BlogDetailsInner = () => {
               </div>
               <span className='d-block border border-neutral-30 my-24 border-dashed' />
               <div className='flex-align gap-16'>
-                <Link href='/blog' className='flex-shrink-0'>
+                <Link to='/blog' className='flex-shrink-0'>
                   <img
                     src='assets/images/thumbs/blog-two-img5.png'
                     alt=''
@@ -753,7 +753,7 @@ const BlogDetailsInner = () => {
                 <div className='flex-grow-1'>
                   <h6 className='text-xl mb-10'>
                     <Link
-                      href='/blog'
+                      to='/blog'
                       className='hover-text-main-600 text-line-2'
                     >
                       Demystifying Data Science
@@ -764,7 +764,7 @@ const BlogDetailsInner = () => {
               </div>
               <span className='d-block border border-neutral-30 my-24 border-dashed' />
               <Link
-                href='/blog'
+                to='/blog'
                 className='h6 mb-0 text-main-600 fw-semibold hover-text-decoration-underline'
               >
                 See All
@@ -776,43 +776,43 @@ const BlogDetailsInner = () => {
               <span className='d-block border border-neutral-30 my-24 border-dashed' />
               <div className='flex-align flex-wrap gap-8'>
                 <Link
-                  href='/blog'
+                  to='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   Machine Learning
                 </Link>
                 <Link
-                  href='/blog'
+                  to='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   Web Development
                 </Link>
                 <Link
-                  href='/blog'
+                  to='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   Python
                 </Link>
                 <Link
-                  href='/blog'
+                  to='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   Laravel
                 </Link>
                 <Link
-                  href='/blog'
+                  to='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   Wordpress
                 </Link>
                 <Link
-                  href='/blog'
+                  to='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   UI/UX Design
                 </Link>
                 <Link
-                  href='/blog'
+                  to='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   AI
@@ -820,7 +820,7 @@ const BlogDetailsInner = () => {
               </div>
               <span className='d-block border border-neutral-30 my-24 border-dashed' />
               <Link
-                href='/blog'
+                to='/blog'
                 className='h6 mb-0 text-main-600 fw-semibold hover-text-decoration-underline'
               >
                 See All

@@ -9,6 +9,7 @@ import AboutTwoPage from "./pages/AboutTwoPage.jsx";
 import ApplyAdmissionPage from "./pages/ApplyAdmissionPage.jsx";
 import BlogPage from "./pages/BlogPage.jsx";
 import BlogClassicPage from "./pages/BlogClassicPage.jsx";
+import BlogDetailsPage from "./pages/BlogDetailsPage.jsx";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route exact path='/apply-admission' element={<ApplyAdmissionPage />} />
         <Route exact path='/blog' element={<BlogPage />} />
         <Route exact path='/blog-classic' element={<BlogClassicPage />} />
+        <Route exact path='/blog-details' element={<BlogDetailsPage />} />
       </Routes>
     </BrowserRouter>
   );
