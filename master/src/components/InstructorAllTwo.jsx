@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "react-router";
 
 const InstructorAllTwo = () => {
   return (
@@ -62,7 +62,7 @@ const InstructorAllTwo = () => {
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
                   <Link
-                  href='/instructor-details'
+                    href='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Esther Howard
@@ -112,7 +112,7 @@ const InstructorAllTwo = () => {
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
                   <Link
-                  href='/instructor-details'
+                    href='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Jerome Bell
@@ -162,7 +162,7 @@ const InstructorAllTwo = () => {
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
                   <Link
-                  href='/instructor-details'
+                    href='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Savannah Nguyen
@@ -212,7 +212,7 @@ const InstructorAllTwo = () => {
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
                   <Link
-                  href='/instructor-details'
+                    href='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Jenny Wilson
@@ -262,7 +262,7 @@ const InstructorAllTwo = () => {
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
                   <Link
-                  href='/instructor-details'
+                    href='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Cameron Williamson
@@ -312,7 +312,7 @@ const InstructorAllTwo = () => {
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
                   <Link
-                  href='/instructor-details'
+                    href='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Wade Warren
@@ -362,7 +362,7 @@ const InstructorAllTwo = () => {
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
                   <Link
-                  href='/instructor-details'
+                    href='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Kathryn Murphy
@@ -412,7 +412,7 @@ const InstructorAllTwo = () => {
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
                   <Link
-                  href='/instructor-details'
+                    href='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Devon Lane

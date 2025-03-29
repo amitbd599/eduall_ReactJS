@@ -1,4 +1,3 @@
-"use client";
 import { useEffect, useState } from "react";
 
 const Preloader = () => {
@@ -11,14 +10,16 @@ const Preloader = () => {
 
   return (
     <>
-      {active  ? (
-        <div className="loader-mask">
-          <div className="loader">
+      {active ? (
+        <div className='loader-mask'>
+          <div className='loader'>
             <div></div>
             <div></div>
           </div>
         </div>
-      ) : (<div></div>)}
+      ) : (
+        <div></div>
+      )}
     </>
   );
 };

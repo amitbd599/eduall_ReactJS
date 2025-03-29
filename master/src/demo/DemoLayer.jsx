@@ -1,8 +1,7 @@
-"use client";
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import Marquee from "react-fast-marquee";
-import Link from "next/link";
+import { Link } from "react-router";
 import "./Demo.css";
 const DemoLayer = () => {
   const [isOpen, setIsOpen] = useState(false);

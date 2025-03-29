@@ -1,4 +1,3 @@
-"use client";
 import Slider from "react-slick";
 
 const BrandTwo = () => {

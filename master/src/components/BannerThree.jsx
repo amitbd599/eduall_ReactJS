@@ -1,8 +1,7 @@
-"use client";
 import { useEffect, useRef, useState } from "react";
 import Slider from "react-slick";
 import ModalVideo from "react-modal-video";
-import Link from "next/link";
+import { Link } from "react-router";
 const BannerThree = () => {
   const sliderRef = useRef();
   const [isOpen, setIsOpen] = useState(false);

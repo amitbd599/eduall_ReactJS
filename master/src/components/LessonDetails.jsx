@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "react-router";
 
 const LessonDetails = () => {
   return (
@@ -762,7 +762,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -789,7 +789,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -816,7 +816,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -843,7 +843,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -890,7 +890,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -917,7 +917,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -944,7 +944,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -971,7 +971,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1018,7 +1018,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1045,7 +1045,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1072,7 +1072,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1099,7 +1099,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1146,7 +1146,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1173,7 +1173,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1200,7 +1200,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1227,7 +1227,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1274,7 +1274,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1301,7 +1301,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1328,7 +1328,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1355,7 +1355,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1402,7 +1402,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1429,7 +1429,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1456,7 +1456,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1483,7 +1483,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                href='/lesson-details'
+                            href='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >

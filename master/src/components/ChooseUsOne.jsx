@@ -1,5 +1,4 @@
-"use client";
-import Link from "next/link";
+import { Link } from "react-router";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
 

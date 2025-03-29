@@ -1,7 +1,6 @@
-"use client";
 import { useState } from "react";
 import ReactSlider from "react-slider";
-import Link from "next/link";
+import { Link } from "react-router";
 
 const CourseListView = () => {
   const [values, setValues] = useState([100, 1000]);
