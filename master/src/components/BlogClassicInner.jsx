@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const BlogClassicInner = () => {
   return (
@@ -28,7 +28,7 @@ const BlogClassicInner = () => {
             <div className='d-flex flex-column gap-24'>
               <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
                 <div className='course-item__thumb max-h-unset rounded-12 overflow-hidden position-relative'>
-                  <Link href='/blog-details' className='w-100 h-100'>
+                  <Link to='/blog-details' className='w-100 h-100'>
                     <img
                       src='assets/images/thumbs/blog-two-img1.png'
                       alt='Course'
@@ -42,7 +42,7 @@ const BlogClassicInner = () => {
                 </div>
                 <div className='pt-32 pb-24 px-16 position-relative'>
                   <h4 className='mb-28'>
-                    <Link href='/blog-details' className='link text-line-2'>
+                    <Link to='/blog-details' className='link text-line-2'>
                       Navigating the Job Market: Advice for Graduates
                     </Link>
                   </h4>
@@ -70,7 +70,7 @@ const BlogClassicInner = () => {
                   </div>
                   <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                     <Link
-                      href='/blog-details'
+                      to='/blog-details'
                       className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                       tabIndex={0}
                     >
@@ -82,7 +82,7 @@ const BlogClassicInner = () => {
               </div>
               <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
                 <div className='course-item__thumb max-h-unset rounded-12 overflow-hidden position-relative'>
-                  <Link href='/blog-details' className='w-100 h-100'>
+                  <Link to='/blog-details' className='w-100 h-100'>
                     <img
                       src='assets/images/thumbs/blog-two-img2.png'
                       alt='Course'
@@ -96,7 +96,7 @@ const BlogClassicInner = () => {
                 </div>
                 <div className='pt-32 pb-24 px-16 position-relative'>
                   <h4 className='mb-28'>
-                    <Link href='/blog-details' className='link text-line-2'>
+                    <Link to='/blog-details' className='link text-line-2'>
                       The Importance of Diversity in Higher Education
                     </Link>
                   </h4>
@@ -124,7 +124,7 @@ const BlogClassicInner = () => {
                   </div>
                   <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                     <Link
-                      href='/blog-details'
+                      to='/blog-details'
                       className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                       tabIndex={0}
                     >
@@ -136,7 +136,7 @@ const BlogClassicInner = () => {
               </div>
               <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
                 <div className='course-item__thumb max-h-unset rounded-12 overflow-hidden position-relative'>
-                  <Link href='/blog-details' className='w-100 h-100'>
+                  <Link to='/blog-details' className='w-100 h-100'>
                     <img
                       src='assets/images/thumbs/blog-two-img3.png'
                       alt='Course'
@@ -150,7 +150,7 @@ const BlogClassicInner = () => {
                 </div>
                 <div className='pt-32 pb-24 px-16 position-relative'>
                   <h4 className='mb-28'>
-                    <Link href='/blog-details' className='link text-line-2'>
+                    <Link to='/blog-details' className='link text-line-2'>
                       10 Tips for Successful Online Learning
                     </Link>
                   </h4>
@@ -178,7 +178,7 @@ const BlogClassicInner = () => {
                   </div>
                   <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                     <Link
-                      href='/blog-details'
+                      to='/blog-details'
                       className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                       tabIndex={0}
                     >
@@ -190,7 +190,7 @@ const BlogClassicInner = () => {
               </div>
               <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
                 <div className='course-item__thumb max-h-unset rounded-12 overflow-hidden position-relative'>
-                  <Link href='/blog-details' className='w-100 h-100'>
+                  <Link to='/blog-details' className='w-100 h-100'>
                     <img
                       src='assets/images/thumbs/blog-two-img4.png'
                       alt='Course'
@@ -204,7 +204,7 @@ const BlogClassicInner = () => {
                 </div>
                 <div className='pt-32 pb-24 px-16 position-relative'>
                   <h4 className='mb-28'>
-                    <Link href='/blog-details' className='link text-line-2'>
+                    <Link to='/blog-details' className='link text-line-2'>
                       How to Stay Motivated While Studying from Home
                     </Link>
                   </h4>
@@ -232,7 +232,7 @@ const BlogClassicInner = () => {
                   </div>
                   <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                     <Link
-                      href='/blog-details'
+                      to='/blog-details'
                       className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                       tabIndex={0}
                     >
@@ -244,7 +244,7 @@ const BlogClassicInner = () => {
               </div>
               <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
                 <div className='course-item__thumb max-h-unset rounded-12 overflow-hidden position-relative'>
-                  <Link href='/blog-details' className='w-100 h-100'>
+                  <Link to='/blog-details' className='w-100 h-100'>
                     <img
                       src='assets/images/thumbs/blog-two-img5.png'
                       alt='Course'
@@ -258,7 +258,7 @@ const BlogClassicInner = () => {
                 </div>
                 <div className='pt-32 pb-24 px-16 position-relative'>
                   <h4 className='mb-28'>
-                    <Link href='/blog-details' className='link text-line-2'>
+                    <Link to='/blog-details' className='link text-line-2'>
                       Mastering Python: Beginner to Advanced Tips
                     </Link>
                   </h4>
@@ -286,7 +286,7 @@ const BlogClassicInner = () => {
                   </div>
                   <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                     <Link
-                      href='/blog-details'
+                      to='/blog-details'
                       className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                       tabIndex={0}
                     >
@@ -298,7 +298,7 @@ const BlogClassicInner = () => {
               </div>
               <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
                 <div className='course-item__thumb max-h-unset rounded-12 overflow-hidden position-relative'>
-                  <Link href='/blog-details' className='w-100 h-100'>
+                  <Link to='/blog-details' className='w-100 h-100'>
                     <img
                       src='assets/images/thumbs/blog-two-img6.png'
                       alt='Course'
@@ -312,7 +312,7 @@ const BlogClassicInner = () => {
                 </div>
                 <div className='pt-32 pb-24 px-16 position-relative'>
                   <h4 className='mb-28'>
-                    <Link href='/blog-details' className='link text-line-2'>
+                    <Link to='/blog-details' className='link text-line-2'>
                       Balancing Work and Study: Strategies for Success
                     </Link>
                   </h4>
@@ -340,7 +340,7 @@ const BlogClassicInner = () => {
                   </div>
                   <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                     <Link
-                      href='/blog-details'
+                      to='/blog-details'
                       className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                       tabIndex={0}
                     >
@@ -352,7 +352,7 @@ const BlogClassicInner = () => {
               </div>
               <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
                 <div className='course-item__thumb max-h-unset rounded-12 overflow-hidden position-relative'>
-                  <Link href='/blog-details' className='w-100 h-100'>
+                  <Link to='/blog-details' className='w-100 h-100'>
                     <img
                       src='assets/images/thumbs/blog-two-img7.png'
                       alt='Course'
@@ -366,7 +366,7 @@ const BlogClassicInner = () => {
                 </div>
                 <div className='pt-32 pb-24 px-16 position-relative'>
                   <h4 className='mb-28'>
-                    <Link href='/blog-details' className='link text-line-2'>
+                    <Link to='/blog-details' className='link text-line-2'>
                       The Importance of Lifelong Learning in Today's World
                     </Link>
                   </h4>
@@ -394,7 +394,7 @@ const BlogClassicInner = () => {
                   </div>
                   <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                     <Link
-                      href='/blog-details'
+                      to='/blog-details'
                       className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                       tabIndex={0}
                     >
@@ -406,7 +406,7 @@ const BlogClassicInner = () => {
               </div>
               <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
                 <div className='course-item__thumb max-h-unset rounded-12 overflow-hidden position-relative'>
-                  <Link href='/blog-details' className='w-100 h-100'>
+                  <Link to='/blog-details' className='w-100 h-100'>
                     <img
                       src='assets/images/thumbs/blog-two-img8.png'
                       alt='Course'
@@ -420,7 +420,7 @@ const BlogClassicInner = () => {
                 </div>
                 <div className='pt-32 pb-24 px-16 position-relative'>
                   <h4 className='mb-28'>
-                    <Link href='/blog-details' className='link text-line-2'>
+                    <Link to='/blog-details' className='link text-line-2'>
                       Effective Time Management for Students
                     </Link>
                   </h4>
@@ -448,7 +448,7 @@ const BlogClassicInner = () => {
                   </div>
                   <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                     <Link
-                      href='/blog-details'
+                      to='/blog-details'
                       className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                       tabIndex={0}
                     >
@@ -460,7 +460,7 @@ const BlogClassicInner = () => {
               </div>
               <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
                 <div className='course-item__thumb max-h-unset rounded-12 overflow-hidden position-relative'>
-                  <Link href='/blog-details' className='w-100 h-100'>
+                  <Link to='/blog-details' className='w-100 h-100'>
                     <img
                       src='assets/images/thumbs/blog-two-img9.png'
                       alt='Course'
@@ -474,7 +474,7 @@ const BlogClassicInner = () => {
                 </div>
                 <div className='pt-32 pb-24 px-16 position-relative'>
                   <h4 className='mb-28'>
-                    <Link href='/blog-details' className='link text-line-2'>
+                    <Link to='/blog-details' className='link text-line-2'>
                       The Benefits of Learning a New Language Online
                     </Link>
                   </h4>
@@ -502,7 +502,7 @@ const BlogClassicInner = () => {
                   </div>
                   <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                     <Link
-                      href='/blog-details'
+                      to='/blog-details'
                       className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                       tabIndex={0}
                     >
@@ -515,52 +515,52 @@ const BlogClassicInner = () => {
             </div>
             <ul className='pagination mt-40 flex-align gap-12 flex-wrap justify-content-center'>
               <li className='page-item'>
-                <a
+                <Link
                   className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-                  href='#'
+                  to='#'
                 >
                   <i className='ph-bold ph-caret-left' />
-                </a>
+                </Link>
               </li>
               <li className='page-item'>
-                <a
+                <Link
                   className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-                  href='#'
+                  to='#'
                 >
                   1
-                </a>
+                </Link>
               </li>
               <li className='page-item'>
-                <a
+                <Link
                   className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-                  href='#'
+                  to='#'
                 >
                   2
-                </a>
+                </Link>
               </li>
               <li className='page-item'>
-                <a
+                <Link
                   className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-                  href='#'
+                  to='#'
                 >
                   3
-                </a>
+                </Link>
               </li>
               <li className='page-item'>
-                <a
+                <Link
                   className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-                  href='#'
+                  to='#'
                 >
                   ...
-                </a>
+                </Link>
               </li>
               <li className='page-item'>
-                <a
+                <Link
                   className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-                  href='#'
+                  to='#'
                 >
                   <i className='ph-bold ph-caret-right' />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -587,43 +587,43 @@ const BlogClassicInner = () => {
               <span className='d-block border border-neutral-30 my-24 border-dashed' />
               <div className='flex-align flex-wrap gap-8'>
                 <Link
-                  href='/blog'
+                  to='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   Machine Learning
                 </Link>
                 <Link
-                  href='/blog'
+                  to='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   Web Development
                 </Link>
                 <Link
-                  href='/blog'
+                  to='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   Python
                 </Link>
                 <Link
-                  href='/blog'
+                  to='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   Laravel
                 </Link>
                 <Link
-                  href='/blog'
+                  to='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   Wordpress
                 </Link>
                 <Link
-                  href='/blog'
+                  to='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   UI/UX Design
                 </Link>
                 <Link
-                  href='/blog'
+                  to='/blog'
                   className='border border-neutral-30 px-20 py-12 rounded-pill text-sm bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                 >
                   AI
@@ -631,7 +631,7 @@ const BlogClassicInner = () => {
               </div>
               <span className='d-block border border-neutral-30 my-24 border-dashed' />
               <Link
-                href='/blog'
+                to='/blog'
                 className='h6 mb-0 text-main-600 fw-semibold hover-text-decoration-underline'
               >
                 See All
