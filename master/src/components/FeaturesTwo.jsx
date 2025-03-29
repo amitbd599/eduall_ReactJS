@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const FeaturesTwo = () => {
   return (
@@ -26,7 +26,7 @@ const FeaturesTwo = () => {
               creativity. What you find just might...
             </p>
             <Link
-              href='/course-list-view'
+              to='/course-list-view'
               className='item-hover__text flex-align d-inline-flex gap-8 text-main-600 mt-24 hover-text-decoration-underline transition-1 fw-semibold'
             >
               Read More
