@@ -6,8 +6,8 @@ import BrandOne from "../components/BrandOne";
 // import CertificateOne from "../components/CertificateOne";
 // import ChooseUsOne from "../components/ChooseUsOne";
 // import CounterOne from "../components/CounterOne";
-// import ExploreCourseOne from "../components/ExploreCourseOne";
-// import FeaturesOne from "../components/FeaturesOne";
+import ExploreCourseOne from "../components/ExploreCourseOne";
+import FeaturesOne from "../components/FeaturesOne";
 // import FooterOne from "../components/FooterOne";
 // import InstructorOne from "../components/InstructorOne";
 // import TestimonialsOne from "../components/TestimonialsOne";
@@ -29,10 +29,10 @@ const HomePageOne = () => {
       <BrandOne />
 
       {/* FeaturesOne */}
-      {/* <FeaturesOne /> */}
+      <FeaturesOne />
 
       {/* ExploreCourseOne */}
-      {/* <ExploreCourseOne /> */}
+      <ExploreCourseOne />
 
       {/* AboutOne */}
       {/* <AboutOne /> */}
