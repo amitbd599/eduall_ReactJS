@@ -5,6 +5,7 @@ import HomePageOne from "./pages/HomePageOne";
 import AboutPage from "./pages/AboutPage.jsx";
 import AboutFourPage from "./pages/AboutFourPage.jsx";
 import AboutThreePage from "./pages/AboutThreePage.jsx";
+import AboutTwoPage from "./pages/AboutTwoPage.jsx";
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
       <Routes>
         <Route exact path='/index-1' element={<HomePageOne />} />
         <Route exact path='/about' element={<AboutPage />} />
-        <Route exact path='/about-four' element={<AboutFourPage />} />
+        <Route exact path='/about-two' element={<AboutTwoPage />} />
         <Route exact path='/about-three' element={<AboutThreePage />} />
+        <Route exact path='/about-four' element={<AboutFourPage />} />
       </Routes>
     </BrowserRouter>
   );
