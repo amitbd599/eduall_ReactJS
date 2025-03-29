@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const BlogGridInner = () => {
   return (
@@ -27,7 +27,7 @@ const BlogGridInner = () => {
           <div className='col-lg-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link href='/blog-details' className='w-100 h-100'>
+                <Link to='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img1.png'
                     alt='Course'
@@ -41,7 +41,7 @@ const BlogGridInner = () => {
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
-                  <Link href='/blog-details' className='link text-line-2'>
+                  <Link to='/blog-details' className='link text-line-2'>
                     Navigating the Job Market: Advice for Graduates
                   </Link>
                 </h4>
@@ -69,7 +69,7 @@ const BlogGridInner = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <Link
-                    href='/blog-details'
+                    to='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
@@ -83,7 +83,7 @@ const BlogGridInner = () => {
           <div className='col-lg-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link href='/blog-details' className='w-100 h-100'>
+                <Link to='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img2.png'
                     alt='Course'
@@ -97,7 +97,7 @@ const BlogGridInner = () => {
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
-                  <Link href='/blog-details' className='link text-line-2'>
+                  <Link to='/blog-details' className='link text-line-2'>
                     The Importance of Diversity in Higher Education
                   </Link>
                 </h4>
@@ -125,7 +125,7 @@ const BlogGridInner = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <Link
-                    href='/blog-details'
+                    to='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
@@ -139,7 +139,7 @@ const BlogGridInner = () => {
           <div className='col-lg-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link href='/blog-details' className='w-100 h-100'>
+                <Link to='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img3.png'
                     alt='Course'
@@ -153,7 +153,7 @@ const BlogGridInner = () => {
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
-                  <Link href='/blog-details' className='link text-line-2'>
+                  <Link to='/blog-details' className='link text-line-2'>
                     10 Tips for Successful Online Learning
                   </Link>
                 </h4>
@@ -181,7 +181,7 @@ const BlogGridInner = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <Link
-                    href='/blog-details'
+                    to='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
@@ -195,7 +195,7 @@ const BlogGridInner = () => {
           <div className='col-lg-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link href='/blog-details' className='w-100 h-100'>
+                <Link to='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img4.png'
                     alt='Course'
@@ -209,7 +209,7 @@ const BlogGridInner = () => {
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
-                  <Link href='/blog-details' className='link text-line-2'>
+                  <Link to='/blog-details' className='link text-line-2'>
                     How to Stay Motivated While Studying from Home
                   </Link>
                 </h4>
@@ -237,7 +237,7 @@ const BlogGridInner = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <Link
-                    href='/blog-details'
+                    to='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
@@ -251,7 +251,7 @@ const BlogGridInner = () => {
           <div className='col-lg-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link href='/blog-details' className='w-100 h-100'>
+                <Link to='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img5.png'
                     alt='Course'
@@ -265,7 +265,7 @@ const BlogGridInner = () => {
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
-                  <Link href='/blog-details' className='link text-line-2'>
+                  <Link to='/blog-details' className='link text-line-2'>
                     Mastering Python: Beginner to Advanced Tips
                   </Link>
                 </h4>
@@ -293,7 +293,7 @@ const BlogGridInner = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <Link
-                    href='/blog-details'
+                    to='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
@@ -307,7 +307,7 @@ const BlogGridInner = () => {
           <div className='col-lg-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link href='/blog-details' className='w-100 h-100'>
+                <Link to='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img6.png'
                     alt='Course'
@@ -321,7 +321,7 @@ const BlogGridInner = () => {
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
-                  <Link href='/blog-details' className='link text-line-2'>
+                  <Link to='/blog-details' className='link text-line-2'>
                     Balancing Work and Study: Strategies for Success
                   </Link>
                 </h4>
@@ -349,7 +349,7 @@ const BlogGridInner = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <Link
-                    href='/blog-details'
+                    to='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
@@ -363,7 +363,7 @@ const BlogGridInner = () => {
           <div className='col-lg-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link href='/blog-details' className='w-100 h-100'>
+                <Link to='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img7.png'
                     alt='Course'
@@ -377,7 +377,7 @@ const BlogGridInner = () => {
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
-                  <Link href='/blog-details' className='link text-line-2'>
+                  <Link to='/blog-details' className='link text-line-2'>
                     The Importance of Lifelong Learning in Today's World
                   </Link>
                 </h4>
@@ -405,7 +405,7 @@ const BlogGridInner = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <Link
-                    href='/blog-details'
+                    to='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
@@ -419,7 +419,7 @@ const BlogGridInner = () => {
           <div className='col-lg-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link href='/blog-details' className='w-100 h-100'>
+                <Link to='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img8.png'
                     alt='Course'
@@ -433,7 +433,7 @@ const BlogGridInner = () => {
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
-                  <Link href='/blog-details' className='link text-line-2'>
+                  <Link to='/blog-details' className='link text-line-2'>
                     Effective Time Management for Students
                   </Link>
                 </h4>
@@ -461,7 +461,7 @@ const BlogGridInner = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <Link
-                    href='/blog-details'
+                    to='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
@@ -475,7 +475,7 @@ const BlogGridInner = () => {
           <div className='col-lg-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link href='/blog-details' className='w-100 h-100'>
+                <Link to='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img9.png'
                     alt='Course'
@@ -489,7 +489,7 @@ const BlogGridInner = () => {
               </div>
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
-                  <Link href='/blog-details' className='link text-line-2'>
+                  <Link to='/blog-details' className='link text-line-2'>
                     The Benefits of Learning a New Language Online
                   </Link>
                 </h4>
@@ -517,7 +517,7 @@ const BlogGridInner = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <Link
-                    href='/blog-details'
+                    to='/blog-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
