@@ -1,5 +1,5 @@
-import { Link } from "react-router";
 import CountUp from "react-countup";
+import { Link } from "react-router-dom";
 import VisibilitySensor from "react-visibility-sensor";
 
 const AboutOne = () => {
@@ -150,7 +150,7 @@ const AboutOne = () => {
                   data-aos-duration={600}
                 >
                   <Link
-                    href='/course'
+                    to='/course'
                     className='btn btn-main rounded-pill flex-align gap-8'
                   >
                     Read More

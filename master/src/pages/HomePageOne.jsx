@@ -1,5 +1,5 @@
 import HeaderOne from "../components/HeaderOne";
-// import AboutOne from "../components/AboutOne";
+import AboutOne from "../components/AboutOne";
 import BannerOne from "../components/BannerOne";
 // import BlogOne from "../components/BlogOne";
 import BrandOne from "../components/BrandOne";
@@ -35,7 +35,7 @@ const HomePageOne = () => {
       <ExploreCourseOne />
 
       {/* AboutOne */}
-      {/* <AboutOne /> */}
+      <AboutOne />
 
       {/* InstructorOne */}
       {/* <InstructorOne /> */}
