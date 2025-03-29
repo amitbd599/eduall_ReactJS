@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const FooterOne = () => {
   return (
@@ -19,7 +19,7 @@ const FooterOne = () => {
             <div className='col' data-aos='fade-up' data-aos-duration={300}>
               <div className='footer-item'>
                 <div className='footer-item__logo'>
-                  <Link href='/index-1'>
+                  <Link to='/index-1'>
                     {" "}
                     <img src='assets/images/logo/logo.png' alt='' />
                   </Link>
@@ -71,7 +71,7 @@ const FooterOne = () => {
                 <ul className='footer-menu'>
                   <li className='mb-16'>
                     <Link
-                      href='/about'
+                      to='/about'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       About us
@@ -79,7 +79,7 @@ const FooterOne = () => {
                   </li>
                   <li className='mb-16'>
                     <Link
-                      href='/courses'
+                      to='/courses'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       Courses
@@ -87,7 +87,7 @@ const FooterOne = () => {
                   </li>
                   <li className='mb-16'>
                     <Link
-                      href='/instructor'
+                      to='/instructor'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       Instructor
@@ -95,7 +95,7 @@ const FooterOne = () => {
                   </li>
                   <li className='mb-16'>
                     <Link
-                      href='/faq'
+                      to='/faq'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       FAQs
@@ -103,7 +103,7 @@ const FooterOne = () => {
                   </li>
                   <li className='mb-0'>
                     <Link
-                      href='/blog'
+                      to='/blog'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       Blogs
@@ -118,7 +118,7 @@ const FooterOne = () => {
                 <ul className='footer-menu'>
                   <li className='mb-16'>
                     <Link
-                      href='/courses'
+                      to='/courses'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       UI/UX Design
@@ -126,7 +126,7 @@ const FooterOne = () => {
                   </li>
                   <li className='mb-16'>
                     <Link
-                      href='/courses'
+                      to='/courses'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       Web Development
@@ -134,7 +134,7 @@ const FooterOne = () => {
                   </li>
                   <li className='mb-16'>
                     <Link
-                      href='/courses'
+                      to='/courses'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       Python Development
@@ -142,7 +142,7 @@ const FooterOne = () => {
                   </li>
                   <li className='mb-16'>
                     <Link
-                      href='/courses'
+                      to='/courses'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       Digital Marketing
@@ -150,7 +150,7 @@ const FooterOne = () => {
                   </li>
                   <li className='mb-16'>
                     <Link
-                      href='/courses'
+                      to='/courses'
                       className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                     >
                       Graphic Design
@@ -168,13 +168,13 @@ const FooterOne = () => {
                   </span>
                   <div className=''>
                     <Link
-                      href='/tel:(207)555-0119'
+                      to='/tel:(207)555-0119'
                       className='text-neutral-500 d-block hover-text-main-600 mb-4'
                     >
                       (207) 555-0119
                     </Link>
                     <Link
-                      href='/tel:(704)555-0127'
+                      to='/tel:(704)555-0127'
                       className='text-neutral-500 d-block hover-text-main-600 mb-0'
                     >
                       (704) 555-0127
@@ -187,13 +187,13 @@ const FooterOne = () => {
                   </span>
                   <div className=''>
                     <Link
-                      href='/mailto:dwallo@gmail.com'
+                      to='/mailto:dwallo@gmail.com'
                       className='text-neutral-500 d-block hover-text-main-600 mb-4'
                     >
                       dwallo@gmail.com
                     </Link>
                     <Link
-                      href='/mailto:eduAll@gmail.com'
+                      to='/mailto:eduAll@gmail.com'
                       className='text-neutral-500 d-block hover-text-main-600 mb-0'
                     >
                       eduAll@gmail.com
@@ -247,7 +247,9 @@ const FooterOne = () => {
             <div className='bottom-footer__inner flex-between gap-3 flex-wrap'>
               <p className='bottom-footer__text'>
                 {" "}
-                Copyright © 2025 <span className='fw-semibold'>EduAll </span>
+                Copyright © 2025 <span className='fw-semibold'>
+                  EduAll{" "}
+                </span>{" "}
                 All Rights Reserved.
               </p>
               <div className='footer-links'>

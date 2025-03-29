@@ -8,7 +8,7 @@ import ChooseUsOne from "../components/ChooseUsOne";
 import CounterOne from "../components/CounterOne";
 import ExploreCourseOne from "../components/ExploreCourseOne";
 import FeaturesOne from "../components/FeaturesOne";
-// import FooterOne from "../components/FooterOne";
+import FooterOne from "../components/FooterOne";
 import InstructorOne from "../components/InstructorOne";
 import TestimonialsOne from "../components/TestimonialsOne";
 import Animation from "../helper/Animation";
@@ -56,7 +56,7 @@ const HomePageOne = () => {
       <CertificateOne />
 
       {/* FooterOne */}
-      {/* <FooterOne /> */}
+      <FooterOne />
     </>
   );
 };
