@@ -1,6 +1,6 @@
 import HeaderOne from "../components/HeaderOne";
 // import AboutOne from "../components/AboutOne";
-// import BannerOne from "../components/BannerOne";
+import BannerOne from "../components/BannerOne";
 // import BlogOne from "../components/BlogOne";
 // import BrandOne from "../components/BrandOne";
 // import CertificateOne from "../components/CertificateOne";
@@ -23,7 +23,7 @@ const HomePageOne = () => {
       <Animation />
 
       {/* BannerOne */}
-      {/* <BannerOne /> */}
+      <BannerOne />
 
       {/* BrandOne */}
       {/* <BrandOne /> */}
