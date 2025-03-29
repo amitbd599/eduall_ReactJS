@@ -10,6 +10,7 @@ import ApplyAdmissionPage from "./pages/ApplyAdmissionPage.jsx";
 import BlogPage from "./pages/BlogPage.jsx";
 import BlogClassicPage from "./pages/BlogClassicPage.jsx";
 import BlogDetailsPage from "./pages/BlogDetailsPage.jsx";
+import BlogListPage from "./pages/BlogListPage.jsx";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route exact path='/blog' element={<BlogPage />} />
         <Route exact path='/blog-classic' element={<BlogClassicPage />} />
         <Route exact path='/blog-details' element={<BlogDetailsPage />} />
+        <Route exact path='/blog-list' element={<BlogListPage />} />
       </Routes>
     </BrowserRouter>
   );
