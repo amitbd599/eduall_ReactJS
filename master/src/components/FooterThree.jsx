@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const FooterThree = () => {
   return (
@@ -28,7 +28,7 @@ const FooterThree = () => {
                 <ul className='footer-menu'>
                   <li className='mb-16'>
                     <Link
-                      href='/about'
+                      to='/about'
                       className='text-white hover-text-main-600 hover-text-decoration-underline'
                     >
                       About us
@@ -36,7 +36,7 @@ const FooterThree = () => {
                   </li>
                   <li className='mb-16'>
                     <Link
-                      href='/courses'
+                      to='/courses'
                       className='text-white hover-text-main-600 hover-text-decoration-underline'
                     >
                       Courses
@@ -44,7 +44,7 @@ const FooterThree = () => {
                   </li>
                   <li className='mb-16'>
                     <Link
-                      href='/instructor'
+                      to='/instructor'
                       className='text-white hover-text-main-600 hover-text-decoration-underline'
                     >
                       Instructor
@@ -52,7 +52,7 @@ const FooterThree = () => {
                   </li>
                   <li className='mb-16'>
                     <Link
-                      href='/faq'
+                      to='/faq'
                       className='text-white hover-text-main-600 hover-text-decoration-underline'
                     >
                       FAQs
@@ -60,7 +60,7 @@ const FooterThree = () => {
                   </li>
                   <li className='mb-0'>
                     <Link
-                      href='/blog'
+                      to='/blog'
                       className='text-white hover-text-main-600 hover-text-decoration-underline'
                     >
                       Blogs
@@ -81,7 +81,7 @@ const FooterThree = () => {
                 <ul className='footer-menu'>
                   <li className='mb-16'>
                     <Link
-                      href='/courses'
+                      to='/courses'
                       className='text-white hover-text-main-600 hover-text-decoration-underline'
                     >
                       UI/UX Design
@@ -89,7 +89,7 @@ const FooterThree = () => {
                   </li>
                   <li className='mb-16'>
                     <Link
-                      href='/courses'
+                      to='/courses'
                       className='text-white hover-text-main-600 hover-text-decoration-underline'
                     >
                       Web Development
@@ -97,7 +97,7 @@ const FooterThree = () => {
                   </li>
                   <li className='mb-16'>
                     <Link
-                      href='/courses'
+                      to='/courses'
                       className='text-white hover-text-main-600 hover-text-decoration-underline'
                     >
                       Python Development
@@ -105,7 +105,7 @@ const FooterThree = () => {
                   </li>
                   <li className='mb-16'>
                     <Link
-                      href='/courses'
+                      to='/courses'
                       className='text-white hover-text-main-600 hover-text-decoration-underline'
                     >
                       Digital Marketing
@@ -113,7 +113,7 @@ const FooterThree = () => {
                   </li>
                   <li className='mb-16'>
                     <Link
-                      href='/courses'
+                      to='/courses'
                       className='text-white hover-text-main-600 hover-text-decoration-underline'
                     >
                       Graphic Design
@@ -137,13 +137,13 @@ const FooterThree = () => {
                   </span>
                   <div className=''>
                     <Link
-                      href='/tel:(207)555-0119'
+                      to='/tel:(207)555-0119'
                       className='text-white d-block hover-text-main-600 mb-4'
                     >
                       (207) 555-0119
                     </Link>
                     <Link
-                      href='/tel:(704)555-0127'
+                      to='/tel:(704)555-0127'
                       className='text-white d-block hover-text-main-600 mb-0'
                     >
                       (704) 555-0127
@@ -156,13 +156,13 @@ const FooterThree = () => {
                   </span>
                   <div className=''>
                     <Link
-                      href='/mailto:dwallo@gmail.com'
+                      to='/mailto:dwallo@gmail.com'
                       className='text-white d-block hover-text-main-600 mb-4'
                     >
                       dwallo@gmail.com
                     </Link>
                     <Link
-                      href='/mailto:eduAll@gmail.com'
+                      to='/mailto:eduAll@gmail.com'
                       className='text-white d-block hover-text-main-600 mb-0'
                     >
                       eduAll@gmail.com
@@ -221,7 +221,7 @@ const FooterThree = () => {
           <div className='container container-two'>
             <div className='bottom-footer__inner flex-between gap-16 flex-wrap'>
               <div className='footer-item__logo mb-0' data-aos='zoom-in-right'>
-                <Link href='/index-1'>
+                <Link to='/index-1'>
                   {" "}
                   <img src='assets/images/logo/logo-white.png' alt='' />
                 </Link>
@@ -242,7 +242,7 @@ const FooterThree = () => {
               >
                 <li className='social-list__item'>
                   <Link
-                    href='https://www.facebook.com'
+                    to='https://www.facebook.com'
                     className='text-white text-2xl hover-text-main-two-600'
                   >
                     <i className='ph-bold ph-facebook-logo' />
@@ -250,7 +250,7 @@ const FooterThree = () => {
                 </li>
                 <li className='social-list__item'>
                   <Link
-                    href='https://www.twitter.com'
+                    to='https://www.twitter.com'
                     className='text-white text-2xl hover-text-main-two-600'
                   >
                     <i className='ph-bold ph-twitter-logo' />
@@ -258,7 +258,7 @@ const FooterThree = () => {
                 </li>
                 <li className='social-list__item'>
                   <Link
-                    href='https://www.linkedin.com'
+                    to='https://www.linkedin.com'
                     className='text-white text-2xl hover-text-main-two-600'
                   >
                     <i className='ph-bold ph-instagram-logo' />
@@ -266,7 +266,7 @@ const FooterThree = () => {
                 </li>
                 <li className='social-list__item'>
                   <Link
-                    href='https://www.pinterest.com'
+                    to='https://www.pinterest.com'
                     className='text-white text-2xl hover-text-main-two-600'
                   >
                     <i className='ph-bold ph-pinterest-logo' />
