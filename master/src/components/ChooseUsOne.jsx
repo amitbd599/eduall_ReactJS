@@ -1,6 +1,6 @@
-import { Link } from "react-router";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
+import { Link } from "react-router-dom";
 
 const ChooseUsOne = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -75,7 +75,7 @@ const ChooseUsOne = () => {
               </ul>
               <div className='pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                 <Link
-                  href='/about'
+                  to='/about'
                   className='btn btn-main rounded-pill flex-align d-inline-flex gap-8'
                 >
                   Read More
