@@ -13,6 +13,7 @@ import BlogDetailsPage from "./pages/BlogDetailsPage.jsx";
 import BlogListPage from "./pages/BlogListPage.jsx";
 import BookOnlineClassPage from "./pages/BookOnlineClassPage.jsx";
 import CartPage from "./pages/CartPage.jsx";
+import CheckoutPage from "./pages/CheckoutPage.jsx";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           element={<BookOnlineClassPage />}
         />
         <Route exact path='/cart' element={<CartPage />} />
+        <Route exact path='/checkout' element={<CheckoutPage />} />
       </Routes>
     </BrowserRouter>
   );
