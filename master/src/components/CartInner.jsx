@@ -1,5 +1,5 @@
-import { Link } from "react-router";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const CartCount = () => {
   let [count, setCount] = useState(1);
@@ -278,7 +278,7 @@ const CartInner = () => {
                   </tbody>
                 </table>
                 <Link
-                  href='/apply-admission'
+                  to='/apply-admission'
                   className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold mt-24'
                   tabIndex={0}
                 >
@@ -349,7 +349,7 @@ const CartInner = () => {
               </div>
               <span className='d-block border border-neutral-30 mt-24 border-dashed' />
               <Link
-                href='/checkout'
+                to='/checkout'
                 className='btn btn-main rounded-pill w-100 mt-40'
               >
                 Check Out
