@@ -30,7 +30,7 @@ const BlogListInner = () => {
                 <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img1.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -79,7 +79,7 @@ const BlogListInner = () => {
                 <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img2.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -128,7 +128,7 @@ const BlogListInner = () => {
                 <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img3.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -177,7 +177,7 @@ const BlogListInner = () => {
                 <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img4.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -226,7 +226,7 @@ const BlogListInner = () => {
                 <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img5.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -275,7 +275,7 @@ const BlogListInner = () => {
                 <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img6.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -324,7 +324,7 @@ const BlogListInner = () => {
                 <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img7.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -373,7 +373,7 @@ const BlogListInner = () => {
                 <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img8.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -422,7 +422,7 @@ const BlogListInner = () => {
                 <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img9.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -471,7 +471,7 @@ const BlogListInner = () => {
                 <Link href='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img3.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>

@@ -144,7 +144,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img1.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -239,7 +239,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img2.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -334,7 +334,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -429,7 +429,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -524,7 +524,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img5.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -619,7 +619,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img6.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -733,7 +733,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img1.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -828,7 +828,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img2.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -923,7 +923,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -1018,7 +1018,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -1113,7 +1113,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img5.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -1208,7 +1208,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img6.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -1322,7 +1322,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img1.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -1417,7 +1417,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img2.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -1512,7 +1512,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -1607,7 +1607,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -1702,7 +1702,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img5.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -1797,7 +1797,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img6.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -1911,7 +1911,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img1.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -2006,7 +2006,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img2.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -2101,7 +2101,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -2196,7 +2196,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -2291,7 +2291,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img5.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -2386,7 +2386,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img6.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -2500,7 +2500,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img1.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -2595,7 +2595,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img2.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -2690,7 +2690,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -2785,7 +2785,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -2880,7 +2880,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img5.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -2975,7 +2975,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img6.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -3089,7 +3089,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img1.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -3184,7 +3184,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img2.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -3279,7 +3279,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -3374,7 +3374,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img3.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -3469,7 +3469,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img5.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>
@@ -3564,7 +3564,7 @@ const ExploreCourseTwo = () => {
                     <Link href='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/course-img6.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
                     </Link>

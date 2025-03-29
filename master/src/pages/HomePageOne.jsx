@@ -9,7 +9,7 @@ import BrandOne from "../components/BrandOne";
 import ExploreCourseOne from "../components/ExploreCourseOne";
 import FeaturesOne from "../components/FeaturesOne";
 // import FooterOne from "../components/FooterOne";
-// import InstructorOne from "../components/InstructorOne";
+import InstructorOne from "../components/InstructorOne";
 // import TestimonialsOne from "../components/TestimonialsOne";
 import Animation from "../helper/Animation";
 
@@ -38,7 +38,7 @@ const HomePageOne = () => {
       <AboutOne />
 
       {/* InstructorOne */}
-      {/* <InstructorOne /> */}
+      <InstructorOne />
 
       {/* CHooseUsOne */}
       {/* <ChooseUsOne /> */}

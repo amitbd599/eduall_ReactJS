@@ -29,7 +29,7 @@ const BlogDetailsInner = () => {
               <div className='rounded-12 overflow-hidden position-relative'>
                 <img
                   src='assets/images/thumbs/blog-details-img.png'
-                  alt='Course Image'
+                  alt='Course'
                   className='rounded-12 cover-img transition-2'
                 />
                 <div className='position-absolute inset-inline-end-0 inset-block-end-0 me-16 mb-16 py-12 px-24 rounded-8 bg-main-two-600 text-white fw-medium'>

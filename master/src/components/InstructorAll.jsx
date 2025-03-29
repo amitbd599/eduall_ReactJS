@@ -31,7 +31,7 @@ const InstructorAll = () => {
                 >
                   <img
                     src='assets/images/thumbs/instructor-img4.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -137,7 +137,7 @@ const InstructorAll = () => {
                 >
                   <img
                     src='assets/images/thumbs/instructor-img2.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -243,7 +243,7 @@ const InstructorAll = () => {
                 >
                   <img
                     src='assets/images/thumbs/instructor-img3.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -349,7 +349,7 @@ const InstructorAll = () => {
                 >
                   <img
                     src='assets/images/thumbs/instructor-img1.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -455,7 +455,7 @@ const InstructorAll = () => {
                 >
                   <img
                     src='assets/images/thumbs/instructor-img5.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -561,7 +561,7 @@ const InstructorAll = () => {
                 >
                   <img
                     src='assets/images/thumbs/instructor-img6.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>

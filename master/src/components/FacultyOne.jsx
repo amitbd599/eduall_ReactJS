@@ -30,7 +30,7 @@ const FacultyOne = () => {
                 <Link href='/course-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/faculty-img1.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -116,7 +116,7 @@ const FacultyOne = () => {
                 <Link href='/course-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/faculty-img2.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -201,7 +201,7 @@ const FacultyOne = () => {
                 <Link href='/course-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/faculty-img3.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -286,7 +286,7 @@ const FacultyOne = () => {
                 <Link href='/course-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/faculty-img4.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -371,7 +371,7 @@ const FacultyOne = () => {
                 <Link href='/course-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/faculty-img5.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -456,7 +456,7 @@ const FacultyOne = () => {
                 <Link href='/course-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/faculty-img6.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>

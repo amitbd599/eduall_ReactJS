@@ -28,7 +28,7 @@ const EventsAllOne = () => {
                 >
                   <img
                     src='assets/images/thumbs/event-img1.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -82,7 +82,7 @@ const EventsAllOne = () => {
                 >
                   <img
                     src='assets/images/thumbs/event-img2.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -136,7 +136,7 @@ const EventsAllOne = () => {
                 >
                   <img
                     src='assets/images/thumbs/event-img3.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -190,7 +190,7 @@ const EventsAllOne = () => {
                 >
                   <img
                     src='assets/images/thumbs/event-img4.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -244,7 +244,7 @@ const EventsAllOne = () => {
                 >
                   <img
                     src='assets/images/thumbs/event-img5.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>
@@ -298,7 +298,7 @@ const EventsAllOne = () => {
                 >
                   <img
                     src='assets/images/thumbs/event-img6.png'
-                    alt='Course Image'
+                    alt='Course'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
                 </Link>

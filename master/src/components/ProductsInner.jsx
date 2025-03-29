@@ -381,7 +381,7 @@ const ProductsInner = () => {
                     >
                       <img
                         src='assets/images/thumbs/product-img1.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
                     </Link>
@@ -442,7 +442,7 @@ const ProductsInner = () => {
                     >
                       <img
                         src='assets/images/thumbs/product-img2.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
                     </Link>
@@ -506,7 +506,7 @@ const ProductsInner = () => {
                     >
                       <img
                         src='assets/images/thumbs/product-img3.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
                     </Link>
@@ -567,7 +567,7 @@ const ProductsInner = () => {
                     >
                       <img
                         src='assets/images/thumbs/product-img4.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
                     </Link>
@@ -631,7 +631,7 @@ const ProductsInner = () => {
                     >
                       <img
                         src='assets/images/thumbs/product-img5.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
                     </Link>
@@ -695,7 +695,7 @@ const ProductsInner = () => {
                     >
                       <img
                         src='assets/images/thumbs/product-img6.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
                     </Link>
@@ -756,7 +756,7 @@ const ProductsInner = () => {
                     >
                       <img
                         src='assets/images/thumbs/product-img7.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
                     </Link>
@@ -820,7 +820,7 @@ const ProductsInner = () => {
                     >
                       <img
                         src='assets/images/thumbs/product-img8.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
                     </Link>
@@ -881,7 +881,7 @@ const ProductsInner = () => {
                     >
                       <img
                         src='assets/images/thumbs/product-img9.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
                     </Link>
@@ -942,7 +942,7 @@ const ProductsInner = () => {
                     >
                       <img
                         src='assets/images/thumbs/product-img10.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
                     </Link>
@@ -1006,7 +1006,7 @@ const ProductsInner = () => {
                     >
                       <img
                         src='assets/images/thumbs/product-img11.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
                     </Link>
@@ -1067,7 +1067,7 @@ const ProductsInner = () => {
                     >
                       <img
                         src='assets/images/thumbs/product-img12.png'
-                        alt='Course Image'
+                        alt='Course'
                         className='scale-hover-item__img rounded-12 transition-2'
                       />
                     </Link>
