@@ -1,5 +1,5 @@
-import { Link } from "react-router";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import ReactSlider from "react-slider";
 
 const TuitionJobs = () => {
@@ -555,7 +555,7 @@ const TuitionJobs = () => {
                         Posted at June 6, 2024
                       </span>
                       <Link
-                        href='/contact'
+                        to='/contact'
                         className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                         tabIndex={0}
                       >
@@ -697,7 +697,7 @@ const TuitionJobs = () => {
                         Posted at June 6, 2024
                       </span>
                       <Link
-                        href='/contact'
+                        to='/contact'
                         className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                         tabIndex={0}
                       >
@@ -837,7 +837,7 @@ const TuitionJobs = () => {
                         Posted at June 6, 2024
                       </span>
                       <Link
-                        href='/contact'
+                        to='/contact'
                         className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                         tabIndex={0}
                       >
@@ -977,7 +977,7 @@ const TuitionJobs = () => {
                         Posted at June 6, 2024
                       </span>
                       <Link
-                        href='/contact'
+                        to='/contact'
                         className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                         tabIndex={0}
                       >
@@ -1117,7 +1117,7 @@ const TuitionJobs = () => {
                         Posted at June 6, 2024
                       </span>
                       <Link
-                        href='/contact'
+                        to='/contact'
                         className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                         tabIndex={0}
                       >

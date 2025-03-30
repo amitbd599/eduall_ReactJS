@@ -37,6 +37,7 @@ import ProductPage from "./pages/ProductPage.jsx";
 import ProductDetailsPage from "./pages/ProductDetailsPage.jsx";
 import SignInPage from "./pages/SignInPage.jsx";
 import SignUpPage from "./pages/SignUpPage.jsx";
+import TuitionJobsPage from "./pages/TuitionJobsPage.jsx";
 
 function App() {
   return (
@@ -92,6 +93,7 @@ function App() {
         <Route exact path='/product-details' element={<ProductDetailsPage />} />
         <Route exact path='/sign-in' element={<SignInPage />} />
         <Route exact path='/sign-up' element={<SignUpPage />} />
+        <Route exact path='/tuition-jobs' element={<TuitionJobsPage />} />
       </Routes>
     </BrowserRouter>
   );
