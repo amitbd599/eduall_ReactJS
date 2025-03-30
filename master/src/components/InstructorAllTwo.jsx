@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const InstructorAllTwo = () => {
   return (
@@ -34,7 +34,7 @@ const InstructorAllTwo = () => {
                   <ul className='social-list flex-center gap-12 d-flex position-absolute start-50 top-50 w-100 h-100 translate-middle'>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.facebook.com'
+                        to='https://www.facebook.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-facebook-logo' />
@@ -42,7 +42,7 @@ const InstructorAllTwo = () => {
                     </li>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.twitter.com'
+                        to='https://www.twitter.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-twitter-logo' />
@@ -50,7 +50,7 @@ const InstructorAllTwo = () => {
                     </li>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.linkedin.com'
+                        to='https://www.linkedin.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-instagram-logo' />
@@ -62,7 +62,7 @@ const InstructorAllTwo = () => {
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
                   <Link
-                    href='/instructor-details'
+                    to='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Esther Howard
@@ -84,7 +84,7 @@ const InstructorAllTwo = () => {
                   <ul className='social-list flex-center gap-12 d-flex position-absolute start-50 top-50 w-100 h-100 translate-middle'>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.facebook.com'
+                        to='https://www.facebook.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-facebook-logo' />
@@ -92,7 +92,7 @@ const InstructorAllTwo = () => {
                     </li>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.twitter.com'
+                        to='https://www.twitter.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-twitter-logo' />
@@ -100,7 +100,7 @@ const InstructorAllTwo = () => {
                     </li>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.linkedin.com'
+                        to='https://www.linkedin.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-instagram-logo' />
@@ -112,7 +112,7 @@ const InstructorAllTwo = () => {
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
                   <Link
-                    href='/instructor-details'
+                    to='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Jerome Bell
@@ -134,7 +134,7 @@ const InstructorAllTwo = () => {
                   <ul className='social-list flex-center gap-12 d-flex position-absolute start-50 top-50 w-100 h-100 translate-middle'>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.facebook.com'
+                        to='https://www.facebook.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-facebook-logo' />
@@ -142,7 +142,7 @@ const InstructorAllTwo = () => {
                     </li>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.twitter.com'
+                        to='https://www.twitter.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-twitter-logo' />
@@ -150,7 +150,7 @@ const InstructorAllTwo = () => {
                     </li>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.linkedin.com'
+                        to='https://www.linkedin.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-instagram-logo' />
@@ -162,7 +162,7 @@ const InstructorAllTwo = () => {
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
                   <Link
-                    href='/instructor-details'
+                    to='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Savannah Nguyen
@@ -184,7 +184,7 @@ const InstructorAllTwo = () => {
                   <ul className='social-list flex-center gap-12 d-flex position-absolute start-50 top-50 w-100 h-100 translate-middle'>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.facebook.com'
+                        to='https://www.facebook.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-facebook-logo' />
@@ -192,7 +192,7 @@ const InstructorAllTwo = () => {
                     </li>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.twitter.com'
+                        to='https://www.twitter.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-twitter-logo' />
@@ -200,7 +200,7 @@ const InstructorAllTwo = () => {
                     </li>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.linkedin.com'
+                        to='https://www.linkedin.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-instagram-logo' />
@@ -212,7 +212,7 @@ const InstructorAllTwo = () => {
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
                   <Link
-                    href='/instructor-details'
+                    to='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Jenny Wilson
@@ -234,7 +234,7 @@ const InstructorAllTwo = () => {
                   <ul className='social-list flex-center gap-12 d-flex position-absolute start-50 top-50 w-100 h-100 translate-middle'>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.facebook.com'
+                        to='https://www.facebook.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-facebook-logo' />
@@ -242,7 +242,7 @@ const InstructorAllTwo = () => {
                     </li>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.twitter.com'
+                        to='https://www.twitter.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-twitter-logo' />
@@ -250,7 +250,7 @@ const InstructorAllTwo = () => {
                     </li>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.linkedin.com'
+                        to='https://www.linkedin.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-instagram-logo' />
@@ -262,7 +262,7 @@ const InstructorAllTwo = () => {
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
                   <Link
-                    href='/instructor-details'
+                    to='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Cameron Williamson
@@ -284,7 +284,7 @@ const InstructorAllTwo = () => {
                   <ul className='social-list flex-center gap-12 d-flex position-absolute start-50 top-50 w-100 h-100 translate-middle'>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.facebook.com'
+                        to='https://www.facebook.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-facebook-logo' />
@@ -292,7 +292,7 @@ const InstructorAllTwo = () => {
                     </li>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.twitter.com'
+                        to='https://www.twitter.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-twitter-logo' />
@@ -300,7 +300,7 @@ const InstructorAllTwo = () => {
                     </li>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.linkedin.com'
+                        to='https://www.linkedin.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-instagram-logo' />
@@ -312,7 +312,7 @@ const InstructorAllTwo = () => {
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
                   <Link
-                    href='/instructor-details'
+                    to='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Wade Warren
@@ -334,7 +334,7 @@ const InstructorAllTwo = () => {
                   <ul className='social-list flex-center gap-12 d-flex position-absolute start-50 top-50 w-100 h-100 translate-middle'>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.facebook.com'
+                        to='https://www.facebook.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-facebook-logo' />
@@ -342,7 +342,7 @@ const InstructorAllTwo = () => {
                     </li>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.twitter.com'
+                        to='https://www.twitter.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-twitter-logo' />
@@ -350,7 +350,7 @@ const InstructorAllTwo = () => {
                     </li>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.linkedin.com'
+                        to='https://www.linkedin.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-instagram-logo' />
@@ -362,7 +362,7 @@ const InstructorAllTwo = () => {
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
                   <Link
-                    href='/instructor-details'
+                    to='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Kathryn Murphy
@@ -384,7 +384,7 @@ const InstructorAllTwo = () => {
                   <ul className='social-list flex-center gap-12 d-flex position-absolute start-50 top-50 w-100 h-100 translate-middle'>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.facebook.com'
+                        to='https://www.facebook.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-facebook-logo' />
@@ -392,7 +392,7 @@ const InstructorAllTwo = () => {
                     </li>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.twitter.com'
+                        to='https://www.twitter.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-twitter-logo' />
@@ -400,7 +400,7 @@ const InstructorAllTwo = () => {
                     </li>
                     <li className='social-list__item'>
                       <Link
-                        href='https://www.linkedin.com'
+                        to='https://www.linkedin.com'
                         className='flex-center border border-white text-white w-44 h-44 rounded-circle text-xl text-main-600 bg-white hover-bg-main-600 hover-text-white hover-border-main-600'
                       >
                         <i className='ph-bold ph-instagram-logo' />
@@ -412,7 +412,7 @@ const InstructorAllTwo = () => {
               <div className='text-center mt-24'>
                 <h4 className='mb-12'>
                   <Link
-                    href='/instructor-details'
+                    to='/instructor-details'
                     className='text-neutral-700 hover-text-main-600'
                   >
                     Devon Lane
@@ -427,7 +427,7 @@ const InstructorAllTwo = () => {
           <li className='page-item'>
             <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-              href='#'
+              to='#'
             >
               <i className='ph-bold ph-caret-left' />
             </Link>
@@ -435,7 +435,7 @@ const InstructorAllTwo = () => {
           <li className='page-item'>
             <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-              href='#'
+              to='#'
             >
               1
             </Link>
@@ -443,7 +443,7 @@ const InstructorAllTwo = () => {
           <li className='page-item'>
             <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-              href='#'
+              to='#'
             >
               2
             </Link>
@@ -451,7 +451,7 @@ const InstructorAllTwo = () => {
           <li className='page-item'>
             <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-              href='#'
+              to='#'
             >
               3
             </Link>
@@ -459,7 +459,7 @@ const InstructorAllTwo = () => {
           <li className='page-item'>
             <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-              href='#'
+              to='#'
             >
               ...
             </Link>
@@ -467,7 +467,7 @@ const InstructorAllTwo = () => {
           <li className='page-item'>
             <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-              href='#'
+              to='#'
             >
               <i className='ph-bold ph-caret-right' />
             </Link>
