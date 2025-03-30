@@ -1,5 +1,5 @@
-import { Link } from "react-router";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import ReactSlider from "react-slider";
 
 const ProductsInner = () => {
@@ -376,7 +376,7 @@ const ProductsInner = () => {
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
                     <Link
-                      href='/product-details'
+                      to='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -396,7 +396,7 @@ const ProductsInner = () => {
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
                           <Link
-                            href='/product-details'
+                            to='/product-details'
                             className='link text-line-1'
                           >
                             Nike Air Force
@@ -437,7 +437,7 @@ const ProductsInner = () => {
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
                     <Link
-                      href='/product-details'
+                      to='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -460,7 +460,7 @@ const ProductsInner = () => {
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
                           <Link
-                            href='/product-details'
+                            to='/product-details'
                             className='link text-line-1'
                           >
                             Athletic Sneaker
@@ -501,7 +501,7 @@ const ProductsInner = () => {
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
                     <Link
-                      href='/product-details'
+                      to='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -521,7 +521,7 @@ const ProductsInner = () => {
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
                           <Link
-                            href='/product-details'
+                            to='/product-details'
                             className='link text-line-1'
                           >
                             Dressy Boots
@@ -562,7 +562,7 @@ const ProductsInner = () => {
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
                     <Link
-                      href='/product-details'
+                      to='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -585,7 +585,7 @@ const ProductsInner = () => {
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
                           <Link
-                            href='/product-details'
+                            to='/product-details'
                             className='link text-line-1'
                           >
                             Popular Loafers
@@ -626,7 +626,7 @@ const ProductsInner = () => {
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
                     <Link
-                      href='/product-details'
+                      to='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -649,7 +649,7 @@ const ProductsInner = () => {
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
                           <Link
-                            href='/product-details'
+                            to='/product-details'
                             className='link text-line-1'
                           >
                             Oxfords leather
@@ -690,7 +690,7 @@ const ProductsInner = () => {
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
                     <Link
-                      href='/product-details'
+                      to='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -710,7 +710,7 @@ const ProductsInner = () => {
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
                           <Link
-                            href='/product-details'
+                            to='/product-details'
                             className='link text-line-1'
                           >
                             Dressy Boots
@@ -751,7 +751,7 @@ const ProductsInner = () => {
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
                     <Link
-                      href='/product-details'
+                      to='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -774,7 +774,7 @@ const ProductsInner = () => {
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
                           <Link
-                            href='/product-details'
+                            to='/product-details'
                             className='link text-line-1'
                           >
                             Heeled Flats
@@ -815,7 +815,7 @@ const ProductsInner = () => {
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
                     <Link
-                      href='/product-details'
+                      to='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -835,7 +835,7 @@ const ProductsInner = () => {
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
                           <Link
-                            href='/product-details'
+                            to='/product-details'
                             className='link text-line-1'
                           >
                             Pumps classic
@@ -876,7 +876,7 @@ const ProductsInner = () => {
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
                     <Link
-                      href='/product-details'
+                      to='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -896,7 +896,7 @@ const ProductsInner = () => {
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
                           <Link
-                            href='/product-details'
+                            to='/product-details'
                             className='link text-line-1'
                           >
                             Heels stilettos
@@ -937,7 +937,7 @@ const ProductsInner = () => {
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
                     <Link
-                      href='/product-details'
+                      to='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -960,7 +960,7 @@ const ProductsInner = () => {
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
                           <Link
-                            href='/product-details'
+                            to='/product-details'
                             className='link text-line-1'
                           >
                             Sandals various
@@ -1001,7 +1001,7 @@ const ProductsInner = () => {
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
                     <Link
-                      href='/product-details'
+                      to='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -1021,7 +1021,7 @@ const ProductsInner = () => {
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
                           <Link
-                            href='/product-details'
+                            to='/product-details'
                             className='link text-line-1'
                           >
                             Heels Wedges
@@ -1062,7 +1062,7 @@ const ProductsInner = () => {
                 <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
                   <div className='course-item__thumb rounded-12 bg-main-25 overflow-hidden position-relative max-h-unset min-h-252'>
                     <Link
-                      href='/product-details'
+                      to='/product-details'
                       className='w-100 h-100 d-flex justify-content-center align-items-center min-h-inherit'
                     >
                       <img
@@ -1085,7 +1085,7 @@ const ProductsInner = () => {
                       <div className='d-flex align-items-center justify-content-between mb-16'>
                         <h5 className='mb-0'>
                           <Link
-                            href='/product-details'
+                            to='/product-details'
                             className='link text-line-1'
                           >
                             Mules flat sole
