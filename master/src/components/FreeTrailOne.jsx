@@ -1,5 +1,5 @@
-import { Link } from "react-router";
 import CountUp from "react-countup";
+import { Link } from "react-router-dom";
 import VisibilitySensor from "react-visibility-sensor";
 
 const FreeTrailOne = () => {
@@ -95,7 +95,7 @@ const FreeTrailOne = () => {
               </ul>
               <div className='pt-40 border-top border-neutral-50 mt-40 border-dashed border-0'>
                 <Link
-                  href='/sign-up'
+                  to='/sign-up'
                   className='btn btn-main rounded-pill flex-align d-inline-flex gap-8'
                 >
                   Register Now
