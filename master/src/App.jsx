@@ -15,6 +15,7 @@ import BookOnlineClassPage from "./pages/BookOnlineClassPage.jsx";
 import CartPage from "./pages/CartPage.jsx";
 import CheckoutPage from "./pages/CheckoutPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
+import CoursePage from "./pages/CoursePage.jsx";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route exact path='/cart' element={<CartPage />} />
         <Route exact path='/checkout' element={<CheckoutPage />} />
         <Route exact path='/contact' element={<ContactPage />} />
+        <Route exact path='/course' element={<CoursePage />} />
       </Routes>
     </BrowserRouter>
   );
