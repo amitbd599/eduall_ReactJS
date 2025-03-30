@@ -20,6 +20,7 @@ import CourseDetailsPage from "./pages/CourseDetailsPage.jsx";
 import CourseListViewPage from "./pages/CourseListViewPage.jsx";
 import EventDetailsPage from "./pages/EventDetailsPage.jsx";
 import EventsPage from "./pages/EventsPage.jsx";
+import FaqPage from "./pages/FaqPage.jsx";
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
         />
         <Route exact path='/event-details' element={<EventDetailsPage />} />
         <Route exact path='/events' element={<EventsPage />} />
+        <Route exact path='/faq' element={<FaqPage />} />
       </Routes>
     </BrowserRouter>
   );
