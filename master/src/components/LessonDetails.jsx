@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const LessonDetails = () => {
   return (
@@ -352,7 +352,7 @@ const LessonDetails = () => {
                     <span className='like-button__text'>178</span>
                   </button>
                   <a
-                    href='#commentForm'
+                    to='#commentForm'
                     className='flex-align gap-8 text-neutral-500 hover-text-main-600'
                   >
                     <i className='text-xl d-flex ph-bold ph-chat-centered-text' />
@@ -423,7 +423,7 @@ const LessonDetails = () => {
                     <span className='like-button__text'>178</span>
                   </button>
                   <a
-                    href='#commentForm'
+                    to='#commentForm'
                     className='flex-align gap-8 text-neutral-500 hover-text-main-600'
                   >
                     <i className='text-xl d-flex ph-bold ph-chat-centered-text' />
@@ -482,7 +482,7 @@ const LessonDetails = () => {
                     <span className='like-button__text'>178</span>
                   </button>
                   <a
-                    href='#commentForm'
+                    to='#commentForm'
                     className='flex-align gap-8 text-neutral-500 hover-text-main-600'
                   >
                     <i className='text-xl d-flex ph-bold ph-chat-centered-text' />
@@ -752,7 +752,7 @@ const LessonDetails = () => {
                     <div className='accordion-body p-0 bg-main-25'>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -762,7 +762,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -777,7 +777,7 @@ const LessonDetails = () => {
                       </div>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -789,7 +789,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -804,7 +804,7 @@ const LessonDetails = () => {
                       </div>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -816,7 +816,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -831,7 +831,7 @@ const LessonDetails = () => {
                       </div>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -843,7 +843,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -880,7 +880,7 @@ const LessonDetails = () => {
                     <div className='accordion-body p-0 bg-main-25'>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -890,7 +890,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -905,7 +905,7 @@ const LessonDetails = () => {
                       </div>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -917,7 +917,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -932,7 +932,7 @@ const LessonDetails = () => {
                       </div>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -944,7 +944,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -959,7 +959,7 @@ const LessonDetails = () => {
                       </div>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -971,7 +971,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1008,7 +1008,7 @@ const LessonDetails = () => {
                     <div className='accordion-body p-0 bg-main-25'>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1018,7 +1018,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1033,7 +1033,7 @@ const LessonDetails = () => {
                       </div>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1045,7 +1045,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1060,7 +1060,7 @@ const LessonDetails = () => {
                       </div>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1072,7 +1072,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1087,7 +1087,7 @@ const LessonDetails = () => {
                       </div>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1099,7 +1099,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1136,7 +1136,7 @@ const LessonDetails = () => {
                     <div className='accordion-body p-0 bg-main-25'>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1146,7 +1146,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1161,7 +1161,7 @@ const LessonDetails = () => {
                       </div>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1173,7 +1173,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1188,7 +1188,7 @@ const LessonDetails = () => {
                       </div>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1200,7 +1200,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1215,7 +1215,7 @@ const LessonDetails = () => {
                       </div>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1227,7 +1227,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1264,7 +1264,7 @@ const LessonDetails = () => {
                     <div className='accordion-body p-0 bg-main-25'>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1274,7 +1274,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1289,7 +1289,7 @@ const LessonDetails = () => {
                       </div>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1301,7 +1301,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1316,7 +1316,7 @@ const LessonDetails = () => {
                       </div>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1328,7 +1328,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1343,7 +1343,7 @@ const LessonDetails = () => {
                       </div>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1355,7 +1355,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1392,7 +1392,7 @@ const LessonDetails = () => {
                     <div className='accordion-body p-0 bg-main-25'>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1402,7 +1402,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1417,7 +1417,7 @@ const LessonDetails = () => {
                       </div>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1429,7 +1429,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1444,7 +1444,7 @@ const LessonDetails = () => {
                       </div>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1456,7 +1456,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >
@@ -1471,7 +1471,7 @@ const LessonDetails = () => {
                       </div>
                       <div className='curriculam-item'>
                         <Link
-                          href='#'
+                          to='#'
                           className='text-neutral-500 fw-medium hover-text-main-600 d-block'
                         >
                           <span className='flex-align gap-12'>
@@ -1483,7 +1483,7 @@ const LessonDetails = () => {
                         </Link>
                         <div className='flex-between gap-8 mt-24'>
                           <Link
-                            href='/lesson-details'
+                            to='/lesson-details'
                             className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                             tabIndex={0}
                           >

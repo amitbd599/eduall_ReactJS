@@ -30,6 +30,7 @@ import HomePageFour from "./pages/HomePageFour.jsx";
 import InstructorPage from "./pages/InstructorPage.jsx";
 import InstructorDetailsPage from "./pages/InstructorDetailsPage.jsx";
 import InstructorTwoPage from "./pages/InstructorTwoPage.jsx";
+import LessonDetailsPage from "./pages/LessonDetailsPage.jsx";
 
 function App() {
   return (
@@ -78,6 +79,7 @@ function App() {
           element={<InstructorDetailsPage />}
         />
         <Route exact path='/instructor-two' element={<InstructorTwoPage />} />
+        <Route exact path='/lesson-details' element={<LessonDetailsPage />} />
       </Routes>
     </BrowserRouter>
   );
