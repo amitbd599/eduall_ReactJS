@@ -132,7 +132,7 @@ const HeaderTwo = () => {
           <div className='flex-between gap-24'>
             {/* Logo Start */}
             <div className='logo'>
-              <Link href='/index-1' className='link'>
+              <Link to='/index-1' className='link'>
                 <img src='assets/images/logo/logo.png' alt='Logo' />
               </Link>
             </div>
@@ -175,14 +175,14 @@ const HeaderTwo = () => {
             {/* Buttons Start */}
             <div className='d-lg-flex d-none flex-align flex-md-nowrap flex-wrap gap-16 flex-shrink-0'>
               <Link
-                href='/sign-in'
+                to='/sign-in'
                 className='btn btn-outline-main rounded-pill flex-align gap-8'
               >
                 Login
                 <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
               </Link>
               <Link
-                href='/sign-up'
+                to='/sign-up'
                 className='btn btn-main rounded-pill flex-align gap-8'
               >
                 Sign Up
@@ -190,7 +190,7 @@ const HeaderTwo = () => {
               </Link>
             </div>
             <Link
-              href='/sign-in'
+              to='/sign-in'
               className='d-lg-none flex-shrink-0 w-52 h-52 bg-white hover-bg-main-600 border border-neutral-30 rounded-circle flex-center text-2xl text-neutral-500 hover-text-white hover-border-main-600'
             >
               <i className='ph ph-user-circle' />
@@ -241,7 +241,7 @@ const HeaderTwo = () => {
                       key={`menu-item-${index}`}
                       className='nav-menu__item has-submenu'
                     >
-                      <Link href='#' className='nav-menu__link'>
+                      <Link to='#' className='nav-menu__link'>
                         {item.label}
                       </Link>
                       <ul className={`nav-submenu scroll-sm`}>
@@ -253,7 +253,7 @@ const HeaderTwo = () => {
                             }`}
                           >
                             <Link
-                              href={link.to}
+                              to={link.to}
                               className='nav-submenu__link hover-bg-neutral-30'
                             >
                               {link.label}
@@ -267,7 +267,7 @@ const HeaderTwo = () => {
                       key={`menu-item-${index}`}
                       className='nav-menu__item active'
                     >
-                      <Link href={item.to} className='nav-menu__link'>
+                      <Link to={item.to} className='nav-menu__link'>
                         {item.label}
                       </Link>
                     </li>
@@ -279,7 +279,7 @@ const HeaderTwo = () => {
             {/* Header Right start */}
             <div className='header-right flex-align'>
               <Link
-                href='#'
+                to='#'
                 className='info-action w-44 h-44 bg-main-25 hover-bg-main-600 rounded-circle flex-center text-xl text-neutral-500 hover-text-white position-relative me-6'
               >
                 <i className='ph-bold ph-heart' />
@@ -288,7 +288,7 @@ const HeaderTwo = () => {
                 </span>
               </Link>
               <Link
-                href='#'
+                to='#'
                 className='info-action w-44 h-44 bg-main-25 hover-bg-main-600 rounded-circle flex-center text-xl text-neutral-500 hover-text-white position-relative me-6'
               >
                 <i className='ph-bold ph-shopping-cart-simple' />
@@ -318,7 +318,7 @@ const HeaderTwo = () => {
           <i className='ph ph-x' />{" "}
         </button>
         <div className='mobile-menu__inner'>
-          <Link href='//index-1' className='mobile-menu__logo'>
+          <Link to='//index-1' className='mobile-menu__logo'>
             <img src='assets/images/logo/logo.png' alt='Logo' />
           </Link>
           <div className='mobile-menu__menu'>
@@ -332,14 +332,14 @@ const HeaderTwo = () => {
                     }`}
                     onClick={() => handleSubmenuClick(index)}
                   >
-                    <Link href='#' className='nav-menu__link'>
+                    <Link to='#' className='nav-menu__link'>
                       {item.label}
                     </Link>
                     <ul className={`nav-submenu scroll-sm`}>
                       {item.links.map((link, linkIndex) => (
                         <li key={linkIndex} className='nav-submenu__item'>
                           <Link
-                            href={link.href}
+                            to={link.to}
                             className='nav-submenu__link hover-bg-neutral-30'
                           >
                             {link.label}
@@ -350,7 +350,7 @@ const HeaderTwo = () => {
                   </li>
                 ) : (
                   <li className='nav-menu__item' key={index}>
-                    <Link href={item.href} className='nav-menu__link'>
+                    <Link to={item.to} className='nav-menu__link'>
                       {item.label}
                     </Link>
                   </li>
