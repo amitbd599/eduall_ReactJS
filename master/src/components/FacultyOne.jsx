@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const FacultyOne = () => {
   return (
@@ -27,7 +27,7 @@ const FacultyOne = () => {
           >
             <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link href='/course-details' className='w-100 h-100'>
+                <Link to='/course-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/faculty-img1.png'
                     alt='Course'
@@ -42,7 +42,7 @@ const FacultyOne = () => {
                   </span>
                   <div className='flex-between gap-8 flex-wrap mb-16'>
                     <Link
-                      href='/course'
+                      to='/course'
                       className='py-8 px-20 rounded-8 flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                     >
                       <span className='text-xl d-flex'>
@@ -62,7 +62,7 @@ const FacultyOne = () => {
                     </div>
                   </div>
                   <h4 className='mb-28'>
-                    <Link href='/course-details' className='link text-line-2'>
+                    <Link to='/course-details' className='link text-line-2'>
                       Faculty of Engineering Admissions
                     </Link>
                   </h4>
@@ -95,7 +95,7 @@ const FacultyOne = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <Link
-                    href='/contact'
+                    to='/contact'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
@@ -113,7 +113,7 @@ const FacultyOne = () => {
           >
             <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link href='/course-details' className='w-100 h-100'>
+                <Link to='/course-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/faculty-img2.png'
                     alt='Course'
@@ -128,7 +128,7 @@ const FacultyOne = () => {
                   </span>
                   <div className='flex-between gap-8 flex-wrap mb-16'>
                     <Link
-                      href='/course'
+                      to='/course'
                       className='py-8 px-20 rounded-8 flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                     >
                       <span className='text-xl d-flex'>
@@ -147,7 +147,7 @@ const FacultyOne = () => {
                     </div>
                   </div>
                   <h4 className='mb-28'>
-                    <Link href='/course-details' className='link text-line-2'>
+                    <Link to='/course-details' className='link text-line-2'>
                       Arts and Humanities Admissions
                     </Link>
                   </h4>
@@ -180,7 +180,7 @@ const FacultyOne = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <Link
-                    href='/contact'
+                    to='/contact'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
@@ -198,7 +198,7 @@ const FacultyOne = () => {
           >
             <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link href='/course-details' className='w-100 h-100'>
+                <Link to='/course-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/faculty-img3.png'
                     alt='Course'
@@ -213,7 +213,7 @@ const FacultyOne = () => {
                   </span>
                   <div className='flex-between gap-8 flex-wrap mb-16'>
                     <Link
-                      href='/course'
+                      to='/course'
                       className='py-8 px-20 rounded-8 flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                     >
                       <span className='text-xl d-flex'>
@@ -232,7 +232,7 @@ const FacultyOne = () => {
                     </div>
                   </div>
                   <h4 className='mb-28'>
-                    <Link href='/course-details' className='link text-line-2'>
+                    <Link to='/course-details' className='link text-line-2'>
                       Social And Sciences Admissions
                     </Link>
                   </h4>
@@ -265,7 +265,7 @@ const FacultyOne = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <Link
-                    href='/contact'
+                    to='/contact'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
@@ -283,7 +283,7 @@ const FacultyOne = () => {
           >
             <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link href='/course-details' className='w-100 h-100'>
+                <Link to='/course-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/faculty-img4.png'
                     alt='Course'
@@ -298,7 +298,7 @@ const FacultyOne = () => {
                   </span>
                   <div className='flex-between gap-8 flex-wrap mb-16'>
                     <Link
-                      href='/course'
+                      to='/course'
                       className='py-8 px-20 rounded-8 flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                     >
                       <span className='text-xl d-flex'>
@@ -317,7 +317,7 @@ const FacultyOne = () => {
                     </div>
                   </div>
                   <h4 className='mb-28'>
-                    <Link href='/course-details' className='link text-line-2'>
+                    <Link to='/course-details' className='link text-line-2'>
                       Computer Science Admissions
                     </Link>
                   </h4>
@@ -350,7 +350,7 @@ const FacultyOne = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <Link
-                    href='/contact'
+                    to='/contact'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
@@ -368,7 +368,7 @@ const FacultyOne = () => {
           >
             <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link href='/course-details' className='w-100 h-100'>
+                <Link to='/course-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/faculty-img5.png'
                     alt='Course'
@@ -383,7 +383,7 @@ const FacultyOne = () => {
                   </span>
                   <div className='flex-between gap-8 flex-wrap mb-16'>
                     <Link
-                      href='/course'
+                      to='/course'
                       className='py-8 px-20 rounded-8 flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                     >
                       <span className='text-xl d-flex'>
@@ -402,7 +402,7 @@ const FacultyOne = () => {
                     </div>
                   </div>
                   <h4 className='mb-28'>
-                    <Link href='/course-details' className='link text-line-2'>
+                    <Link to='/course-details' className='link text-line-2'>
                       Business and Economics Admissions
                     </Link>
                   </h4>
@@ -435,7 +435,7 @@ const FacultyOne = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <Link
-                    href='/contact'
+                    to='/contact'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
@@ -453,7 +453,7 @@ const FacultyOne = () => {
           >
             <div className='scale-hover-item bg-white rounded-16 p-12 h-100 box-shadow-md'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link href='/course-details' className='w-100 h-100'>
+                <Link to='/course-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/faculty-img6.png'
                     alt='Course'
@@ -468,7 +468,7 @@ const FacultyOne = () => {
                   </span>
                   <div className='flex-between gap-8 flex-wrap mb-16'>
                     <Link
-                      href='/course'
+                      to='/course'
                       className='py-8 px-20 rounded-8 flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                     >
                       <span className='text-xl d-flex'>
@@ -487,7 +487,7 @@ const FacultyOne = () => {
                     </div>
                   </div>
                   <h4 className='mb-28'>
-                    <Link href='/course-details' className='link text-line-2'>
+                    <Link to='/course-details' className='link text-line-2'>
                       Medicine and Health Sciences Admissions
                     </Link>
                   </h4>
@@ -520,7 +520,7 @@ const FacultyOne = () => {
                 </div>
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <Link
-                    href='/contact'
+                    to='/contact'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
@@ -534,7 +534,7 @@ const FacultyOne = () => {
         </div>
         <div className='text-center mt-40'>
           <Link
-            href='/about'
+            to='/about'
             className='btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8'
           >
             See All University
