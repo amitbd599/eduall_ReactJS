@@ -26,6 +26,7 @@ import FindTutorsPage from "./pages/FindTutorsPage.jsx";
 import GalleryPage from "./pages/GalleryPage.jsx";
 import HomePageTwo from "./pages/HomePageTwo.jsx";
 import HomePageThree from "./pages/HomePageThree.jsx";
+import HomePageFour from "./pages/HomePageFour.jsx";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route exact path='/index-1' element={<HomePageOne />} />
         <Route exact path='/index-2' element={<HomePageTwo />} />
         <Route exact path='/index-3' element={<HomePageThree />} />
+        <Route exact path='/index-4' element={<HomePageFour />} />
         <Route exact path='/about' element={<AboutPage />} />
         <Route exact path='/about-two' element={<AboutTwoPage />} />
         <Route exact path='/about-three' element={<AboutThreePage />} />

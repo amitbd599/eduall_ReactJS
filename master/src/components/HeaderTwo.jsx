@@ -1,7 +1,7 @@
-import { Link } from "react-router";
 import { useEffect, useState } from "react";
 import $ from "jquery";
 import { usePathname } from "next/navigation";
+import { Link } from "react-router-dom";
 
 const HeaderTwo = () => {
   let pathname = usePathname();
@@ -62,65 +62,65 @@ const HeaderTwo = () => {
     {
       label: "Home",
       links: [
-        { href: "/index-1", label: "Home LMS" },
-        { href: "/index-2", label: "Home Online Course" },
-        { href: "/index-3", label: "Home University" },
-        { href: "/index-4", label: "Home Tutor" },
+        { to: "/index-1", label: "Home LMS" },
+        { to: "/index-2", label: "Home Online Course" },
+        { to: "/index-3", label: "Home University" },
+        { to: "/index-4", label: "Home Tutor" },
       ],
     },
     {
       label: "Courses",
       links: [
-        { href: "/course", label: "Course Grid View" },
-        { href: "/course-list-view", label: "Course List View" },
-        { href: "/course-details", label: "Course Details" },
-        { href: "/lesson-details", label: "Lesson Details" },
+        { to: "/course", label: "Course Grid View" },
+        { to: "/course-list-view", label: "Course List View" },
+        { to: "/course-details", label: "Course Details" },
+        { to: "/lesson-details", label: "Lesson Details" },
       ],
     },
     {
       label: "Pages",
       links: [
-        { href: "/about", label: "About" },
-        { href: "/about-two", label: "About Two" },
-        { href: "/about-three", label: "About Three" },
-        { href: "/about-four", label: "About Four" },
-        { href: "/pricing-plan", label: "Pricing Plan" },
-        { href: "/instructor", label: "Instructor" },
-        { href: "/instructor-two", label: "Instructor Two" },
-        { href: "/instructor-details", label: "Instructor Details" },
-        { href: "/tutor", label: "Premium Tutors" },
-        { href: "/tutor-details", label: "Premium Tutors Details" },
-        { href: "/faq", label: "FAQ" },
-        { href: "/tuition-jobs", label: "Tuition Jobs" },
-        { href: "/events", label: "Events" },
-        { href: "/event-details", label: "Event Details" },
-        { href: "/apply-admission", label: "Apply Admission" },
-        { href: "/gallery", label: "Gallery" },
-        { href: "/privacy-policy", label: "Privacy Policy" },
-        { href: "/favorite-course", label: "Favorite Course" },
-        { href: "/find-tutors", label: "Find Best Tutors" },
-        { href: "/book-online-class", label: "Book Online Class" },
+        { to: "/about", label: "About" },
+        { to: "/about-two", label: "About Two" },
+        { to: "/about-three", label: "About Three" },
+        { to: "/about-four", label: "About Four" },
+        { to: "/pricing-plan", label: "Pricing Plan" },
+        { to: "/instructor", label: "Instructor" },
+        { to: "/instructor-two", label: "Instructor Two" },
+        { to: "/instructor-details", label: "Instructor Details" },
+        { to: "/tutor", label: "Premium Tutors" },
+        { to: "/tutor-details", label: "Premium Tutors Details" },
+        { to: "/faq", label: "FAQ" },
+        { to: "/tuition-jobs", label: "Tuition Jobs" },
+        { to: "/events", label: "Events" },
+        { to: "/event-details", label: "Event Details" },
+        { to: "/apply-admission", label: "Apply Admission" },
+        { to: "/gallery", label: "Gallery" },
+        { to: "/privacy-policy", label: "Privacy Policy" },
+        { to: "/favorite-course", label: "Favorite Course" },
+        { to: "/find-tutors", label: "Find Best Tutors" },
+        { to: "/book-online-class", label: "Book Online Class" },
       ],
     },
     {
       label: "Product",
       links: [
-        { href: "/product", label: "Product" },
-        { href: "/product-details", label: "Product Details" },
-        { href: "/cart", label: "Cart" },
-        { href: "/checkout", label: "Checkout" },
+        { to: "/product", label: "Product" },
+        { to: "/product-details", label: "Product Details" },
+        { to: "/cart", label: "Cart" },
+        { to: "/checkout", label: "Checkout" },
       ],
     },
     {
       label: "Blog",
       links: [
-        { href: "/blog", label: "Blog Grid" },
-        { href: "/blog-list", label: "Blog List" },
-        { href: "/blog-classic", label: "Blog Classic" },
-        { href: "/blog-details", label: "Blog Details" },
+        { to: "/blog", label: "Blog Grid" },
+        { to: "/blog-list", label: "Blog List" },
+        { to: "/blog-classic", label: "Blog Classic" },
+        { to: "/blog-details", label: "Blog Details" },
       ],
     },
-    { href: "/contact", label: "Contact" },
+    { to: "/contact", label: "Contact" },
   ];
 
   return (
@@ -250,11 +250,11 @@ const HeaderTwo = () => {
                           <li
                             key={`submenu-item-${linkIndex}`}
                             className={`nav-submenu__item ${
-                              pathname == link.href && "activePage"
+                              pathname === link.to && "activePage"
                             }`}
                           >
                             <Link
-                              href={link.href}
+                              href={link.to}
                               className='nav-submenu__link hover-bg-neutral-30'
                             >
                               {link.label}
@@ -268,7 +268,7 @@ const HeaderTwo = () => {
                       key={`menu-item-${index}`}
                       className='nav-menu__item active'
                     >
-                      <Link href={item.href} className='nav-menu__link'>
+                      <Link href={item.to} className='nav-menu__link'>
                         {item.label}
                       </Link>
                     </li>
