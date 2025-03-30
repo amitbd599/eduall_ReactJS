@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const ChooseUsTwo = () => {
   return (
@@ -26,7 +26,7 @@ const ChooseUsTwo = () => {
                 knowledge, a perception to cherish deeply.
               </p>
               <Link
-                href='/about'
+                to='/about'
                 className='btn btn-main rounded-pill flex-align d-inline-flex gap-8 mt-40'
               >
                 Read More
@@ -45,7 +45,7 @@ const ChooseUsTwo = () => {
               <ul>
                 <li className='mb-24'>
                   <Link
-                    href='/contact'
+                    to='/contact'
                     className='flex-align gap-12 text-white hover-text-decoration-underline'
                   >
                     Admission Notice
@@ -54,7 +54,7 @@ const ChooseUsTwo = () => {
                 </li>
                 <li className='mb-24'>
                   <Link
-                    href='/contact'
+                    to='/contact'
                     className='flex-align gap-12 text-white hover-text-decoration-underline'
                   >
                     Summer Admission 2024
@@ -63,7 +63,7 @@ const ChooseUsTwo = () => {
                 </li>
                 <li className='mb-24'>
                   <Link
-                    href='/contact'
+                    to='/contact'
                     className='flex-align gap-12 text-white hover-text-decoration-underline'
                   >
                     Upcoming Seminar
@@ -72,7 +72,7 @@ const ChooseUsTwo = () => {
                 </li>
                 <li className='mb-24'>
                   <Link
-                    href='/contact'
+                    to='/contact'
                     className='flex-align gap-12 text-white hover-text-decoration-underline'
                   >
                     Download Curriculum
@@ -81,7 +81,7 @@ const ChooseUsTwo = () => {
                 </li>
                 <li className='mb-24'>
                   <Link
-                    href='/contact'
+                    to='/contact'
                     className='flex-align gap-12 text-white hover-text-decoration-underline'
                   >
                     Alumni Seminar
@@ -90,7 +90,7 @@ const ChooseUsTwo = () => {
                 </li>
                 <li className='mb-0'>
                   <Link
-                    href='/contact'
+                    to='/contact'
                     className='flex-align gap-12 text-white hover-text-decoration-underline'
                   >
                     Exam Notice
