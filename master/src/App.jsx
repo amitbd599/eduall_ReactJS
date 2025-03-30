@@ -24,6 +24,7 @@ import FaqPage from "./pages/FaqPage.jsx";
 import FavoriteCoursePage from "./pages/FavoriteCoursePage.jsx";
 import FindTutorsPage from "./pages/FindTutorsPage.jsx";
 import GalleryPage from "./pages/GalleryPage.jsx";
+import HomePageTwo from "./pages/HomePageTwo.jsx";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <RouteScrollToTop />
       <Routes>
         <Route exact path='/index-1' element={<HomePageOne />} />
+        <Route exact path='/index-2' element={<HomePageTwo />} />
         <Route exact path='/about' element={<AboutPage />} />
         <Route exact path='/about-two' element={<AboutTwoPage />} />
         <Route exact path='/about-three' element={<AboutThreePage />} />
