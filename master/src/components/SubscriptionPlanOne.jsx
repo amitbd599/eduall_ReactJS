@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const SubscriptionPlanOne = () => {
   return (
@@ -112,7 +112,7 @@ const SubscriptionPlanOne = () => {
                 </ul>
                 <div className='mt-40'>
                   <Link
-                    href='/sign-in'
+                    to='/sign-in'
                     className='btn btn-main rounded-pill flex-align gap-8'
                   >
                     Get Started
@@ -203,7 +203,7 @@ const SubscriptionPlanOne = () => {
                 </ul>
                 <div className='mt-40'>
                   <Link
-                    href='/sign-in'
+                    to='/sign-in'
                     className='btn btn-main rounded-pill flex-align gap-8'
                   >
                     Get Started
@@ -294,7 +294,7 @@ const SubscriptionPlanOne = () => {
                 </ul>
                 <div className='mt-40'>
                   <Link
-                    href='/sign-in'
+                    to='/sign-in'
                     className='btn btn-main rounded-pill flex-align gap-8'
                   >
                     Get Started

@@ -31,6 +31,7 @@ import InstructorPage from "./pages/InstructorPage.jsx";
 import InstructorDetailsPage from "./pages/InstructorDetailsPage.jsx";
 import InstructorTwoPage from "./pages/InstructorTwoPage.jsx";
 import LessonDetailsPage from "./pages/LessonDetailsPage.jsx";
+import PricingPlanPage from "./pages/PricingPlanPage.jsx";
 
 function App() {
   return (
@@ -80,6 +81,7 @@ function App() {
         />
         <Route exact path='/instructor-two' element={<InstructorTwoPage />} />
         <Route exact path='/lesson-details' element={<LessonDetailsPage />} />
+        <Route exact path='/pricing-plan' element={<PricingPlanPage />} />
       </Routes>
     </BrowserRouter>
   );
