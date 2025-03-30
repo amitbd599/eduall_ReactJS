@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const CourseDetails = () => {
   return (
@@ -162,8 +162,8 @@ const CourseDetails = () => {
                     data-bs-parent='#accordionExampleTwo'
                   >
                     <div className='accordion-body p-0'>
-                      <a
-                        href='#'
+                      <Link
+                        to='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -174,9 +174,9 @@ const CourseDetails = () => {
                           30:25
                           <i className='text-xl d-flex ph-bold ph-video-camera' />
                         </span>
-                      </a>
-                      <a
-                        href='#'
+                      </Link>
+                      <Link
+                        to='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -189,9 +189,9 @@ const CourseDetails = () => {
                           30:25
                           <i className='text-xl d-flex ph-bold ph-video-camera' />
                         </span>
-                      </a>
-                      <a
-                        href='#'
+                      </Link>
+                      <Link
+                        to='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -204,9 +204,9 @@ const CourseDetails = () => {
                           30:25
                           <i className='text-xl d-flex ph-bold ph-video-camera' />
                         </span>
-                      </a>
-                      <a
-                        href='#'
+                      </Link>
+                      <Link
+                        to='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -219,7 +219,7 @@ const CourseDetails = () => {
                           30:25
                           <i className='text-xl d-flex ph-bold ph-video-camera' />
                         </span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -242,8 +242,8 @@ const CourseDetails = () => {
                     data-bs-parent='#accordionExampleTwo'
                   >
                     <div className='accordion-body p-0'>
-                      <a
-                        href='#'
+                      <Link
+                        to='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -254,9 +254,9 @@ const CourseDetails = () => {
                           30:25
                           <i className='text-xl d-flex ph-bold ph-video-camera' />
                         </span>
-                      </a>
-                      <a
-                        href='#'
+                      </Link>
+                      <Link
+                        to='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -269,9 +269,9 @@ const CourseDetails = () => {
                           30:25
                           <i className='text-xl d-flex ph-bold ph-video-camera' />
                         </span>
-                      </a>
-                      <a
-                        href='#'
+                      </Link>
+                      <Link
+                        to='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -284,9 +284,9 @@ const CourseDetails = () => {
                           30:25
                           <i className='text-xl d-flex ph-bold ph-video-camera' />
                         </span>
-                      </a>
-                      <a
-                        href='#'
+                      </Link>
+                      <Link
+                        to='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -299,7 +299,7 @@ const CourseDetails = () => {
                           30:25
                           <i className='text-xl d-flex ph-bold ph-video-camera' />
                         </span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -322,8 +322,8 @@ const CourseDetails = () => {
                     data-bs-parent='#accordionExampleTwo'
                   >
                     <div className='accordion-body p-0'>
-                      <a
-                        href='#'
+                      <Link
+                        to='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -334,9 +334,9 @@ const CourseDetails = () => {
                           30:25
                           <i className='text-xl d-flex ph-bold ph-video-camera' />
                         </span>
-                      </a>
-                      <a
-                        href='#'
+                      </Link>
+                      <Link
+                        to='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -349,9 +349,9 @@ const CourseDetails = () => {
                           30:25
                           <i className='text-xl d-flex ph-bold ph-video-camera' />
                         </span>
-                      </a>
-                      <a
-                        href='#'
+                      </Link>
+                      <Link
+                        to='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -364,9 +364,9 @@ const CourseDetails = () => {
                           30:25
                           <i className='text-xl d-flex ph-bold ph-video-camera' />
                         </span>
-                      </a>
-                      <a
-                        href='#'
+                      </Link>
+                      <Link
+                        to='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -379,7 +379,7 @@ const CourseDetails = () => {
                           30:25
                           <i className='text-xl d-flex ph-bold ph-video-camera' />
                         </span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -402,8 +402,8 @@ const CourseDetails = () => {
                     data-bs-parent='#accordionExampleTwo'
                   >
                     <div className='accordion-body p-0'>
-                      <a
-                        href='#'
+                      <Link
+                        to='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -414,9 +414,9 @@ const CourseDetails = () => {
                           30:25
                           <i className='text-xl d-flex ph-bold ph-video-camera' />
                         </span>
-                      </a>
-                      <a
-                        href='#'
+                      </Link>
+                      <Link
+                        to='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -429,9 +429,9 @@ const CourseDetails = () => {
                           30:25
                           <i className='text-xl d-flex ph-bold ph-video-camera' />
                         </span>
-                      </a>
-                      <a
-                        href='#'
+                      </Link>
+                      <Link
+                        to='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -444,9 +444,9 @@ const CourseDetails = () => {
                           30:25
                           <i className='text-xl d-flex ph-bold ph-video-camera' />
                         </span>
-                      </a>
-                      <a
-                        href='#'
+                      </Link>
+                      <Link
+                        to='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -459,7 +459,7 @@ const CourseDetails = () => {
                           30:25
                           <i className='text-xl d-flex ph-bold ph-video-camera' />
                         </span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -483,8 +483,8 @@ const CourseDetails = () => {
                     data-bs-parent='#accordionExampleTwo'
                   >
                     <div className='accordion-body p-0'>
-                      <a
-                        href='#'
+                      <Link
+                        to='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -495,9 +495,9 @@ const CourseDetails = () => {
                           30:25
                           <i className='text-xl d-flex ph-bold ph-video-camera' />
                         </span>
-                      </a>
-                      <a
-                        href='#'
+                      </Link>
+                      <Link
+                        to='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -510,9 +510,9 @@ const CourseDetails = () => {
                           30:25
                           <i className='text-xl d-flex ph-bold ph-video-camera' />
                         </span>
-                      </a>
-                      <a
-                        href='#'
+                      </Link>
+                      <Link
+                        to='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -525,9 +525,9 @@ const CourseDetails = () => {
                           30:25
                           <i className='text-xl d-flex ph-bold ph-video-camera' />
                         </span>
-                      </a>
-                      <a
-                        href='#'
+                      </Link>
+                      <Link
+                        to='#'
                         className='curriculam-item flex-between gap-16 text-neutral-500 fw-medium hover-text-main-600'
                       >
                         <span className='flex-align gap-12'>
@@ -540,7 +540,7 @@ const CourseDetails = () => {
                           30:25
                           <i className='text-xl d-flex ph-bold ph-video-camera' />
                         </span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1586,7 +1586,7 @@ const CourseDetails = () => {
                   </span>
                 </div>
                 <Link
-                  href='/contact'
+                  to='/contact'
                   className='btn btn-main rounded-pill flex-center gap-8 mt-40'
                 >
                   See All Reviews
