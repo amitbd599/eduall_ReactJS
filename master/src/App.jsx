@@ -34,6 +34,7 @@ import LessonDetailsPage from "./pages/LessonDetailsPage.jsx";
 import PricingPlanPage from "./pages/PricingPlanPage.jsx";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage.jsx";
 import ProductPage from "./pages/ProductPage.jsx";
+import ProductDetailsPage from "./pages/ProductDetailsPage.jsx";
 
 function App() {
   return (
@@ -86,6 +87,7 @@ function App() {
         <Route exact path='/pricing-plan' element={<PricingPlanPage />} />
         <Route exact path='/privacy-policy' element={<PrivacyPolicyPage />} />
         <Route exact path='/product' element={<ProductPage />} />
+        <Route exact path='/product-details' element={<ProductDetailsPage />} />
       </Routes>
     </BrowserRouter>
   );

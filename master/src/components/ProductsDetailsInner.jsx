@@ -1,5 +1,5 @@
-import { Link } from "react-router";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 const ProductsDetailsInner = () => {
@@ -243,14 +243,14 @@ const ProductsDetailsInner = () => {
               <span className='d-block border border-neutral-30 border-dashed my-32' />
               <div className='d-flex gap-24'>
                 <Link
-                  href='/cart'
+                  to='/cart'
                   className='flex-grow-1 btn btn-main rounded-pill flex-align gap-8'
                 >
                   <i className='ph ph-shopping-cart d-sm-flex d-none text-lg' />
                   Add To Cart
                 </Link>
                 <Link
-                  href='/checkout'
+                  to='/checkout'
                   className='flex-grow-1 btn btn-outline-main rounded-pill flex-align gap-8'
                 >
                   <i className='ph ph-tag d-sm-flex d-none text-lg' />
@@ -258,27 +258,27 @@ const ProductsDetailsInner = () => {
                 </Link>
               </div>
               <div className='mt-32 flex-align gap-24 justify-content-center flex-wrap'>
-                <a
-                  href='#'
+                <Link
+                  to='#'
                   className='flex-align gap-12 text-neutral-500 hover-text-main-600 text-lg'
                 >
                   <i className='ph-bold ph-arrows-left-right d-flex' />
                   Compare
-                </a>
-                <a
-                  href='#'
+                </Link>
+                <Link
+                  to='#'
                   className='flex-align gap-12 text-neutral-500 hover-text-main-600 text-lg'
                 >
                   <i className='ph-bold ph-heart d-flex' />
                   Favorite
-                </a>
-                <a
-                  href='#'
+                </Link>
+                <Link
+                  to='#'
                   className='flex-align gap-12 text-neutral-500 hover-text-main-600 text-lg'
                 >
                   <i className='ph-bold ph-share-network d-flex' />
                   Share
-                </a>
+                </Link>
               </div>
             </div>
           </div>
