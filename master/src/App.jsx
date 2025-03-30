@@ -23,6 +23,7 @@ import EventsPage from "./pages/EventsPage.jsx";
 import FaqPage from "./pages/FaqPage.jsx";
 import FavoriteCoursePage from "./pages/FavoriteCoursePage.jsx";
 import FindTutorsPage from "./pages/FindTutorsPage.jsx";
+import GalleryPage from "./pages/GalleryPage.jsx";
 
 function App() {
   return (
@@ -60,6 +61,7 @@ function App() {
         <Route exact path='/faq' element={<FaqPage />} />
         <Route exact path='/favorite-course' element={<FavoriteCoursePage />} />
         <Route exact path='/find-tutors' element={<FindTutorsPage />} />
+        <Route exact path='/gallery' element={<GalleryPage />} />
       </Routes>
     </BrowserRouter>
   );
