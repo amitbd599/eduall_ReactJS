@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const BannerFour = () => {
   return (
@@ -68,7 +68,7 @@ const BannerFour = () => {
                     <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
                   </button>
                   <Link
-                    href='/apply-admission'
+                    to='/apply-admission'
                     className='btn btn-outline-main rounded-pill flex-align gap-8'
                     data-aos='fade-left'
                   >
@@ -110,7 +110,7 @@ const BannerFour = () => {
                   <div className='banner-four-thumb__image wow bounceIn'>
                     <img
                       src='assets/images/thumbs/banner-four-img1.png'
-                      alt='Banner Image'
+                      alt='Banner'
                       className='rounded-bottom-start-72px rounded-top-end-72px'
                       data-tilt=''
                       data-tilt-max={14}
@@ -123,7 +123,7 @@ const BannerFour = () => {
                   <div className='banner-four-thumb__image wow bounceIn mt-160'>
                     <img
                       src='assets/images/thumbs/banner-four-img2.png'
-                      alt='Banner Image'
+                      alt='Banner '
                       className='rounded-bottom-end-72px rounded-bottom-end-72px'
                       data-tilt=''
                       data-tilt-max={14}
