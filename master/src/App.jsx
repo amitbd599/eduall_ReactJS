@@ -27,6 +27,7 @@ import GalleryPage from "./pages/GalleryPage.jsx";
 import HomePageTwo from "./pages/HomePageTwo.jsx";
 import HomePageThree from "./pages/HomePageThree.jsx";
 import HomePageFour from "./pages/HomePageFour.jsx";
+import InstructorPage from "./pages/InstructorPage.jsx";
 
 function App() {
   return (
@@ -68,6 +69,7 @@ function App() {
         <Route exact path='/favorite-course' element={<FavoriteCoursePage />} />
         <Route exact path='/find-tutors' element={<FindTutorsPage />} />
         <Route exact path='/gallery' element={<GalleryPage />} />
+        <Route exact path='/instructor' element={<InstructorPage />} />
       </Routes>
     </BrowserRouter>
   );
