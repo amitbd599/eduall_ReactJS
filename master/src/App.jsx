@@ -39,6 +39,7 @@ import SignInPage from "./pages/SignInPage.jsx";
 import SignUpPage from "./pages/SignUpPage.jsx";
 import TuitionJobsPage from "./pages/TuitionJobsPage.jsx";
 import TutorPage from "./pages/TutorPage.jsx";
+import TutorDetailsPage from "./pages/TutorDetailsPage.jsx";
 
 function App() {
   return (
@@ -96,6 +97,7 @@ function App() {
         <Route exact path='/sign-up' element={<SignUpPage />} />
         <Route exact path='/tuition-jobs' element={<TuitionJobsPage />} />
         <Route exact path='/tutor' element={<TutorPage />} />
+        <Route exact path='/tutor-details' element={<TutorDetailsPage />} />
       </Routes>
     </BrowserRouter>
   );
