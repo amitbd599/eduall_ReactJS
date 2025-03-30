@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
 import $ from "jquery";
-import { usePathname } from "next/navigation";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const HeaderTwo = () => {
-  let pathname = usePathname();
+  let { pathname } = useLocation();
   const [scroll, setScroll] = useState(false);
   const [isMenuActive, setIsMenuActive] = useState(false);
   useEffect(() => {
