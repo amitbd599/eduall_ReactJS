@@ -242,7 +242,7 @@ const FooterTwo = () => {
               >
                 <li className='social-list__item'>
                   <Link
-                    href='https://www.facebook.com'
+                    to='https://www.facebook.com'
                     className='text-white text-2xl hover-text-main-two-600'
                   >
                     <i className='ph-bold ph-facebook-logo' />
@@ -250,7 +250,7 @@ const FooterTwo = () => {
                 </li>
                 <li className='social-list__item'>
                   <Link
-                    href='https://www.twitter.com'
+                    to='https://www.twitter.com'
                     className='text-white text-2xl hover-text-main-two-600'
                   >
                     <i className='ph-bold ph-twitter-logo' />
@@ -258,7 +258,7 @@ const FooterTwo = () => {
                 </li>
                 <li className='social-list__item'>
                   <Link
-                    href='https://www.linkedin.com'
+                    to='https://www.linkedin.com'
                     className='text-white text-2xl hover-text-main-two-600'
                   >
                     <i className='ph-bold ph-instagram-logo' />
@@ -266,7 +266,7 @@ const FooterTwo = () => {
                 </li>
                 <li className='social-list__item'>
                   <Link
-                    href='https://www.pinterest.com'
+                    to='https://www.pinterest.com'
                     className='text-white text-2xl hover-text-main-two-600'
                   >
                     <i className='ph-bold ph-pinterest-logo' />

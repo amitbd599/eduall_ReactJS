@@ -254,13 +254,13 @@ const FooterOne = () => {
               </p>
               <div className='footer-links'>
                 <Link
-                  href='#'
+                  to='#'
                   className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                 >
                   Privacy Policy
                 </Link>
                 <Link
-                  href='#'
+                  to='#'
                   className='text-neutral-500 hover-text-main-600 hover-text-decoration-underline'
                 >
                   Terms &amp; Conditions

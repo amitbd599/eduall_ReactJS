@@ -323,7 +323,7 @@ const EventsAllOne = () => {
           <li className='page-item'>
             <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-              href='#'
+              to='#'
             >
               <i className='ph-bold ph-caret-left' />
             </Link>
@@ -331,7 +331,7 @@ const EventsAllOne = () => {
           <li className='page-item'>
             <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-              href='#'
+              to='#'
             >
               1
             </Link>
@@ -339,7 +339,7 @@ const EventsAllOne = () => {
           <li className='page-item'>
             <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-              href='#'
+              to='#'
             >
               2
             </Link>
@@ -347,7 +347,7 @@ const EventsAllOne = () => {
           <li className='page-item'>
             <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-              href='#'
+              to='#'
             >
               3
             </Link>
@@ -355,7 +355,7 @@ const EventsAllOne = () => {
           <li className='page-item'>
             <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-              href='#'
+              to='#'
             >
               ...
             </Link>
@@ -363,7 +363,7 @@ const EventsAllOne = () => {
           <li className='page-item'>
             <Link
               className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-              href='#'
+              to='#'
             >
               <i className='ph-bold ph-caret-right' />
             </Link>

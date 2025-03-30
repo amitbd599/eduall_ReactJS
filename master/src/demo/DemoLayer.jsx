@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import Marquee from "react-fast-marquee";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import "./Demo.css";
 const DemoLayer = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -120,7 +120,7 @@ const DemoLayer = () => {
             <i className='ri-close-fill'></i>
           </button>
           <div className='mobile-menu__inner'>
-            <Link href='/index-1' className='mobile-menu__logo'>
+            <Link to='/index-1' className='mobile-menu__logo'>
               <img src='assets_demo/images/logo/logo.png' alt='Logo' />
             </Link>
             <div className='mobile-menu__menu'>
@@ -179,7 +179,7 @@ const DemoLayer = () => {
             <nav className='header-inner flex-between'>
               {/* Logo */}
               <div className='logo'>
-                <Link href='/index-1' className='link'>
+                <Link to='/index-1' className='link'>
                   <img src='assets_demo/images/logo/logo.png' alt='Logo' />
                 </Link>
               </div>
@@ -584,10 +584,7 @@ const DemoLayer = () => {
                             alt=''
                           />
                           <div className='demo-item__overlay'>
-                            <Link
-                              href='/index-1'
-                              className='btn btn-main btn-sm'
-                            >
+                            <Link to='/index-1' className='btn btn-main btn-sm'>
                               View Demo
                             </Link>
                           </div>
@@ -595,7 +592,7 @@ const DemoLayer = () => {
                       </div>
                       <div className='text-center'>
                         <Link
-                          href='/index-1'
+                          to='/index-1'
                           className='text-heading fw-medium text-lg mt-12 hover-text-main-600'
                         >
                           LMS
@@ -615,10 +612,7 @@ const DemoLayer = () => {
                             alt=''
                           />
                           <div className='demo-item__overlay'>
-                            <Link
-                              href='/index-2'
-                              className='btn btn-main btn-sm'
-                            >
+                            <Link to='/index-2' className='btn btn-main btn-sm'>
                               View Demo
                             </Link>
                           </div>
@@ -626,7 +620,7 @@ const DemoLayer = () => {
                       </div>
                       <div className='text-center'>
                         <Link
-                          href='/index-2'
+                          to='/index-2'
                           className='text-heading fw-medium text-lg mt-12 hover-text-main-600'
                         >
                           Online Course{" "}
@@ -646,10 +640,7 @@ const DemoLayer = () => {
                             alt=''
                           />
                           <div className='demo-item__overlay'>
-                            <Link
-                              href='/index-3'
-                              className='btn btn-main btn-sm'
-                            >
+                            <Link to='/index-3' className='btn btn-main btn-sm'>
                               View Demo
                             </Link>
                           </div>
@@ -657,7 +648,7 @@ const DemoLayer = () => {
                       </div>
                       <div className='text-center'>
                         <Link
-                          href='/index-3'
+                          to='/index-3'
                           className='text-heading fw-medium text-lg mt-12 hover-text-main-600'
                         >
                           Home University
@@ -677,10 +668,7 @@ const DemoLayer = () => {
                             alt=''
                           />
                           <div className='demo-item__overlay'>
-                            <Link
-                              href='/index-4'
-                              className='btn btn-main btn-sm'
-                            >
+                            <Link to='/index-4' className='btn btn-main btn-sm'>
                               View Demo
                             </Link>
                           </div>
@@ -688,7 +676,7 @@ const DemoLayer = () => {
                       </div>
                       <div className='text-center'>
                         <Link
-                          href='/index-4'
+                          to='/index-4'
                           className='text-heading fw-medium text-lg mt-12 hover-text-main-600'
                         >
                           Home Tutor

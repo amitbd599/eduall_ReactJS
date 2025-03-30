@@ -228,7 +228,7 @@ const HeaderOne = () => {
                 </button>
               </form>
               <Link
-                to='sign-in'
+                to='/sign-in'
                 className='info-action w-52 h-52 bg-main-25 hover-bg-main-600 border border-neutral-30 rounded-circle flex-center text-2xl text-neutral-500 hover-text-white hover-border-main-600'
               >
                 <i className='ph ph-user-circle' />

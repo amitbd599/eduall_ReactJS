@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const SignInInner = () => {
   const [passwordVisible, setPasswordVisible] = useState(false);
@@ -56,22 +57,22 @@ const SignInInner = () => {
                   </div>
                 </div>
                 <div className='mb-16 text-end'>
-                  <a
-                    href='javascript:void(0)'
+                  <Link
+                    to='#'
                     className='text-warning-600 hover-text-decoration-underline'
                   >
                     Forget password
-                  </a>
+                  </Link>
                 </div>
                 <div className='mb-16'>
                   <p className='text-neutral-500'>
                     Don't have an account?{" "}
-                    <a
-                      href='sign-up.html'
+                    <Link
+                      to='/sign-up'
                       className='fw-semibold text-main-600 hover-text-decoration-underline'
                     >
                       Sign Up
-                    </a>
+                    </Link>
                   </p>
                 </div>
                 <div className='mt-40'>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const ContactInner = () => {
   return (
     <>
@@ -27,12 +29,12 @@ const ContactInner = () => {
                   <p className='text-neutral-500'>
                     2972 Westheimer Rd. Santa Ana, Illinois 85486{" "}
                   </p>
-                  <a
-                    href='#'
+                  <Link
+                    to='#'
                     className='text-main-600 fw-semibold text-decoration-underline mt-16'
                   >
                     Find Location
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

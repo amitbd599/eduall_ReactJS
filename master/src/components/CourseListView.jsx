@@ -569,7 +569,7 @@ const CourseListView = () => {
                             <span className='text-neutral-700 text-2xl d-flex'>
                               <img
                                 src='assets/images/thumbs/user-img1.png'
-                                alt='User Image'
+                                alt='User '
                                 className='w-32 h-32 object-fit-cover rounded-circle'
                               />
                             </span>
@@ -658,7 +658,7 @@ const CourseListView = () => {
                             <span className='text-neutral-700 text-2xl d-flex'>
                               <img
                                 src='assets/images/thumbs/user-img2.png'
-                                alt='User Image'
+                                alt='User '
                                 className='w-32 h-32 object-fit-cover rounded-circle'
                               />
                             </span>
@@ -747,7 +747,7 @@ const CourseListView = () => {
                             <span className='text-neutral-700 text-2xl d-flex'>
                               <img
                                 src='assets/images/thumbs/user-img3.png'
-                                alt='User Image'
+                                alt='User '
                                 className='w-32 h-32 object-fit-cover rounded-circle'
                               />
                             </span>
@@ -836,7 +836,7 @@ const CourseListView = () => {
                             <span className='text-neutral-700 text-2xl d-flex'>
                               <img
                                 src='assets/images/thumbs/user-img4.png'
-                                alt='User Image'
+                                alt='User '
                                 className='w-32 h-32 object-fit-cover rounded-circle'
                               />
                             </span>
@@ -925,7 +925,7 @@ const CourseListView = () => {
                             <span className='text-neutral-700 text-2xl d-flex'>
                               <img
                                 src='assets/images/thumbs/user-img5.png'
-                                alt='User Image'
+                                alt='User '
                                 className='w-32 h-32 object-fit-cover rounded-circle'
                               />
                             </span>
@@ -1014,7 +1014,7 @@ const CourseListView = () => {
                             <span className='text-neutral-700 text-2xl d-flex'>
                               <img
                                 src='assets/images/thumbs/user-img6.png'
-                                alt='User Image'
+                                alt='User '
                                 className='w-32 h-32 object-fit-cover rounded-circle'
                               />
                             </span>
@@ -1103,7 +1103,7 @@ const CourseListView = () => {
                             <span className='text-neutral-700 text-2xl d-flex'>
                               <img
                                 src='assets/images/thumbs/user-img2.png'
-                                alt='User Image'
+                                alt='User '
                                 className='w-32 h-32 object-fit-cover rounded-circle'
                               />
                             </span>
@@ -1192,7 +1192,7 @@ const CourseListView = () => {
                             <span className='text-neutral-700 text-2xl d-flex'>
                               <img
                                 src='assets/images/thumbs/user-img3.png'
-                                alt='User Image'
+                                alt='User '
                                 className='w-32 h-32 object-fit-cover rounded-circle'
                               />
                             </span>
@@ -1281,7 +1281,7 @@ const CourseListView = () => {
                             <span className='text-neutral-700 text-2xl d-flex'>
                               <img
                                 src='assets/images/thumbs/user-img1.png'
-                                alt='User Image'
+                                alt='User '
                                 className='w-32 h-32 object-fit-cover rounded-circle'
                               />
                             </span>

@@ -352,7 +352,7 @@ const LessonDetails = () => {
                     <span className='like-button__text'>178</span>
                   </button>
                   <a
-                    to='#commentForm'
+                    href='#commentForm'
                     className='flex-align gap-8 text-neutral-500 hover-text-main-600'
                   >
                     <i className='text-xl d-flex ph-bold ph-chat-centered-text' />
@@ -423,7 +423,7 @@ const LessonDetails = () => {
                     <span className='like-button__text'>178</span>
                   </button>
                   <a
-                    to='#commentForm'
+                    href='#commentForm'
                     className='flex-align gap-8 text-neutral-500 hover-text-main-600'
                   >
                     <i className='text-xl d-flex ph-bold ph-chat-centered-text' />
@@ -482,7 +482,7 @@ const LessonDetails = () => {
                     <span className='like-button__text'>178</span>
                   </button>
                   <a
-                    to='#commentForm'
+                    href='#commentForm'
                     className='flex-align gap-8 text-neutral-500 hover-text-main-600'
                   >
                     <i className='text-xl d-flex ph-bold ph-chat-centered-text' />

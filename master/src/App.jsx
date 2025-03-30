@@ -40,6 +40,7 @@ import SignUpPage from "./pages/SignUpPage.jsx";
 import TuitionJobsPage from "./pages/TuitionJobsPage.jsx";
 import TutorPage from "./pages/TutorPage.jsx";
 import TutorDetailsPage from "./pages/TutorDetailsPage.jsx";
+import DemoLayer from "./demo/DemoLayer.jsx";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
       <LoadPhosphorIcons />
       <RouteScrollToTop />
       <Routes>
+        <Route exact path='/' element={<DemoLayer />} />
         <Route exact path='/index-1' element={<HomePageOne />} />
         <Route exact path='/index-2' element={<HomePageTwo />} />
         <Route exact path='/index-3' element={<HomePageThree />} />

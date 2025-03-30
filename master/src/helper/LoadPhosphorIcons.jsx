@@ -2,6 +2,7 @@ import { useEffect } from "react";
 
 const LoadPhosphorIcons = () => {
   useEffect(() => {
+    console.warn = () => {};
     const head = document.getElementsByTagName("head")[0];
 
     for (const weight of [
