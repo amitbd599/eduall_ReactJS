@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import Slider from "react-slick";
 import ModalVideo from "react-modal-video";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 const BannerThree = () => {
   const sliderRef = useRef();
   const [isOpen, setIsOpen] = useState(false);
@@ -111,7 +111,7 @@ const BannerThree = () => {
                   </div>
                   <div className='buttons-wrapper flex-align flex-wrap gap-24 mt-40'>
                     <Link
-                      href='/sign-in'
+                      to='/sign-in'
                       className='btn btn-main rounded-pill flex-align gap-8  wow bounceInLeft'
                       data-wow-duration='1s'
                       data-wow-delay='.5s'
@@ -131,7 +131,7 @@ const BannerThree = () => {
                         <i className='ph-fill ph-play' />
                       </span>
                       <Link
-                        href='/course'
+                        to='/course'
                         className='text-white hover-text-decoration-underline hover-text-main-two-600'
                       >
                         See All University
@@ -181,7 +181,7 @@ const BannerThree = () => {
                   </div>
                   <div className='buttons-wrapper flex-align flex-wrap gap-24 mt-40'>
                     <Link
-                      href='/sign-in'
+                      to='/sign-in'
                       className='btn btn-main rounded-pill flex-align gap-8  wow bounceInLeft'
                       data-wow-duration='1s'
                       data-wow-delay='.5s'
@@ -201,7 +201,7 @@ const BannerThree = () => {
                         <i className='ph-fill ph-play' />
                       </span>
                       <Link
-                        href='/course'
+                        to='/course'
                         className='text-white hover-text-decoration-underline hover-text-main-two-600'
                       >
                         See All University
@@ -252,7 +252,7 @@ const BannerThree = () => {
                   </div>
                   <div className='buttons-wrapper flex-align flex-wrap gap-24 mt-40'>
                     <Link
-                      href='/sign-in'
+                      to='/sign-in'
                       className='btn btn-main rounded-pill flex-align gap-8  wow bounceInLeft'
                       data-wow-duration='1s'
                       data-wow-delay='.5s'
@@ -272,7 +272,7 @@ const BannerThree = () => {
                         <i className='ph-fill ph-play' />
                       </span>
                       <Link
-                        href='/course'
+                        to='/course'
                         className='text-white hover-text-decoration-underline hover-text-main-two-600'
                       >
                         See All University
