@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const EventsAllOne = () => {
   return (
@@ -21,11 +21,7 @@ const EventsAllOne = () => {
           <div className='col-xl-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link
-                  href='/event-details'
-                  className='w-100 h-100'
-                  tabIndex={0}
-                >
+                <Link to='/event-details' className='w-100 h-100' tabIndex={0}>
                   <img
                     src='assets/images/thumbs/event-img1.png'
                     alt='Course'
@@ -43,7 +39,7 @@ const EventsAllOne = () => {
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
                   <Link
-                    href='/event-details'
+                    to='/event-details'
                     className='link text-line-2'
                     tabIndex={0}
                   >
@@ -61,7 +57,7 @@ const EventsAllOne = () => {
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <h4 className='text-main-two-600 mb-0'>$99</h4>
                   <Link
-                    href='/event-details'
+                    to='/event-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
@@ -75,11 +71,7 @@ const EventsAllOne = () => {
           <div className='col-xl-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link
-                  href='/event-details'
-                  className='w-100 h-100'
-                  tabIndex={0}
-                >
+                <Link to='/event-details' className='w-100 h-100' tabIndex={0}>
                   <img
                     src='assets/images/thumbs/event-img2.png'
                     alt='Course'
@@ -97,7 +89,7 @@ const EventsAllOne = () => {
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
                   <Link
-                    href='/event-details'
+                    to='/event-details'
                     className='link text-line-2'
                     tabIndex={0}
                   >
@@ -115,7 +107,7 @@ const EventsAllOne = () => {
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <h4 className='text-main-two-600 mb-0'>$199</h4>
                   <Link
-                    href='/event-details'
+                    to='/event-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
@@ -129,11 +121,7 @@ const EventsAllOne = () => {
           <div className='col-xl-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link
-                  href='/event-details'
-                  className='w-100 h-100'
-                  tabIndex={0}
-                >
+                <Link to='/event-details' className='w-100 h-100' tabIndex={0}>
                   <img
                     src='assets/images/thumbs/event-img3.png'
                     alt='Course'
@@ -151,7 +139,7 @@ const EventsAllOne = () => {
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
                   <Link
-                    href='/event-details'
+                    to='/event-details'
                     className='link text-line-2'
                     tabIndex={0}
                   >
@@ -169,7 +157,7 @@ const EventsAllOne = () => {
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <h4 className='text-main-two-600 mb-0'>$68</h4>
                   <Link
-                    href='/event-details'
+                    to='/event-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
@@ -183,11 +171,7 @@ const EventsAllOne = () => {
           <div className='col-xl-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link
-                  href='/event-details'
-                  className='w-100 h-100'
-                  tabIndex={0}
-                >
+                <Link to='/event-details' className='w-100 h-100' tabIndex={0}>
                   <img
                     src='assets/images/thumbs/event-img4.png'
                     alt='Course'
@@ -205,7 +189,7 @@ const EventsAllOne = () => {
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
                   <Link
-                    href='/event-details'
+                    to='/event-details'
                     className='link text-line-2'
                     tabIndex={0}
                   >
@@ -223,7 +207,7 @@ const EventsAllOne = () => {
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <h4 className='text-main-two-600 mb-0'>$60</h4>
                   <Link
-                    href='/event-details'
+                    to='/event-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
@@ -237,11 +221,7 @@ const EventsAllOne = () => {
           <div className='col-xl-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link
-                  href='/event-details'
-                  className='w-100 h-100'
-                  tabIndex={0}
-                >
+                <Link to='/event-details' className='w-100 h-100' tabIndex={0}>
                   <img
                     src='assets/images/thumbs/event-img5.png'
                     alt='Course'
@@ -259,7 +239,7 @@ const EventsAllOne = () => {
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
                   <Link
-                    href='/event-details'
+                    to='/event-details'
                     className='link text-line-2'
                     tabIndex={0}
                   >
@@ -277,7 +257,7 @@ const EventsAllOne = () => {
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <h4 className='text-main-two-600 mb-0'>$45</h4>
                   <Link
-                    href='/event-details'
+                    to='/event-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
@@ -291,11 +271,7 @@ const EventsAllOne = () => {
           <div className='col-xl-4 col-sm-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30'>
               <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                <Link
-                  href='/event-details'
-                  className='w-100 h-100'
-                  tabIndex={0}
-                >
+                <Link to='/event-details' className='w-100 h-100' tabIndex={0}>
                   <img
                     src='assets/images/thumbs/event-img6.png'
                     alt='Course'
@@ -313,7 +289,7 @@ const EventsAllOne = () => {
               <div className='pt-32 pb-24 px-16 position-relative'>
                 <h4 className='mb-28'>
                   <Link
-                    href='/event-details'
+                    to='/event-details'
                     className='link text-line-2'
                     tabIndex={0}
                   >
@@ -331,7 +307,7 @@ const EventsAllOne = () => {
                 <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                   <h4 className='text-main-two-600 mb-0'>$77</h4>
                   <Link
-                    href='/event-details'
+                    to='/event-details'
                     className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                     tabIndex={0}
                   >
