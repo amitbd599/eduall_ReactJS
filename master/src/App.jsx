@@ -38,6 +38,7 @@ import ProductDetailsPage from "./pages/ProductDetailsPage.jsx";
 import SignInPage from "./pages/SignInPage.jsx";
 import SignUpPage from "./pages/SignUpPage.jsx";
 import TuitionJobsPage from "./pages/TuitionJobsPage.jsx";
+import TutorPage from "./pages/TutorPage.jsx";
 
 function App() {
   return (
@@ -94,6 +95,7 @@ function App() {
         <Route exact path='/sign-in' element={<SignInPage />} />
         <Route exact path='/sign-up' element={<SignUpPage />} />
         <Route exact path='/tuition-jobs' element={<TuitionJobsPage />} />
+        <Route exact path='/tutor' element={<TutorPage />} />
       </Routes>
     </BrowserRouter>
   );
