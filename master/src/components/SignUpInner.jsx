@@ -87,7 +87,7 @@ const SignUpInner = () => {
                   </div>
                   <div className='col-sm-12'>
                     <p className='text-neutral-500 mt-8'>
-                      Have an accounts?
+                      Have an accounts?{" "}
                       <a
                         href='sign-in.html'
                         className='fw-semibold text-main-600 hover-text-decoration-underline'
