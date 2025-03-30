@@ -17,6 +17,7 @@ import CheckoutPage from "./pages/CheckoutPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 import CoursePage from "./pages/CoursePage.jsx";
 import CourseDetailsPage from "./pages/CourseDetailsPage.jsx";
+import CourseListViewPage from "./pages/CourseListViewPage.jsx";
 
 function App() {
   return (
@@ -44,6 +45,11 @@ function App() {
         <Route exact path='/contact' element={<ContactPage />} />
         <Route exact path='/course' element={<CoursePage />} />
         <Route exact path='/course-details' element={<CourseDetailsPage />} />
+        <Route
+          exact
+          path='/course-list-view'
+          element={<CourseListViewPage />}
+        />
       </Routes>
     </BrowserRouter>
   );

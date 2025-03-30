@@ -1,6 +1,6 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import ReactSlider from "react-slider";
-import { Link } from "react-router";
 
 const CourseListView = () => {
   const [values, setValues] = useState([100, 1000]);
@@ -218,7 +218,7 @@ const CourseListView = () => {
                   </div>
                 </div>
                 <Link
-                  href='/course'
+                  to='/course'
                   className='text-sm text-main-600 fw-semibold mt-24 hover-text-decoration-underline'
                 >
                   See All
@@ -358,50 +358,50 @@ const CourseListView = () => {
                 <h6 className='text-lg mb-24 fw-medium'>Popular Tags</h6>
                 <div className='flex-align flex-wrap gap-12'>
                   <Link
-                    href='/course'
+                    to='/course'
                     className='border border-neutral-30 px-20 py-12 rounded-pill bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                   >
                     UI/UX Design
                   </Link>
                   <Link
-                    href='/course'
+                    to='/course'
                     className='border border-neutral-30 px-20 py-12 rounded-pill bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                   >
                     Web Development
                   </Link>
                   <Link
-                    href='/course'
+                    to='/course'
                     className='border border-neutral-30 px-20 py-12 rounded-pill bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                   >
                     Wordpress
                   </Link>
                   <Link
-                    href='/course'
+                    to='/course'
                     className='border border-neutral-30 px-20 py-12 rounded-pill bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                   >
                     Machine Learning
                   </Link>
                   <Link
-                    href='/course'
+                    to='/course'
                     className='border border-neutral-30 px-20 py-12 rounded-pill bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                   >
                     AI
                   </Link>
                   <Link
-                    href='/course'
+                    to='/course'
                     className='border border-neutral-30 px-20 py-12 rounded-pill bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                   >
                     Laravel
                   </Link>
                   <Link
-                    href='/course'
+                    to='/course'
                     className='border border-neutral-30 px-20 py-12 rounded-pill bg-white text-neutral-500 hover-border-main-600 hover-text-main-600'
                   >
                     Python
                   </Link>
                 </div>
                 <Link
-                  href='/course'
+                  to='/course'
                   className='text-sm text-main-600 fw-semibold mt-24 hover-text-decoration-underline'
                 >
                   More Tags{" "}
@@ -507,7 +507,7 @@ const CourseListView = () => {
                 <div className='col-12'>
                   <div className='course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 list-view'>
                     <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                      <Link href='/course-details' className='w-100 h-100'>
+                      <Link to='/course-details' className='w-100 h-100'>
                         <img
                           src='assets/images/thumbs/course-img1.png'
                           alt='Course'
@@ -531,7 +531,7 @@ const CourseListView = () => {
                       <div className=''>
                         <h4 className='mb-28'>
                           <Link
-                            href='/course-details'
+                            to='/course-details'
                             className='link text-line-2'
                           >
                             Introduction to Digital Marketing
@@ -582,7 +582,7 @@ const CourseListView = () => {
                       <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                         <h4 className='mb-0 text-main-two-600'>$148</h4>
                         <Link
-                          href='/apply-admission'
+                          to='/apply-admission'
                           className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                           tabIndex={0}
                         >
@@ -596,7 +596,7 @@ const CourseListView = () => {
                 <div className='col-12'>
                   <div className='course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 list-view'>
                     <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                      <Link href='/course-details' className='w-100 h-100'>
+                      <Link to='/course-details' className='w-100 h-100'>
                         <img
                           src='assets/images/thumbs/course-img2.png'
                           alt='Course'
@@ -620,7 +620,7 @@ const CourseListView = () => {
                       <div className=''>
                         <h4 className='mb-28'>
                           <Link
-                            href='/course-details'
+                            to='/course-details'
                             className='link text-line-2'
                           >
                             Introduction to Python Programming
@@ -671,7 +671,7 @@ const CourseListView = () => {
                       <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                         <h4 className='mb-0 text-main-two-600'>$499</h4>
                         <Link
-                          href='/apply-admission'
+                          to='/apply-admission'
                           className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                           tabIndex={0}
                         >
@@ -685,7 +685,7 @@ const CourseListView = () => {
                 <div className='col-12'>
                   <div className='course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 list-view'>
                     <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                      <Link href='/course-details' className='w-100 h-100'>
+                      <Link to='/course-details' className='w-100 h-100'>
                         <img
                           src='assets/images/thumbs/course-img3.png'
                           alt='Course'
@@ -709,7 +709,7 @@ const CourseListView = () => {
                       <div className=''>
                         <h4 className='mb-28'>
                           <Link
-                            href='/course-details'
+                            to='/course-details'
                             className='link text-line-2'
                           >
                             Introduction to Photography Masterclass
@@ -760,7 +760,7 @@ const CourseListView = () => {
                       <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                         <h4 className='mb-0 text-main-two-600'>$457</h4>
                         <Link
-                          href='/apply-admission'
+                          to='/apply-admission'
                           className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                           tabIndex={0}
                         >
@@ -774,7 +774,7 @@ const CourseListView = () => {
                 <div className='col-12'>
                   <div className='course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 list-view'>
                     <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                      <Link href='/course-details' className='w-100 h-100'>
+                      <Link to='/course-details' className='w-100 h-100'>
                         <img
                           src='assets/images/thumbs/course-img4.png'
                           alt='Course'
@@ -798,7 +798,7 @@ const CourseListView = () => {
                       <div className=''>
                         <h4 className='mb-28'>
                           <Link
-                            href='/course-details'
+                            to='/course-details'
                             className='link text-line-2'
                           >
                             Spanish Language Mastery: Beginner to Fluent
@@ -849,7 +849,7 @@ const CourseListView = () => {
                       <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                         <h4 className='mb-0 text-main-two-600'>$148</h4>
                         <Link
-                          href='/apply-admission'
+                          to='/apply-admission'
                           className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                           tabIndex={0}
                         >
@@ -863,7 +863,7 @@ const CourseListView = () => {
                 <div className='col-12'>
                   <div className='course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 list-view'>
                     <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                      <Link href='/course-details' className='w-100 h-100'>
+                      <Link to='/course-details' className='w-100 h-100'>
                         <img
                           src='assets/images/thumbs/course-img5.png'
                           alt='Course'
@@ -887,7 +887,7 @@ const CourseListView = () => {
                       <div className=''>
                         <h4 className='mb-28'>
                           <Link
-                            href='/course-details'
+                            to='/course-details'
                             className='link text-line-2'
                           >
                             Financial Planning for Millennials
@@ -938,7 +938,7 @@ const CourseListView = () => {
                       <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                         <h4 className='mb-0 text-main-two-600'>$546</h4>
                         <Link
-                          href='/apply-admission'
+                          to='/apply-admission'
                           className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                           tabIndex={0}
                         >
@@ -952,7 +952,7 @@ const CourseListView = () => {
                 <div className='col-12'>
                   <div className='course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 list-view'>
                     <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                      <Link href='/course-details' className='w-100 h-100'>
+                      <Link to='/course-details' className='w-100 h-100'>
                         <img
                           src='assets/images/thumbs/course-img6.png'
                           alt='Course'
@@ -976,7 +976,7 @@ const CourseListView = () => {
                       <div className=''>
                         <h4 className='mb-28'>
                           <Link
-                            href='/course-details'
+                            to='/course-details'
                             className='link text-line-2'
                           >
                             Nutrition Essentials for Healthy Living
@@ -1027,7 +1027,7 @@ const CourseListView = () => {
                       <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                         <h4 className='mb-0 text-main-two-600'>$345</h4>
                         <Link
-                          href='/apply-admission'
+                          to='/apply-admission'
                           className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                           tabIndex={0}
                         >
@@ -1041,7 +1041,7 @@ const CourseListView = () => {
                 <div className='col-12'>
                   <div className='course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 list-view'>
                     <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                      <Link href='/course-details' className='w-100 h-100'>
+                      <Link to='/course-details' className='w-100 h-100'>
                         <img
                           src='assets/images/thumbs/course-img7.png'
                           alt='Course'
@@ -1065,7 +1065,7 @@ const CourseListView = () => {
                       <div className=''>
                         <h4 className='mb-28'>
                           <Link
-                            href='/course-details'
+                            to='/course-details'
                             className='link text-line-2'
                           >
                             Nutrition Essentials for Healthy Living
@@ -1116,7 +1116,7 @@ const CourseListView = () => {
                       <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                         <h4 className='mb-0 text-main-two-600'>$345</h4>
                         <Link
-                          href='/apply-admission'
+                          to='/apply-admission'
                           className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                           tabIndex={0}
                         >
@@ -1130,7 +1130,7 @@ const CourseListView = () => {
                 <div className='col-12'>
                   <div className='course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 list-view'>
                     <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                      <Link href='/course-details' className='w-100 h-100'>
+                      <Link to='/course-details' className='w-100 h-100'>
                         <img
                           src='assets/images/thumbs/course-img9.png'
                           alt='Course'
@@ -1154,7 +1154,7 @@ const CourseListView = () => {
                       <div className=''>
                         <h4 className='mb-28'>
                           <Link
-                            href='/course-details'
+                            to='/course-details'
                             className='link text-line-2'
                           >
                             Nutrition Essentials for Healthy Living
@@ -1205,7 +1205,7 @@ const CourseListView = () => {
                       <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                         <h4 className='mb-0 text-main-two-600'>$345</h4>
                         <Link
-                          href='/apply-admission'
+                          to='/apply-admission'
                           className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                           tabIndex={0}
                         >
@@ -1219,7 +1219,7 @@ const CourseListView = () => {
                 <div className='col-12'>
                   <div className='course-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 list-view'>
                     <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                      <Link href='/course-details' className='w-100 h-100'>
+                      <Link to='/course-details' className='w-100 h-100'>
                         <img
                           src='assets/images/thumbs/course-img8.png'
                           alt='Course'
@@ -1243,7 +1243,7 @@ const CourseListView = () => {
                       <div className=''>
                         <h4 className='mb-28'>
                           <Link
-                            href='/course-details'
+                            to='/course-details'
                             className='link text-line-2'
                           >
                             Nutrition Essentials for Healthy Living
@@ -1294,7 +1294,7 @@ const CourseListView = () => {
                       <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                         <h4 className='mb-0 text-main-two-600'>$345</h4>
                         <Link
-                          href='/apply-admission'
+                          to='/apply-admission'
                           className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                           tabIndex={0}
                         >
@@ -1311,7 +1311,7 @@ const CourseListView = () => {
               <li className='page-item'>
                 <Link
                   className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-                  href='#'
+                  to='#'
                 >
                   <i className='ph-bold ph-caret-left' />
                 </Link>
@@ -1319,7 +1319,7 @@ const CourseListView = () => {
               <li className='page-item'>
                 <Link
                   className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-                  href='#'
+                  to='#'
                 >
                   1
                 </Link>
@@ -1327,7 +1327,7 @@ const CourseListView = () => {
               <li className='page-item'>
                 <Link
                   className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-                  href='#'
+                  to='#'
                 >
                   2
                 </Link>
@@ -1335,7 +1335,7 @@ const CourseListView = () => {
               <li className='page-item'>
                 <Link
                   className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-                  href='#'
+                  to='#'
                 >
                   3
                 </Link>
@@ -1343,7 +1343,7 @@ const CourseListView = () => {
               <li className='page-item'>
                 <Link
                   className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-                  href='#'
+                  to='#'
                 >
                   ...
                 </Link>
@@ -1351,7 +1351,7 @@ const CourseListView = () => {
               <li className='page-item'>
                 <Link
                   className='page-link text-neutral-700 fw-semibold w-40 h-40 bg-main-25 rounded-circle hover-bg-main-600 border-neutral-30 hover-border-main-600 hover-text-white flex-center p-0'
-                  href='#'
+                  to='#'
                 >
                   <i className='ph-bold ph-caret-right' />
                 </Link>
