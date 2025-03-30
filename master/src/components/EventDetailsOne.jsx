@@ -1,6 +1,6 @@
-import { Link } from "react-router";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
+import { Link } from "react-router-dom";
 const EventDetailsOne = () => {
   let [isOpen, setIsOpen] = useState(false);
   let [count, setCount] = useState(1);
@@ -297,7 +297,7 @@ const EventDetailsOne = () => {
                   </div>
                   <span className='d-block border-bottom border-top-0 border-dashed border-main-100 my-32' />
                   <Link
-                    href='/contact'
+                    to='/contact'
                     className='btn btn-main rounded-pill flex-center gap-8'
                   >
                     Join Now
