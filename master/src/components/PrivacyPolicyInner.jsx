@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const PrivacyPolicyInner = () => {
   return (
@@ -210,7 +210,7 @@ const PrivacyPolicyInner = () => {
               </div>
               <span className='d-block border border-neutral-30 my-24 border-dashed' />
               <Link
-                href='/sign-in'
+                to='/sign-in'
                 className='h6 mb-0 text-main-600 fw-semibold hover-text-decoration-underline'
               >
                 See All
