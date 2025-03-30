@@ -1,5 +1,5 @@
-import { Link } from "react-router";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 const BlogTwo = () => {
@@ -63,7 +63,7 @@ const BlogTwo = () => {
             data-aos-duration={200}
           >
             <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-              <Link href='/blog-details' className='w-100 h-100'>
+              <Link to='/blog-details' className='w-100 h-100'>
                 <img
                   src='assets/images/thumbs/blog-two-img1.png'
                   alt='Course'
@@ -77,7 +77,7 @@ const BlogTwo = () => {
             </div>
             <div className='pt-32 pb-24 px-16 position-relative'>
               <h4 className='mb-28'>
-                <Link href='/blog-details' className='link text-line-2'>
+                <Link to='/blog-details' className='link text-line-2'>
                   Navigating the Job Market: Advice for Graduates
                 </Link>
               </h4>
@@ -105,7 +105,7 @@ const BlogTwo = () => {
               </div>
               <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                 <Link
-                  href='/blog-details'
+                  to='/blog-details'
                   className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                   tabIndex={0}
                 >
@@ -121,7 +121,7 @@ const BlogTwo = () => {
             data-aos-duration={400}
           >
             <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-              <Link href='/blog-details' className='w-100 h-100'>
+              <Link to='/blog-details' className='w-100 h-100'>
                 <img
                   src='assets/images/thumbs/blog-two-img2.png'
                   alt='Course'
@@ -135,7 +135,7 @@ const BlogTwo = () => {
             </div>
             <div className='pt-32 pb-24 px-16 position-relative'>
               <h4 className='mb-28'>
-                <Link href='/blog-details' className='link text-line-2'>
+                <Link to='/blog-details' className='link text-line-2'>
                   The Importance of Diversity in Higher Education
                 </Link>
               </h4>
@@ -163,7 +163,7 @@ const BlogTwo = () => {
               </div>
               <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                 <Link
-                  href='/blog-details'
+                  to='/blog-details'
                   className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                   tabIndex={0}
                 >
@@ -179,7 +179,7 @@ const BlogTwo = () => {
             data-aos-duration={600}
           >
             <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-              <Link href='/blog-details' className='w-100 h-100'>
+              <Link to='/blog-details' className='w-100 h-100'>
                 <img
                   src='assets/images/thumbs/blog-two-img3.png'
                   alt='Course'
@@ -193,7 +193,7 @@ const BlogTwo = () => {
             </div>
             <div className='pt-32 pb-24 px-16 position-relative'>
               <h4 className='mb-28'>
-                <Link href='/blog-details' className='link text-line-2'>
+                <Link to='/blog-details' className='link text-line-2'>
                   10 Tips for Successful Online Learning
                 </Link>
               </h4>
@@ -221,7 +221,7 @@ const BlogTwo = () => {
               </div>
               <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                 <Link
-                  href='/blog-details'
+                  to='/blog-details'
                   className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                   tabIndex={0}
                 >
@@ -237,7 +237,7 @@ const BlogTwo = () => {
             data-aos-duration={800}
           >
             <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-              <Link href='/blog-details' className='w-100 h-100'>
+              <Link to='/blog-details' className='w-100 h-100'>
                 <img
                   src='assets/images/thumbs/blog-two-img2.png'
                   alt='Course'
@@ -251,7 +251,7 @@ const BlogTwo = () => {
             </div>
             <div className='pt-32 pb-24 px-16 position-relative'>
               <h4 className='mb-28'>
-                <Link href='/blog-details' className='link text-line-2'>
+                <Link to='/blog-details' className='link text-line-2'>
                   The Importance of Diversity in Higher Education
                 </Link>
               </h4>
@@ -279,7 +279,7 @@ const BlogTwo = () => {
               </div>
               <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0'>
                 <Link
-                  href='/blog-details'
+                  to='/blog-details'
                   className='flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold'
                   tabIndex={0}
                 >
