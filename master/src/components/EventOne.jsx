@@ -1,6 +1,6 @@
-import { Link } from "react-router";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
+import { Link } from "react-router-dom";
 const EventOne = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -59,7 +59,7 @@ const EventOne = () => {
                 <span className='border border-neutral-40 border-dashed h-72' />
                 <div className='flex-shrink-0'>
                   <Link
-                    href='/about'
+                    to='/about'
                     className='btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8'
                   >
                     Join Now
@@ -101,7 +101,7 @@ const EventOne = () => {
                 <span className='border border-neutral-40 border-dashed h-72' />
                 <div className='flex-shrink-0'>
                   <Link
-                    href='/about'
+                    to='/about'
                     className='btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8'
                   >
                     Join Now
@@ -143,7 +143,7 @@ const EventOne = () => {
                 <span className='border border-neutral-40 border-dashed h-72' />
                 <div className='flex-shrink-0'>
                   <Link
-                    href='/about'
+                    to='/about'
                     className='btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8'
                   >
                     Join Now
@@ -153,7 +153,7 @@ const EventOne = () => {
               </div>
             </div>
             <Link
-              href='/course'
+              to='/course'
               className='btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8 mt-40'
             >
               See All Events
