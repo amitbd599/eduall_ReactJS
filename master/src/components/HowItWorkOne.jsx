@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const HowItWorkOne = () => {
   return (
@@ -120,7 +120,7 @@ const HowItWorkOne = () => {
               </p>
               <div className='pt-40 border-top border-neutral-50 mt-40 border-dashed border-0'>
                 <Link
-                  href='/sign-up'
+                  to='/sign-up'
                   className='btn btn-main rounded-pill flex-align d-inline-flex gap-8'
                 >
                   Register Now
