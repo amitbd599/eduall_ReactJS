@@ -318,7 +318,7 @@ const HeaderTwo = () => {
           <i className='ph ph-x' />{" "}
         </button>
         <div className='mobile-menu__inner'>
-          <Link to='//index-1' className='mobile-menu__logo'>
+          <Link to='/index-1' className='mobile-menu__logo'>
             <img src='assets/images/logo/logo.png' alt='Logo' />
           </Link>
           <div className='mobile-menu__menu'>
