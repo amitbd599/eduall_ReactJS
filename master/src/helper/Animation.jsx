@@ -2,6 +2,7 @@ import Aos from "aos";
 import { useEffect } from "react";
 
 const Animation = () => {
+  console.warn = () => {};
   useEffect(() => {
     if (typeof window !== "undefined") {
       // Import WOW.js dynamically to ensure it runs only on the client side

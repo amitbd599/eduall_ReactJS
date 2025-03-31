@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import RouteScrollToTop from "./helper/RouteScrollToTop.jsx";
-import LoadPhosphorIcons from "./helper/LoadPhosphorIcons.jsx";
 import HomePageOne from "./pages/HomePageOne";
 import AboutPage from "./pages/AboutPage.jsx";
 import AboutFourPage from "./pages/AboutFourPage.jsx";
@@ -45,7 +44,6 @@ import DemoLayer from "./demo/DemoLayer.jsx";
 function App() {
   return (
     <BrowserRouter>
-      <LoadPhosphorIcons />
       <RouteScrollToTop />
       <Routes>
         <Route exact path='/' element={<DemoLayer />} />

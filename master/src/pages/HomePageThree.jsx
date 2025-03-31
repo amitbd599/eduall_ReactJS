@@ -17,11 +17,11 @@ import Preloader from "../helper/Preloader";
 const HomePageThree = () => {
   return (
     <>
-      {/* HeaderOne */}
-      <HeaderOne />
-
       {/* Preloader */}
       <Preloader />
+
+      {/* HeaderOne */}
+      <HeaderOne />
 
       {/* Animation */}
       <Animation />
