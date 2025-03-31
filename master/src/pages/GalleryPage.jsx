@@ -4,10 +4,14 @@ import FooterOne from "../components/FooterOne";
 import GallerySection from "../components/GallerySection";
 import HeaderOne from "../components/HeaderOne";
 import Animation from "../helper/Animation";
+import Preloader from "../helper/Preloader";
 
 const GalleryPage = () => {
   return (
     <>
+      {/* Preloader */}
+      <Preloader />
+
       {/* Animation */}
       <Animation />
 

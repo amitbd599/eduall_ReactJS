@@ -4,10 +4,14 @@ import FooterOne from "../components/FooterOne";
 import HeaderOne from "../components/HeaderOne";
 import InstructorAllTwo from "../components/InstructorAllTwo";
 import Animation from "../helper/Animation";
+import Preloader from "../helper/Preloader";
 
 const InstructorTwoPage = () => {
   return (
     <>
+      {/* Preloader */}
+      <Preloader />
+
       {/* Animation */}
       <Animation />
 

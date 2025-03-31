@@ -7,9 +7,13 @@ import HeaderOne from "../components/HeaderOne";
 import TestimonialsThree from "../components/TestimonialsThree";
 import VideoOneV2 from "../components/VideoOneV2";
 import Animation from "../helper/Animation";
+import Preloader from "../helper/Preloader";
 const AboutThreePage = () => {
   return (
     <>
+      {/* Preloader */}
+      <Preloader />
+
       {/* Animation */}
       <Animation />
 

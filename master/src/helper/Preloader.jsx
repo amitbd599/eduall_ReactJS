@@ -12,9 +12,8 @@ const Preloader = () => {
     <>
       {active ? (
         <div className='loader-mask'>
-          <div className='loader'>
-            <div></div>
-            <div></div>
+          <div className='preloader'>
+            <img src='assets/images/icons/preloader.gif' alt='' />
           </div>
         </div>
       ) : (

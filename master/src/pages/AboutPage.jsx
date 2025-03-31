@@ -9,10 +9,14 @@ import HeaderOne from "../components/HeaderOne";
 import InstructorOne from "../components/InstructorOne";
 import TestimonialsOne from "../components/TestimonialsOne";
 import Animation from "../helper/Animation";
+import Preloader from "../helper/Preloader";
 
 const AboutPage = () => {
   return (
     <>
+      {/* Preloader */}
+      <Preloader />
+
       {/* Animation */}
       <Animation />
 

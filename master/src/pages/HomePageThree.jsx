@@ -12,12 +12,16 @@ import InfoTwo from "../components/InfoTwo";
 import TestimonialsThree from "../components/TestimonialsThree";
 import VideoOne from "../components/VideoOne";
 import Animation from "../helper/Animation";
+import Preloader from "../helper/Preloader";
 
 const HomePageThree = () => {
   return (
     <>
       {/* HeaderOne */}
       <HeaderOne />
+
+      {/* Preloader */}
+      <Preloader />
 
       {/* Animation */}
       <Animation />

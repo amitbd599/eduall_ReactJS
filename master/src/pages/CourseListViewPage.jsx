@@ -4,10 +4,14 @@ import CourseListView from "../components/CourseListView";
 import FooterOne from "../components/FooterOne";
 import HeaderOne from "../components/HeaderOne";
 import Animation from "../helper/Animation";
+import Preloader from "../helper/Preloader";
 
 const CourseListViewPage = () => {
   return (
     <>
+      {/* Preloader */}
+      <Preloader />
+
       {/* Animation */}
       <Animation />
 

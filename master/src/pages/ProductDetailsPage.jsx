@@ -4,10 +4,14 @@ import FooterOne from "../components/FooterOne";
 import HeaderOne from "../components/HeaderOne";
 import ProductsDetailsInner from "../components/ProductsDetailsInner";
 import Animation from "../helper/Animation";
+import Preloader from "../helper/Preloader";
 
 const ProductDetailsPage = () => {
   return (
     <>
+      {/* Preloader */}
+      <Preloader />
+
       {/* Animation */}
       <Animation />
 

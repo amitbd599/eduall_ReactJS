@@ -7,10 +7,14 @@ import HeaderOne from "../components/HeaderOne";
 import PopularTeacherOne from "../components/PopularTeacherOne";
 import ReviewOne from "../components/ReviewOne";
 import Animation from "../helper/Animation";
+import Preloader from "../helper/Preloader";
 
 const AboutFourPage = () => {
   return (
     <>
+      {/* Preloader */}
+      <Preloader />
+
       {/* Animation */}
       <Animation />
 

@@ -4,10 +4,14 @@ import FindBestTutorsInner from "../components/FindBestTutorsInner";
 import FooterOne from "../components/FooterOne";
 import HeaderOne from "../components/HeaderOne";
 import Animation from "../helper/Animation";
+import Preloader from "../helper/Preloader";
 
 const FindTutorsPage = () => {
   return (
     <>
+      {/* Preloader */}
+      <Preloader />
+
       {/* Animation */}
       <Animation />
 

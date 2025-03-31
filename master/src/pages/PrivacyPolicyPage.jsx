@@ -4,10 +4,14 @@ import FooterOne from "../components/FooterOne";
 import HeaderOne from "../components/HeaderOne";
 import PrivacyPolicyInner from "../components/PrivacyPolicyInner";
 import Animation from "../helper/Animation";
+import Preloader from "../helper/Preloader";
 
 const PrivacyPolicyPage = () => {
   return (
     <>
+      {/* Preloader */}
+      <Preloader />
+
       {/* Animation */}
       <Animation />
 

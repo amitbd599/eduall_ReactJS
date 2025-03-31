@@ -12,12 +12,16 @@ import FooterOne from "../components/FooterOne";
 import InstructorOne from "../components/InstructorOne";
 import TestimonialsOne from "../components/TestimonialsOne";
 import Animation from "../helper/Animation";
+import Preloader from "../helper/Preloader";
 
 const HomePageOne = () => {
   return (
     <>
       {/* HeaderOne */}
       <HeaderOne />
+
+      {/* Preloader */}
+      <Preloader />
 
       {/* Animation */}
       <Animation />

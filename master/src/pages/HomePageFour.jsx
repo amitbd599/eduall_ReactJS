@@ -12,10 +12,14 @@ import SpecialistOne from "../components/SpecialistOne";
 import TuitionTypesOne from "../components/TuitionTypesOne";
 import WorkProcessOne from "../components/WorkProcessOne";
 import Animation from "../helper/Animation";
+import Preloader from "../helper/Preloader";
 
 const HomePageFour = () => {
   return (
     <>
+      {/* Preloader */}
+      <Preloader />
+
       {/* Animation */}
       <Animation />
 

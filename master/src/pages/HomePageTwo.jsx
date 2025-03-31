@@ -11,12 +11,16 @@ import InfoSectionOne from "../components/InfoSectionOne";
 import JoinCommunityOne from "../components/JoinCommunityOne";
 import TestimonialsTwo from "../components/TestimonialsTwo";
 import Animation from "../helper/Animation";
+import Preloader from "../helper/Preloader";
 
 const HomePageTwo = () => {
   return (
     <>
       {/* HeaderOne */}
       <HeaderOne />
+
+      {/* Preloader */}
+      <Preloader />
 
       {/* Animation */}
       <Animation />

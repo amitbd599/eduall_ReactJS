@@ -4,10 +4,14 @@ import FooterOne from "../components/FooterOne";
 import HeaderOne from "../components/HeaderOne";
 import SubscriptionPlanOne from "../components/SubscriptionPlanOne";
 import Animation from "../helper/Animation";
+import Preloader from "../helper/Preloader";
 
 const PricingPlanPage = () => {
   return (
     <>
+      {/* Preloader */}
+      <Preloader />
+
       {/* Animation */}
       <Animation />
 
