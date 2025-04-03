@@ -268,7 +268,7 @@ const DemoLayer = () => {
                       Education Tutors LMS & Online Course Template Multipurpose
                     </h1>
                     <p className='max-w-772 ms-auto me-auto wow bounceInUp'>
-                      EduAll is a developer-friendly, ready-to-use NEXT JS
+                      EduAll is a developer-friendly, ready-to-use React JS
                       template designed for building attractive, scalable, and
                       high-performing web applications
                     </p>
@@ -371,7 +371,7 @@ const DemoLayer = () => {
           <div className='container'>
             <div className='section-heading'>
               <h4 className='mb-16 wow bounceIn'>
-                EduAll - Education Tutors LMS NEXT JS Template
+                EduAll - Education Tutors LMS React JS Template
               </h4>
               <p className='text-md wow bounceInUp'>
                 Ready-to-use features are included with this template. Its
