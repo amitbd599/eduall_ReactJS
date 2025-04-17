@@ -231,24 +231,25 @@ const HeaderThree = () => {
                   <i className='ph-bold ph-magnifying-glass' />
                 </button>
               </form>
-              <a
-                href='javarscript:void(0)'
+              <Link
+                to='#'
                 className='info-action w-44 h-44 bg-white hover-bg-main-600 rounded-circle flex-center text-xl text-neutral-500 hover-text-white position-relative me-6'
               >
                 <i className='ph-bold ph-shopping-cart-simple' />
                 <span className='w-22 h-22 flex-center rounded-circle bg-main-two-600 text-white text-xs position-absolute top-n6 end-n4'>
                   1
                 </span>
-              </a>
-              <a
-                href='sign-in.html'
+              </Link>
+              <Link
+                to='/sign-in'
                 className='info-action w-52 h-52 bg-white hover-bg-main-600 border border-neutral-30 rounded-circle flex-center text-2xl text-neutral-500 hover-text-white hover-border-main-600'
               >
                 <i className='ph ph-user-circle' />
-              </a>
+              </Link>
               <button
                 type='button'
                 className='toggle-mobileMenu d-lg-none text-neutral-200 flex-center'
+                onClick={toggleMenu}
               >
                 <i className='ph ph-list' />
               </button>
