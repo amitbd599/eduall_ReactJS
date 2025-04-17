@@ -1,6 +1,22 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 const BannerFive = () => {
+  const textRef = useRef(null);
+
+  useEffect(() => {
+    const textEl = textRef.current;
+    if (textEl) {
+      const text = textEl.innerText;
+      textEl.innerHTML = text
+        .split("")
+        .map(
+          (char, i) =>
+            `<span style="transform:rotate(${i * 11.5}deg)">${char}</span>`
+        )
+        .join("");
+    }
+  }, []);
+
   return (
     <section
       className='padding-top-100-px bg-img position-relative z-1'
@@ -55,11 +71,11 @@ const BannerFive = () => {
         <div className='circle__badge'>
           <div className='px-12 py-12 border-main-600 border rounded-circle d-inline-block'>
             <span className='px-10 py-10 flex-shrink-0 text-white bg-main-600 rounded-circle justify-content-center align-items-center d-inline-flex'>
-              <i className='ph-bold ph-arrow-up-right' />
+              <i className='ph-bold ph-arrow-up-right'></i>
             </span>
           </div>
         </div>
-        <div className='circle__text text-main-600 fw-semibold'>
+        <div ref={textRef} className='circle__text text-main-600 fw-semibold'>
           <p>EXPLORE MORE . EXPLORE MORE .</p>
         </div>
       </div>
