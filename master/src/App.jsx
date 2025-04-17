@@ -40,6 +40,7 @@ import TuitionJobsPage from "./pages/TuitionJobsPage.jsx";
 import TutorPage from "./pages/TutorPage.jsx";
 import TutorDetailsPage from "./pages/TutorDetailsPage.jsx";
 import DemoLayer from "./demo/DemoLayer.jsx";
+import HomePageFive from "./pages/HomePageFive.jsx";
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
         <Route exact path='/index-2' element={<HomePageTwo />} />
         <Route exact path='/index-3' element={<HomePageThree />} />
         <Route exact path='/index-4' element={<HomePageFour />} />
+        <Route exact path='/index-5' element={<HomePageFive />} />
         <Route exact path='/about' element={<AboutPage />} />
         <Route exact path='/about-two' element={<AboutTwoPage />} />
         <Route exact path='/about-three' element={<AboutThreePage />} />

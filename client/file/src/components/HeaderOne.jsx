@@ -171,9 +171,9 @@ const HeaderOne = () => {
                         key={`menu-item-${index}`}
                         className='nav-menu__item has-submenu'
                       >
-                        <Link to='#' className='nav-menu__link'>
+                        <span to='#' className='nav-menu__link'>
                           {item.label}
-                        </Link>
+                        </span>
                         <ul className={`nav-submenu scroll-sm`}>
                           {item.links.map((link, linkIndex) => (
                             <li
@@ -269,9 +269,7 @@ const HeaderOne = () => {
                     }`}
                     onClick={() => handleSubmenuClick(index)}
                   >
-                    <Link to='#' className='nav-menu__link'>
-                      {item.label}
-                    </Link>
+                    <span className='nav-menu__link'>{item.label}</span>
                     <ul className={`nav-submenu scroll-sm`}>
                       {item.links.map((link, linkIndex) => (
                         <li key={linkIndex} className='nav-submenu__item'>
@@ -300,7 +298,7 @@ const HeaderOne = () => {
               )}
             </ul>
             <div className='d-sm-none d-block mt-24'>
-              <div className='header-select border border-neutral-30 bg-main-25 rounded-pill position-relative'>
+              <div className='header-select mobile border border-neutral-30 bg-main-25 rounded-pill position-relative'>
                 <span className='select-icon position-absolute top-50 translate-middle-y inset-inline-start-0 z-1 ms-lg-4 ms-12 text-xl pointer-event-none d-flex'>
                   <i className='ph-bold ph-squares-four' />
                 </span>

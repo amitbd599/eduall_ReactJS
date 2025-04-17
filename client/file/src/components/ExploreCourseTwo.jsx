@@ -28,7 +28,7 @@ const ExploreCourseTwo = () => {
             data-aos='zoom-out'
           >
             <ul
-              className='nav nav-pills common-tab gap-16'
+              className='nav nav-pills common-tab edit gap-16'
               id='pills-tab'
               role='tablist'
             >

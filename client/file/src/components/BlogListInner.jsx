@@ -26,7 +26,7 @@ const BlogListInner = () => {
         <div className='row gy-4'>
           <div className='col-lg-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 d-flex flex-sm-row flex-column'>
-              <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-50'>
+              <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-lg-50'>
                 <Link to='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img1.png'
@@ -39,7 +39,7 @@ const BlogListInner = () => {
                   DEC
                 </div>
               </div>
-              <div className='p-20 position-relative  w-50 '>
+              <div className='p-20 position-relative  w-lg-50 '>
                 <div className='flex-align gap-14 flex-wrap mb-20'>
                   <div className='flex-align gap-8'>
                     <span className='text-neutral-500 text-2xl d-flex'>
@@ -75,7 +75,7 @@ const BlogListInner = () => {
           </div>
           <div className='col-lg-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 d-flex flex-sm-row flex-column'>
-              <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-50'>
+              <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274 w-lg-50'>
                 <Link to='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img2.png'
@@ -88,7 +88,7 @@ const BlogListInner = () => {
                   DEC
                 </div>
               </div>
-              <div className='p-20 position-relative  w-50'>
+              <div className='p-20 position-relative w-lg-50'>
                 <div className='flex-align gap-14 flex-wrap mb-20'>
                   <div className='flex-align gap-8'>
                     <span className='text-neutral-500 text-2xl d-flex'>
@@ -124,7 +124,7 @@ const BlogListInner = () => {
           </div>
           <div className='col-lg-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 d-flex flex-sm-row flex-column'>
-              <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-50'>
+              <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274 w-lg-50'>
                 <Link to='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img3.png'
@@ -137,7 +137,7 @@ const BlogListInner = () => {
                   DEC
                 </div>
               </div>
-              <div className='p-20 position-relative  w-50'>
+              <div className='p-20 position-relative w-lg-50'>
                 <div className='flex-align gap-14 flex-wrap mb-20'>
                   <div className='flex-align gap-8'>
                     <span className='text-neutral-500 text-2xl d-flex'>
@@ -173,7 +173,7 @@ const BlogListInner = () => {
           </div>
           <div className='col-lg-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 d-flex flex-sm-row flex-column'>
-              <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-50'>
+              <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274 w-lg-50'>
                 <Link to='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img4.png'
@@ -186,7 +186,7 @@ const BlogListInner = () => {
                   DEC
                 </div>
               </div>
-              <div className='p-20 position-relative  w-50'>
+              <div className='p-20 position-relative w-lg-50'>
                 <div className='flex-align gap-14 flex-wrap mb-20'>
                   <div className='flex-align gap-8'>
                     <span className='text-neutral-500 text-2xl d-flex'>
@@ -222,7 +222,7 @@ const BlogListInner = () => {
           </div>
           <div className='col-lg-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 d-flex flex-sm-row flex-column'>
-              <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-50'>
+              <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274 w-lg-50'>
                 <Link to='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img5.png'
@@ -235,7 +235,7 @@ const BlogListInner = () => {
                   DEC
                 </div>
               </div>
-              <div className='p-20 position-relative  w-50'>
+              <div className='p-20 position-relative w-lg-50'>
                 <div className='flex-align gap-14 flex-wrap mb-20'>
                   <div className='flex-align gap-8'>
                     <span className='text-neutral-500 text-2xl d-flex'>
@@ -271,7 +271,7 @@ const BlogListInner = () => {
           </div>
           <div className='col-lg-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 d-flex flex-sm-row flex-column'>
-              <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-50'>
+              <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274 w-lg-50'>
                 <Link to='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img6.png'
@@ -284,7 +284,7 @@ const BlogListInner = () => {
                   DEC
                 </div>
               </div>
-              <div className='p-20 position-relative  w-50'>
+              <div className='p-20 position-relative w-lg-50'>
                 <div className='flex-align gap-14 flex-wrap mb-20'>
                   <div className='flex-align gap-8'>
                     <span className='text-neutral-500 text-2xl d-flex'>
@@ -320,7 +320,7 @@ const BlogListInner = () => {
           </div>
           <div className='col-lg-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 d-flex flex-sm-row flex-column'>
-              <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-50'>
+              <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274 w-lg-50'>
                 <Link to='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img7.png'
@@ -333,7 +333,7 @@ const BlogListInner = () => {
                   DEC
                 </div>
               </div>
-              <div className='p-20 position-relative  w-50'>
+              <div className='p-20 position-relative w-lg-50'>
                 <div className='flex-align gap-14 flex-wrap mb-20'>
                   <div className='flex-align gap-8'>
                     <span className='text-neutral-500 text-2xl d-flex'>
@@ -369,7 +369,7 @@ const BlogListInner = () => {
           </div>
           <div className='col-lg-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 d-flex flex-sm-row flex-column'>
-              <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-50'>
+              <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274 w-lg-50'>
                 <Link to='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img8.png'
@@ -382,7 +382,7 @@ const BlogListInner = () => {
                   DEC
                 </div>
               </div>
-              <div className='p-20 position-relative  w-50'>
+              <div className='p-20 position-relative w-lg-50'>
                 <div className='flex-align gap-14 flex-wrap mb-20'>
                   <div className='flex-align gap-8'>
                     <span className='text-neutral-500 text-2xl d-flex'>
@@ -418,7 +418,7 @@ const BlogListInner = () => {
           </div>
           <div className='col-lg-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 d-flex flex-sm-row flex-column'>
-              <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-50'>
+              <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274 w-lg-50'>
                 <Link to='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img9.png'
@@ -431,7 +431,7 @@ const BlogListInner = () => {
                   DEC
                 </div>
               </div>
-              <div className='p-20 position-relative  w-50'>
+              <div className='p-20 position-relative w-lg-50'>
                 <div className='flex-align gap-14 flex-wrap mb-20'>
                   <div className='flex-align gap-8'>
                     <span className='text-neutral-500 text-2xl d-flex'>
@@ -467,7 +467,7 @@ const BlogListInner = () => {
           </div>
           <div className='col-lg-6'>
             <div className='scale-hover-item bg-main-25 rounded-16 p-12 h-100 border border-neutral-30 d-flex flex-sm-row flex-column'>
-              <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274  w-50'>
+              <div className='course-item__thumb rounded-12 overflow-hidden position-relative max-w-274 w-lg-50'>
                 <Link to='/blog-details' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/blog-two-img3.png'
@@ -480,7 +480,7 @@ const BlogListInner = () => {
                   DEC
                 </div>
               </div>
-              <div className='p-20 position-relative  w-50'>
+              <div className='p-20 position-relative w-lg-50'>
                 <div className='flex-align gap-14 flex-wrap mb-20'>
                   <div className='flex-align gap-8'>
                     <span className='text-neutral-500 text-2xl d-flex'>

@@ -164,7 +164,7 @@ const ChooseUsOne = () => {
                   onClick={() => setIsOpen(true)}
                   className='play-button w-48 h-48 flex-center bg-main-600 text-white rounded-circle text-xl position-absolute top-50 start-50 translate-middle'
                 >
-                  <i className='ph-fill ph-play' />
+                  <i className='ph ph-play'></i>
                 </span>
               </div>
             </div>

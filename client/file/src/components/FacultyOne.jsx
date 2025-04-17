@@ -46,7 +46,6 @@ const FacultyOne = () => {
                       className='py-8 px-20 rounded-8 flex-align gap-8 text-main-600 fw-medium bg-main-25 hover-bg-main-600 hover-text-white'
                     >
                       <span className='text-xl d-flex'>
-                        Explore 4,000+ Free Online
                         <i className='ph-bold ph-squares-four' />
                       </span>
                       CSE

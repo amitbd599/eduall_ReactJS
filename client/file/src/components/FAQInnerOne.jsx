@@ -17,7 +17,7 @@ const FAQInnerOne = () => {
         </div>
         <div className='text-center mb-40'>
           <ul
-            className='nav nav-pills common-tab d-inline-flex gap-16 bg-white p-12 border border-neutral-30 rounded-pill'
+            className='nav nav-pills common-tab custom-padding d-inline-flex gap-16 bg-white p-12 border border-neutral-30 rounded-pill'
             id='pills-tab'
             role='tablist'
           >

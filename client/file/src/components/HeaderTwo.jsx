@@ -332,9 +332,7 @@ const HeaderTwo = () => {
                     }`}
                     onClick={() => handleSubmenuClick(index)}
                   >
-                    <Link to='#' className='nav-menu__link'>
-                      {item.label}
-                    </Link>
+                    <span className='nav-menu__link'>{item.label}</span>
                     <ul className={`nav-submenu scroll-sm`}>
                       {item.links.map((link, linkIndex) => (
                         <li key={linkIndex} className='nav-submenu__item'>

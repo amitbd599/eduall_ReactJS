@@ -15,12 +15,6 @@ const BlogClassicInner = () => {
                 <option value={1}>Popular</option>
               </select>
             </div>
-            <button
-              type='button'
-              className='list-bar-btn text-xl w-40 h-40 bg-main-600 text-white rounded-8 flex-center d-lg-none'
-            >
-              <i className='ph-bold ph-funnel' />
-            </button>
           </div>
         </div>
         <div className='row gy-4'>
