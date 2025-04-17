@@ -1,4 +1,5 @@
 import BannerFive from "../components/BannerFive";
+import CounterFour from "../components/CounterFour";
 import FeaturesThree from "../components/FeaturesThree";
 import HeaderThree from "../components/HeaderThree";
 import KidsCourses from "../components/KidsCourses";
@@ -25,6 +26,9 @@ const HomePageFive = () => {
 
       {/* KidsCourses */}
       <KidsCourses />
+
+      {/* CounterFour */}
+      <CounterFour />
     </>
   );
 };
