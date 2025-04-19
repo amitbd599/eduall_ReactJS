@@ -2,7 +2,7 @@ import React from "react";
 
 const PopularTwo = () => {
   return (
-    <section className='d-flex overflow-hidden'>
+    <section className='d-lg-flex overflow-hidden'>
       <div className='lg-w-50-percent wow bounceIn' data-wow-duration='3s'>
         <img
           src='assets/images/thumbs/faq-five-img1.png'
@@ -10,7 +10,8 @@ const PopularTwo = () => {
           className='h-100 w-100'
         />
       </div>
-      <div className='lg-w-50-percent'>
+
+      <div className='lg-w-50-percent px-20 px-lg-0'>
         <div className='py-120 max-w-526-px lg-ms-134px'>
           <div className='faq-content'>
             <div className='mb-40'>
