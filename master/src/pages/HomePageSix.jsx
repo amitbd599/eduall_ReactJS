@@ -7,6 +7,7 @@ import AboutFive from "../components/AboutFive";
 import ExploreCourseThree from "../components/ExploreCourseThree";
 import ChildFuture from "../components/ChildFuture";
 import PopularTeacherTwo from "../components/PopularTeacherTwo";
+import FaqThree from "../components/FaqThree";
 
 const HomePageSix = () => {
   return (
@@ -34,6 +35,9 @@ const HomePageSix = () => {
 
       {/* PopularTeacherTwo */}
       <PopularTeacherTwo />
+
+      {/* FaqThree */}
+      <FaqThree />
     </>
   );
 };
