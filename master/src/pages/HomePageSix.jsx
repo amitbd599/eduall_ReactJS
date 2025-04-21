@@ -5,6 +5,7 @@ import HeaderThree from "../components/HeaderThree";
 import BannerSix from "../components/BannerSix";
 import AboutFive from "../components/AboutFive";
 import ExploreCourseThree from "../components/ExploreCourseThree";
+import ChildFuture from "../components/ChildFuture";
 
 const HomePageSix = () => {
   return (
@@ -26,6 +27,9 @@ const HomePageSix = () => {
 
       {/* ExploreCourseThree */}
       <ExploreCourseThree />
+
+      {/* ChildFuture */}
+      <ChildFuture />
     </>
   );
 };
