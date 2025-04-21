@@ -114,8 +114,25 @@
   }
 }
 
+.course-item .course-item__content .group-hover-item {
+  display: block !important;
+}
+
 @media only screen and (max-width: 1200px) {
   /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+  .slick-dots {
+    padding-bottom: 20px;
+  }
+  .circle {
+    display: none;
+  }
+  .animation-walking {
+    display: none;
+  }
 }
 @media only screen and (max-width: 576px) {
   .slick-dots {

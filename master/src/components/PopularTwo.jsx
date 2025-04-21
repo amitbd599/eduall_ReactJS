@@ -2,7 +2,7 @@ import React from "react";
 
 const PopularTwo = () => {
   return (
-    <section className='d-lg-flex overflow-hidden'>
+    <section className='d-lg-flex overflow-hidden PopularTwo'>
       <div className='lg-w-50-percent wow bounceIn' data-wow-duration='3s'>
         <img
           src='assets/images/thumbs/faq-five-img1.png'

@@ -19,6 +19,13 @@ const TestimonialsFour = () => {
 
     responsive: [
       {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+          arrows: false,
+        },
+      },
+      {
         breakpoint: 767,
         settings: {
           slidesToShow: 2,
