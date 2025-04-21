@@ -9,6 +9,7 @@ import ChildFuture from "../components/ChildFuture";
 import PopularTeacherTwo from "../components/PopularTeacherTwo";
 import FaqThree from "../components/FaqThree";
 import TestimonialsFive from "../components/TestimonialsFive";
+import FooterFive from "../components/FooterFive";
 
 const HomePageSix = () => {
   return (
@@ -42,6 +43,9 @@ const HomePageSix = () => {
 
       {/* TestimonialsFive */}
       <TestimonialsFive />
+
+      {/* FooterFive */}
+      <FooterFive />
     </>
   );
 };
