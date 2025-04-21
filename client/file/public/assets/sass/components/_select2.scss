@@ -45,6 +45,24 @@
     align-items: center !important;
     border-radius: 50px;
 }
+.student-dashboard-select{
+    color: white;
+    .select2-selection.select2-selection--single {
+        height: inherit !important;
+        // border: 1px solid var(--neutral-40) !important;
+        border: 0 !important;
+        background-color: var(--neutral-800) !important;
+        color: white;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        border-radius: 50px;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__rendered{
+        color: #fff;
+    }
+}
+
 .radius-end-0 {
     .select2-selection.select2-selection--single {
         border-start-start-radius: 50px !important;
@@ -178,6 +196,12 @@
     }
 }
 
+.select-bg-white {
+    .select2-selection.select2-selection--single {
+        background-color: #fff !important;
+    }
+}
+
 
 /* Location Box Css  */
 .location-box {
@@ -208,7 +232,6 @@
     }
 }
 
-
 /* Style Two Css */
 .style-two {
     .select2-container .select2-selection--single .select2-selection__rendered {
@@ -220,4 +243,8 @@
         background-color: transparent !important;
     }
 }
+
+
 /* ======================= Select 2 Css End =========================== */
+
+

@@ -11,7 +11,7 @@
         inset-block-start: 0;
         inset-inline-end: 0;
         width: 100%;
-        z-index: 9;
+        z-index: 99;
         backdrop-filter: blur(24px);
         animation: slideDown 0.35s ease-out;    
         box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
@@ -80,6 +80,10 @@
         }
     }   
 }
+
+
+
+
 
 .has-submenu {
     position: relative;
@@ -216,4 +220,38 @@
         font-size: 18px !important;
     }
 }
+
+//   .nav-menu__item .nav-menu__link { 
+//       @media (min-width: 992px) and (min-width: 1399px) {
+//         font-size: 12px !important;
+//       }
+//   }
+
+@media (min-width: 570px) and (max-width: 1501px) {
+    .nav-menu__item .nav-menu__link {
+        font-size: 12px !important;
+    }
+    .common-input{
+        max-width: 180px !important;
+    }
+}
+@media (min-width: 570px) and (max-width: 1399px) {
+    .select2-container .select2-selection--single .select2-selection__rendered {
+        padding: 11px 0;
+        padding-inline-start: 30px !important;
+        padding-inline-end: 48px !important;
+    }
+    .select2-container .select2-selection--single .select2-selection__rendered {
+        padding: 6px 0;
+        padding-inline-start: 30px !important;
+        padding-inline-end: 48px !important;
+    }
+    .select2-container .select2-selection--single .select2-selection__rendered {
+        padding: 11px 0;
+        padding-inline-start: 30px !important;
+        padding-inline-end: 48px !important;
+    }
+}
+
+
 /* ================================= Header Css End =========================== */

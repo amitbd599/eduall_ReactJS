@@ -35,6 +35,25 @@
   }
 }
 
+.border-bottom-dashed{
+  border-bottom: 1px dashed #DFE0E4;
+}
+.border-right-dashed{
+  border-right: 1px dashed #DFE0E4;
+}
+.border-bottom-dashed{
+  border-bottom: 1px dashed #DFE0E4;
+}
+.border-bottom-dashed-main{
+  border-bottom: 1px dashed var(--main-100);
+}
+.border-bottom-solid{
+  border-bottom: 1px solid #DFE0E4;
+}
+.border-top-solid{
+  border-top: 1px solid #DFE0E4;
+}
+
 .border-transparent {
   border-color: transparent !important;
 }
