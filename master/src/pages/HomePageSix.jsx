@@ -6,6 +6,7 @@ import BannerSix from "../components/BannerSix";
 import AboutFive from "../components/AboutFive";
 import ExploreCourseThree from "../components/ExploreCourseThree";
 import ChildFuture from "../components/ChildFuture";
+import OurPopularCourse from "../components/OurPopularCourse";
 
 const HomePageSix = () => {
   return (
@@ -30,6 +31,9 @@ const HomePageSix = () => {
 
       {/* ChildFuture */}
       <ChildFuture />
+
+      {/* OurPopularCourse */}
+      <OurPopularCourse />
     </>
   );
 };
