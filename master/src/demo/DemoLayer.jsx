@@ -688,24 +688,27 @@ const DemoLayer = () => {
                     className='col-lg-4 col-sm-6 col-xs-6 wow flipInX'
                     data-wow-duration='0.65s'
                   >
-                    <div className='demo-item upcoming-item position-relative'>
-                      <div className='demo-item__inner bg-light-gradient-2'>
+                    <div className='demo-item position-relative'>
+                      <div className='demo-item__inner bg-light-gradient-1'>
                         <div className='demo-item__thumbs position-relative'>
                           <img
-                            src='assets_demo/images/thumbs/demo-img4.png'
+                            src='assets_demo/images/thumbs/demo-img5.png'
                             alt=''
                           />
-                          <div className='demo-item__overlay visible opacity-100 transform-scale-1'>
-                            <span className='py-8 px-16 rounded-8 bg-black text-white'>
-                              Upcoming
-                            </span>
+                          <div className='demo-item__overlay'>
+                            <Link to='/index-5' className='btn btn-main btn-sm'>
+                              View Demo
+                            </Link>
                           </div>
                         </div>
                       </div>
                       <div className='text-center'>
-                        <span className='text-heading fw-medium text-lg mt-12'>
-                          Home 5
-                        </span>
+                        <Link
+                          to='/index-5'
+                          className='text-heading fw-medium text-lg mt-12 hover-text-main-600'
+                        >
+                          Home Kindergarten
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -713,24 +716,27 @@ const DemoLayer = () => {
                     className='col-lg-4 col-sm-6 col-xs-6 wow flipInX'
                     data-wow-duration='0.65s'
                   >
-                    <div className='demo-item upcoming-item position-relative'>
+                    <div className='demo-item position-relative'>
                       <div className='demo-item__inner bg-light-gradient-1'>
                         <div className='demo-item__thumbs position-relative'>
                           <img
-                            src='assets_demo/images/thumbs/demo-img4.png'
+                            src='assets_demo/images/thumbs/demo-img6.png'
                             alt=''
                           />
-                          <div className='demo-item__overlay visible opacity-100 transform-scale-1'>
-                            <span className='py-8 px-16 rounded-8 bg-black text-white'>
-                              Upcoming
-                            </span>
+                          <div className='demo-item__overlay'>
+                            <Link to='/index-6' className='btn btn-main btn-sm'>
+                              View Demo
+                            </Link>
                           </div>
                         </div>
                       </div>
                       <div className='text-center'>
-                        <span className='text-heading fw-medium text-lg mt-12'>
-                          Home 6
-                        </span>
+                        <Link
+                          to='/index-6'
+                          className='text-heading fw-medium text-lg mt-12 hover-text-main-600'
+                        >
+                          Home Kindergarten two
+                        </Link>
                       </div>
                     </div>
                   </div>
