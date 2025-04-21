@@ -1,8 +1,46 @@
-import React from "react";
+import React, { useRef } from "react";
+import Slider from "react-slick";
 
-const OurPopularCourse = () => {
+const PopularTeacherTwo = () => {
+  const sliderRef = useRef(null);
+  const settings = {
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: false,
+    autoplaySpeed: 2000,
+    speed: 900,
+    dots: false,
+    pauseOnHover: true,
+    arrows: false,
+    draggable: true,
+    infinite: true,
+
+    responsive: [
+      {
+        breakpoint: 1299,
+        settings: {
+          slidesToShow: 2,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+        },
+      },
+    ],
+  };
   return (
-    <section className='explore-course py-120 bg-main-25 position-relative z-n1'>
+    <section className='explore-course py-120 bg-main-25 position-relative z-0'>
       <div className='position-absolute start-0 top-0 w-100 z-index-n9'>
         <img
           src='assets/images/shapes/cloud-shap-img3.png'
@@ -30,7 +68,11 @@ const OurPopularCourse = () => {
           </p>
         </div>
         <div>
-          <div className='our-popular-tutors-six-slider d-flex align-items-center gap-24 mb-40'>
+          <Slider
+            ref={sliderRef}
+            {...settings}
+            className='our-popular-tutors-six-slider d-flex align-items-center gap-24 mb-40'
+          >
             <div className='' data-aos='fade-up' data-aos-duration={600}>
               <div className='mb-64 text-center position-relative'>
                 <img
@@ -286,19 +328,21 @@ const OurPopularCourse = () => {
                 </span>
               </div>
             </div>
-          </div>
+          </Slider>
           <div className=' d-flex align-items-center gap-16 text-center justify-content-center'>
             <button
               type='button'
               id='our-popular-tutors-six-prev'
-              className='slick-prev w-48 h-48 border-main-600 border text-main-600 rounded-circle text-24 align-items-center justify-content-center d-flex hover-bg-main-600 hover-text-white transition-04'
+              onClick={() => sliderRef.current.slickPrev()}
+              className=' w-48 h-48 border-main-600 border text-main-600 rounded-circle text-24 align-items-center justify-content-center d-flex hover-bg-main-600 hover-text-white transition-04'
             >
               <i className='ph ph-caret-left' />
             </button>
             <button
               type='button'
               id='our-popular-tutors-six-next'
-              className='slick-next w-48 h-48 border-main-600 border text-main-600 rounded-circle text-24 align-items-center justify-content-center d-flex hover-bg-main-600 hover-text-white transition-04'
+              onClick={() => sliderRef.current.slickNext()}
+              className=' w-48 h-48 border-main-600 border text-main-600 rounded-circle text-24 align-items-center justify-content-center d-flex hover-bg-main-600 hover-text-white transition-04'
             >
               <i className='ph ph-caret-right' />
             </button>
@@ -316,4 +360,4 @@ const OurPopularCourse = () => {
   );
 };
 
-export default OurPopularCourse;
+export default PopularTeacherTwo;
