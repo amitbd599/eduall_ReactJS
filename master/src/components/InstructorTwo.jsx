@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 const InstructorTwo = () => {
@@ -66,16 +67,16 @@ const InstructorTwo = () => {
           <div data-aos='fade-up' data-aos-duration={600}>
             <div className='instructor-item scale-hover-item bg-white rounded-16 transition-03 p-12 h-100 border border-neutral-30 hover-border-main-600 border'>
               <div className='rounded-12 overflow-hidden position-relative bg-dark-yellow'>
-                <a
-                  href='instructor-details.html'
+                <Link
+                  to='/instructor-details'
                   className='w-100 h-100 d-flex align-items-end'
                 >
                   <img
                     src='assets/images/thumbs/our-popular-img-1.png'
-                    alt='Course Image'
+                    alt='Course '
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className=''>
                   <div className='our-popular-five'>
                     <button className='our-popular-five__button flex-center w-44 h-44 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -83,28 +84,28 @@ const InstructorTwo = () => {
                     </button>
                     <ul className='social-list flex-align flex-column gap-12 mt-12'>
                       <li className='social-list__item'>
-                        <a
+                        <Link
                           href='https://www.facebook.com'
                           className=' flex-center border border-white text-white w-44 h-44 rounded-circle text-xl hover-text-main hover-bg-white'
                         >
                           <i className='ph-bold ph-facebook-logo' />
-                        </a>
+                        </Link>
                       </li>
                       <li className='social-list__item'>
-                        <a
+                        <Link
                           href='https://www.twitter.com'
                           className=' flex-center border border-white text-white w-44 h-44 rounded-circle text-xl hover-text-main hover-bg-white'
                         >
                           <i className='ph-bold ph-twitter-logo' />
-                        </a>
+                        </Link>
                       </li>
                       <li className='social-list__item'>
-                        <a
+                        <Link
                           href='https://www.linkedin.com'
                           className=' flex-center border border-white text-white w-44 h-44 rounded-circle text-xl hover-text-main hover-bg-white'
                         >
                           <i className='ph-bold ph-instagram-logo' />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -113,12 +114,9 @@ const InstructorTwo = () => {
               <div className='p-24'>
                 <div className='text-center'>
                   <h4 className='mb-4'>
-                    <a
-                      href='instructor-details.html'
-                      className='link text-line-2'
-                    >
+                    <Link to='/instructor-details' className='link text-line-2'>
                       Albert Flores
-                    </a>
+                    </Link>
                   </h4>
                   <span>English Expert</span>
                 </div>
@@ -128,8 +126,8 @@ const InstructorTwo = () => {
           <div data-aos='fade-up' data-aos-duration={700}>
             <div className='instructor-item scale-hover-item bg-white rounded-16 transition-03 p-12 h-100 border border-neutral-30 hover-border-main-600 border'>
               <div className='rounded-12 overflow-hidden position-relative bg-dark-yellow'>
-                <a
-                  href='instructor-details.html'
+                <Link
+                  to='/instructor-details'
                   className='w-100 h-100 d-flex align-items-end'
                 >
                   <img
@@ -137,7 +135,7 @@ const InstructorTwo = () => {
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className=''>
                   <div className='our-popular-five'>
                     <button className='our-popular-five__button flex-center w-44 h-44 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -145,28 +143,28 @@ const InstructorTwo = () => {
                     </button>
                     <ul className='social-list flex-align flex-column gap-12 mt-12'>
                       <li className='social-list__item'>
-                        <a
+                        <Link
                           href='https://www.facebook.com'
                           className=' flex-center border border-white text-white w-44 h-44 rounded-circle text-xl hover-text-main hover-bg-white'
                         >
                           <i className='ph-bold ph-facebook-logo' />
-                        </a>
+                        </Link>
                       </li>
                       <li className='social-list__item'>
-                        <a
+                        <Link
                           href='https://www.twitter.com'
                           className=' flex-center border border-white text-white w-44 h-44 rounded-circle text-xl hover-text-main hover-bg-white'
                         >
                           <i className='ph-bold ph-twitter-logo' />
-                        </a>
+                        </Link>
                       </li>
                       <li className='social-list__item'>
-                        <a
+                        <Link
                           href='https://www.linkedin.com'
                           className=' flex-center border border-white text-white w-44 h-44 rounded-circle text-xl hover-text-main hover-bg-white'
                         >
                           <i className='ph-bold ph-instagram-logo' />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -175,12 +173,9 @@ const InstructorTwo = () => {
               <div className='p-24'>
                 <div className='text-center'>
                   <h4 className='mb-4'>
-                    <a
-                      href='instructor-details.html'
-                      className='link text-line-2'
-                    >
+                    <Link to='/instructor-details' className='link text-line-2'>
                       Theresa Webb
-                    </a>
+                    </Link>
                   </h4>
                   <span>Data And Science</span>
                 </div>
@@ -190,8 +185,8 @@ const InstructorTwo = () => {
           <div data-aos='fade-up' data-aos-duration={800}>
             <div className='instructor-item scale-hover-item bg-white rounded-16 transition-03 p-12 h-100 border border-neutral-30 hover-border-main-600 border'>
               <div className='rounded-12 overflow-hidden position-relative bg-dark-yellow'>
-                <a
-                  href='instructor-details.html'
+                <Link
+                  to='/instructor-details'
                   className='w-100 h-100 d-flex align-items-end'
                 >
                   <img
@@ -199,7 +194,7 @@ const InstructorTwo = () => {
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className=''>
                   <div className='our-popular-five'>
                     <button className='our-popular-five__button flex-center w-44 h-44 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -207,28 +202,28 @@ const InstructorTwo = () => {
                     </button>
                     <ul className='social-list flex-align flex-column gap-12 mt-12'>
                       <li className='social-list__item'>
-                        <a
+                        <Link
                           href='https://www.facebook.com'
                           className=' flex-center border border-white text-white w-44 h-44 rounded-circle text-xl hover-text-main hover-bg-white'
                         >
                           <i className='ph-bold ph-facebook-logo' />
-                        </a>
+                        </Link>
                       </li>
                       <li className='social-list__item'>
-                        <a
+                        <Link
                           href='https://www.twitter.com'
                           className=' flex-center border border-white text-white w-44 h-44 rounded-circle text-xl hover-text-main hover-bg-white'
                         >
                           <i className='ph-bold ph-twitter-logo' />
-                        </a>
+                        </Link>
                       </li>
                       <li className='social-list__item'>
-                        <a
+                        <Link
                           href='https://www.linkedin.com'
                           className=' flex-center border border-white text-white w-44 h-44 rounded-circle text-xl hover-text-main hover-bg-white'
                         >
                           <i className='ph-bold ph-instagram-logo' />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -237,12 +232,9 @@ const InstructorTwo = () => {
               <div className='p-24'>
                 <div className='text-center'>
                   <h4 className='mb-4'>
-                    <a
-                      href='instructor-details.html'
-                      className='link text-line-2'
-                    >
+                    <Link to='/instructor-details' className='link text-line-2'>
                       Jacob Jones
-                    </a>
+                    </Link>
                   </h4>
                   <span>Social Science</span>
                 </div>
@@ -252,8 +244,8 @@ const InstructorTwo = () => {
           <div data-aos='fade-up' data-aos-duration={900}>
             <div className='instructor-item scale-hover-item bg-white rounded-16 transition-03 p-12 h-100 border border-neutral-30 hover-border-main-600 border'>
               <div className='rounded-12 overflow-hidden position-relative bg-dark-yellow'>
-                <a
-                  href='instructor-details.html'
+                <Link
+                  to='/instructor-details'
                   className='w-100 h-100 d-flex align-items-end'
                 >
                   <img
@@ -261,7 +253,7 @@ const InstructorTwo = () => {
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className=''>
                   <div className='our-popular-five'>
                     <button className='our-popular-five__button flex-center w-44 h-44 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -269,28 +261,28 @@ const InstructorTwo = () => {
                     </button>
                     <ul className='social-list flex-align flex-column gap-12 mt-12'>
                       <li className='social-list__item'>
-                        <a
+                        <Link
                           href='https://www.facebook.com'
                           className=' flex-center border border-white text-white w-44 h-44 rounded-circle text-xl hover-text-main hover-bg-white'
                         >
                           <i className='ph-bold ph-facebook-logo' />
-                        </a>
+                        </Link>
                       </li>
                       <li className='social-list__item'>
-                        <a
+                        <Link
                           href='https://www.twitter.com'
                           className=' flex-center border border-white text-white w-44 h-44 rounded-circle text-xl hover-text-main hover-bg-white'
                         >
                           <i className='ph-bold ph-twitter-logo' />
-                        </a>
+                        </Link>
                       </li>
                       <li className='social-list__item'>
-                        <a
+                        <Link
                           href='https://www.linkedin.com'
                           className=' flex-center border border-white text-white w-44 h-44 rounded-circle text-xl hover-text-main hover-bg-white'
                         >
                           <i className='ph-bold ph-instagram-logo' />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -299,12 +291,9 @@ const InstructorTwo = () => {
               <div className='p-24'>
                 <div className='text-center'>
                   <h4 className='mb-4'>
-                    <a
-                      href='instructor-details.html'
-                      className='link text-line-2'
-                    >
+                    <Link to='/instructor-details' className='link text-line-2'>
                       Cody Fisher
-                    </a>
+                    </Link>
                   </h4>
                   <span>IT Specialist</span>
                 </div>
@@ -314,8 +303,8 @@ const InstructorTwo = () => {
           <div data-aos='fade-up' data-aos-duration={700}>
             <div className='instructor-item scale-hover-item bg-white rounded-16 transition-03 p-12 h-100 border border-neutral-30 hover-border-main-600 border'>
               <div className='rounded-12 overflow-hidden position-relative bg-dark-yellow'>
-                <a
-                  href='instructor-details.html'
+                <Link
+                  to='/instructor-details'
                   className='w-100 h-100 d-flex align-items-end'
                 >
                   <img
@@ -323,7 +312,7 @@ const InstructorTwo = () => {
                     alt='Course Image'
                     className='scale-hover-item__img rounded-12 cover-img transition-2'
                   />
-                </a>
+                </Link>
                 <div className=''>
                   <div className='our-popular-five'>
                     <button className='our-popular-five__button flex-center w-44 h-44 bg-white text-main-600 rounded-circle text-2xl transition-2'>
@@ -331,28 +320,28 @@ const InstructorTwo = () => {
                     </button>
                     <ul className='social-list flex-align flex-column gap-12 mt-12'>
                       <li className='social-list__item'>
-                        <a
+                        <Link
                           href='https://www.facebook.com'
                           className=' flex-center border border-white text-white w-44 h-44 rounded-circle text-xl hover-text-main hover-bg-white'
                         >
                           <i className='ph-bold ph-facebook-logo' />
-                        </a>
+                        </Link>
                       </li>
                       <li className='social-list__item'>
-                        <a
+                        <Link
                           href='https://www.twitter.com'
                           className=' flex-center border border-white text-white w-44 h-44 rounded-circle text-xl hover-text-main hover-bg-white'
                         >
                           <i className='ph-bold ph-twitter-logo' />
-                        </a>
+                        </Link>
                       </li>
                       <li className='social-list__item'>
-                        <a
+                        <Link
                           href='https://www.linkedin.com'
                           className=' flex-center border border-white text-white w-44 h-44 rounded-circle text-xl hover-text-main hover-bg-white'
                         >
                           <i className='ph-bold ph-instagram-logo' />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -361,12 +350,9 @@ const InstructorTwo = () => {
               <div className='p-24'>
                 <div className='text-center'>
                   <h4 className='mb-4'>
-                    <a
-                      href='instructor-details.html'
-                      className='link text-line-2'
-                    >
+                    <Link to='/instructor-details' className='link text-line-2'>
                       Theresa Webb
-                    </a>
+                    </Link>
                   </h4>
                   <span>Data And Science</span>
                 </div>

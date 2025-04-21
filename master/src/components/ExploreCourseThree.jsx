@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ExploreCourseThree = () => {
   return (
@@ -128,23 +129,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img1.png'
-                        alt='Course Image'
+                        alt='Course '
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -165,12 +166,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Creative Arts Workshop
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -197,12 +195,12 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 mt-32 d-none group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -226,23 +224,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img2.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -263,12 +261,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Math Fun Adventures
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -295,12 +290,12 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 d-none mt-32 group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -324,23 +319,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img3.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -361,12 +356,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Melody and Rhythm
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -393,12 +385,12 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 mt-32 d-none group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -422,23 +414,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img4.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -459,12 +451,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Storytime and Imagination
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -491,12 +480,12 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 mt-32 d-none group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -520,23 +509,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img5.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -557,12 +546,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Coding for Kids
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -589,12 +575,12 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 mt-32 d-none group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -618,23 +604,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img6.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -655,12 +641,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Little Science Explorers
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -687,26 +670,26 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 mt-32 d-none group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div className='text-center'>
-              <a
-                href='course.html'
+              <Link
+                to='/course'
                 className='btn btn-outline-main transition-04 rounded-pill fw-semibold flex-align d-inline-flex gap-8 mt-40'
                 data-aos='fade-left'
               >
                 See All Courses
                 <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-              </a>
+              </Link>
             </div>
           </div>
           <div
@@ -736,23 +719,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img1.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -773,12 +756,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Creative Arts Workshop
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -805,12 +785,12 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 mt-32 d-none group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -834,23 +814,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img2.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -871,12 +851,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Math Fun Adventures
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -903,12 +880,12 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 d-none mt-32 group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -932,23 +909,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img3.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -969,12 +946,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Melody and Rhythm
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -1001,12 +975,12 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 mt-32 d-none group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1030,23 +1004,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img4.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -1067,12 +1041,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Storytime and Imagination
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -1099,12 +1070,12 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 mt-32 d-none group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1128,23 +1099,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img5.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -1165,12 +1136,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Coding for Kids
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -1197,12 +1165,12 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 mt-32 d-none group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1226,23 +1194,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img6.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -1263,12 +1231,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Little Science Explorers
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -1295,26 +1260,26 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 mt-32 d-none group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div className='text-center'>
-              <a
-                href='course.html'
+              <Link
+                to='/course'
                 className='btn btn-outline-main transition-04 rounded-pill fw-semibold flex-align d-inline-flex gap-8 mt-40'
                 data-aos='fade-left'
               >
                 See All Courses
                 <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-              </a>
+              </Link>
             </div>
           </div>
           <div
@@ -1344,23 +1309,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img1.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -1381,12 +1346,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Creative Arts Workshop
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -1413,12 +1375,12 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 mt-32 d-none group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1442,23 +1404,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img2.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -1479,12 +1441,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Math Fun Adventures
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -1511,12 +1470,12 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 d-none mt-32 group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1540,23 +1499,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img3.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -1577,12 +1536,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Melody and Rhythm
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -1609,12 +1565,12 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 mt-32 d-none group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1638,23 +1594,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img4.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -1675,12 +1631,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Storytime and Imagination
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -1707,12 +1660,12 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 mt-32 d-none group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1736,23 +1689,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img5.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -1773,12 +1726,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Coding for Kids
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -1805,12 +1755,12 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 mt-32 d-none group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1834,23 +1784,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img6.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -1871,12 +1821,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Little Science Explorers
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -1903,26 +1850,26 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 mt-32 d-none group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div className='text-center'>
-              <a
-                href='course.html'
+              <Link
+                to='/course'
                 className='btn btn-outline-main transition-04 rounded-pill fw-semibold flex-align d-inline-flex gap-8 mt-40'
                 data-aos='fade-left'
               >
                 See All Courses
                 <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-              </a>
+              </Link>
             </div>
           </div>
           <div
@@ -1952,23 +1899,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img1.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -1989,12 +1936,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Creative Arts Workshop
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -2021,12 +1965,12 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 mt-32 d-none group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -2050,23 +1994,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img2.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -2087,12 +2031,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Math Fun Adventures
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -2119,12 +2060,12 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 d-none mt-32 group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -2148,23 +2089,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img3.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -2185,12 +2126,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Melody and Rhythm
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -2217,12 +2155,12 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 mt-32 d-none group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -2246,23 +2184,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img4.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -2283,12 +2221,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Storytime and Imagination
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -2315,12 +2250,12 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 mt-32 d-none group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -2344,23 +2279,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img5.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -2381,12 +2316,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Coding for Kids
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -2413,12 +2345,12 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 mt-32 d-none group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -2442,23 +2374,23 @@ const ExploreCourseThree = () => {
                     </span>
                   </div>
                   <div className='course-item__thumb rounded-12 overflow-hidden position-relative'>
-                    <a href='course-details.html' className='w-100 h-100'>
+                    <Link to='/course-details' className='w-100 h-100'>
                       <img
                         src='assets/images/thumbs/kids-courses-img6.png'
                         alt='Course Image'
                         className='course-item__img rounded-12 cover-img transition-2'
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className='course-item__content position-relative'>
                     <div className=''>
                       <div className='mb-16 flex-align gap-16 flex-wrap'>
-                        <a
-                          href='course.html'
+                        <Link
+                          to='/course'
                           className='py-4 px-12 rounded-8 flex-align gap-8 text-main-three-600 fw-medium bg-main-three-25 hover-bg-main-three-600 hover-text-white border border-success-200'
                         >
                           <span className='md'>Data &amp; Tech</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='d-flex gap-24 flex-wrap mb-16'>
                         <div className='flex-align gap-8'>
@@ -2479,12 +2411,9 @@ const ExploreCourseThree = () => {
                         </div>
                       </div>
                       <h4 className='mb-28'>
-                        <a
-                          href='course-details.html'
-                          className='link text-line-2'
-                        >
+                        <Link to='/course-details' className='link text-line-2'>
                           Little Science Explorers
-                        </a>
+                        </Link>
                       </h4>
                     </div>
                     <div className='flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border border-0'>
@@ -2511,26 +2440,26 @@ const ExploreCourseThree = () => {
                       <h4 className='mb-0 text-main-two-600'>$299</h4>
                     </div>
                     <div>
-                      <a
+                      <Link
                         href='javascript:void(0)'
                         className='fw-semibold text-md border border-main-600 w-100 py-12 text-center rounded-pill hover-bg-main-50 mt-32 d-none group-hover-item'
                       >
                         Preview Course
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div className='text-center'>
-              <a
-                href='course.html'
+              <Link
+                to='/course'
                 className='btn btn-outline-main transition-04 rounded-pill fw-semibold flex-align d-inline-flex gap-8 mt-40'
                 data-aos='fade-left'
               >
                 See All Courses
                 <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

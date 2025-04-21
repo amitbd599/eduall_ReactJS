@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FooterFour = () => {
   return (
@@ -62,49 +63,49 @@ const FooterFour = () => {
                 <div>
                   <ul>
                     <li className='item-hover position-relative mb-16'>
-                      <a
-                        href='about.html'
+                      <Link
+                        to='/about'
                         className='hover-margin-left d-flex align-items-center text-white text-16 fw-semibold hover-text-warning-600'
                       >
                         <span className='position-absolute top-50 start-0 translate-middle w-8 h-8 bg-warning-600 rounded-circle transition-03 hidden group-hover-visible' />
                         About us
-                      </a>
+                      </Link>
                     </li>
                     <li className='item-hover position-relative mb-16'>
-                      <a
-                        href='courses.html'
+                      <Link
+                        to='/courses'
                         className='hover-margin-left d-flex align-items-center text-white text-16 fw-semibold hover-text-warning-600'
                       >
                         <span className='position-absolute top-50 start-0 translate-middle w-8 h-8 bg-warning-600 rounded-circle transition-03 hidden group-hover-visible' />
                         Courses
-                      </a>
+                      </Link>
                     </li>
                     <li className='item-hover position-relative mb-16'>
-                      <a
-                        href='instructor.html'
+                      <Link
+                        to='/instructor'
                         className='hover-margin-left d-flex align-items-center text-white text-16 fw-semibold hover-text-warning-600'
                       >
                         <span className='position-absolute top-50 start-0 translate-middle w-8 h-8 bg-warning-600 rounded-circle transition-03 hidden group-hover-visible' />
                         Instructor
-                      </a>
+                      </Link>
                     </li>
                     <li className='item-hover position-relative mb-16'>
-                      <a
-                        href='faqs.html'
+                      <Link
+                        to='/faqs'
                         className='hover-margin-left d-flex align-items-center text-white text-16 fw-semibold hover-text-warning-600'
                       >
                         <span className='position-absolute top-50 start-0 translate-middle w-8 h-8 bg-warning-600 rounded-circle transition-03 hidden group-hover-visible' />
                         FAQs
-                      </a>
+                      </Link>
                     </li>
                     <li className='item-hover position-relative mb-16'>
-                      <a
-                        href='blog.html'
+                      <Link
+                        to='/blog'
                         className='hover-margin-left d-flex align-items-center text-white text-16 fw-semibold hover-text-warning-600'
                       >
                         <span className='position-absolute top-50 start-0 translate-middle w-8 h-8 bg-warning-600 rounded-circle transition-03 hidden group-hover-visible' />
                         Blog
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

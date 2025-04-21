@@ -42,15 +42,15 @@ const TestimonialsFive = () => {
     ],
   };
   return (
-    <section className='position-relative z-0 bg-main-25 w-100 h-100'>
-      <div className='position-absolute w-100 z-n10 top-0 start-0'>
+    <section className='position-relative z-4 bg-main-25 w-100 h-100'>
+      <div className='position-absolute w-100  top-0 start-0'>
         <img
           src='assets/images/shapes/cloud-shap-img3.png'
           alt=''
           className='w-100'
         />
       </div>
-      <div className='py-120'>
+      <div className='py-120 position-relative z-3'>
         <div className='container'>
           <div className='max-w-611 text-center mx-auto mb-60'>
             <div
@@ -298,7 +298,7 @@ const TestimonialsFive = () => {
           </div>
         </div>
       </div>
-      <div className='position-absolute w-100 z-n10 bottom-0 start-0'>
+      <div className='position-absolute w-100 z-0 bottom-0 start-0'>
         <img
           src='assets/images/shapes/cloud-shap-img4.png'
           alt=''

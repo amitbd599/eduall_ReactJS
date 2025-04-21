@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
+import { Link } from "react-router-dom";
 const CounterFour = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -102,14 +103,14 @@ const CounterFour = () => {
               </div>
               <div className='d-flex gap-24 flex-wrap mt-40'>
                 <div>
-                  <a
-                    href='about.html'
+                  <Link
+                    to='/about'
                     className='btn btn-main rounded-pill flex-align d-inline-flex gap-8'
                     data-aos='fade-right'
                   >
                     Read More
                     <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                  </a>
+                  </Link>
                 </div>
                 <div>
                   <div

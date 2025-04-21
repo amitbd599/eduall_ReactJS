@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AboutFive = () => {
   return (
@@ -112,14 +113,14 @@ const AboutFive = () => {
               </div>
               <div className='d-flex gap-24 flex-wrap mt-40'>
                 <div>
-                  <a
-                    href='about.html'
+                  <Link
+                    to='/about'
                     className='btn btn-main rounded-pill flex-align d-inline-flex gap-8'
                     data-aos='fade-right'
                   >
                     Read More
                     <i className='ph-bold ph-arrow-up-right d-flex text-lg' />
-                  </a>
+                  </Link>
                 </div>
                 <div>
                   <div

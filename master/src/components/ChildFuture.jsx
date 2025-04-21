@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ChildFuture = () => {
   return (
@@ -25,12 +26,12 @@ const ChildFuture = () => {
                 Explore new skills, deepen existing passions, and get lost in
                 creativity. What you find just might...
               </p>
-              <a
-                href='course.html'
+              <Link
+                to='/course'
                 className='fw-semibold py-16 px-32 border border-main-600 rounded-pill hover-bg-main-50 '
               >
                 Browse Courses
-              </a>
+              </Link>
             </div>
           </div>
           <div className='pt-30'>

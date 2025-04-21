@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 const PopularTeacherTwo = () => {
@@ -82,36 +83,36 @@ const PopularTeacherTwo = () => {
                 />
                 <ul className='triangle-shape-right triangle-shape-left max-w-220-px py-11 ps-32 pe-32 bg-warning-800 d-flex align-items-center gap-12 justify-content-center text-center position-absolute inset-block-end-90-persent inset-inline-start-50-percent translate-middle-x line-height-1'>
                   <li>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      to='/sign-in'
                       className='text-28 text-white hover-text-main-500 transition-04'
                     >
                       <i className='ph ph-facebook-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      to='/sign-in'
                       className='text-28 text-white hover-text-main-500 transition-04'
                     >
                       <i className='ph ph-twitter-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      to='/sign-in'
                       className='text-28 text-white hover-text-main-500 transition-04'
                     >
                       <i className='ph ph-instagram-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      to='/sign-in'
                       className='text-28 text-white hover-text-main-500 transition-04'
                     >
                       <i className='ph ph-pinterest-logo' />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -133,36 +134,36 @@ const PopularTeacherTwo = () => {
                 />
                 <ul className='triangle-shape-right triangle-shape-left max-w-220-px py-11 ps-32 pe-32 bg-warning-800 d-flex align-items-center gap-12 justify-content-center text-center position-absolute inset-block-end-90-persent inset-inline-start-50-percent line-height-1 translate-middle-x'>
                   <li>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      to='/sign-in'
                       className='text-28 text-white hover-text-main-500 transition-04'
                     >
                       <i className='ph ph-facebook-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      to='/sign-in'
                       className='text-28 text-white hover-text-main-500 transition-04'
                     >
                       <i className='ph ph-twitter-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      to='/sign-in'
                       className='text-28 text-white hover-text-main-500 transition-04'
                     >
                       <i className='ph ph-instagram-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      to='/sign-in'
                       className='text-28 text-white hover-text-main-500 transition-04'
                     >
                       <i className='ph ph-pinterest-logo' />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -184,36 +185,36 @@ const PopularTeacherTwo = () => {
                 />
                 <ul className='triangle-shape-right triangle-shape-left max-w-220-px py-11 ps-32 pe-32 bg-warning-800 d-flex align-items-center gap-12 justify-content-center text-center position-absolute inset-block-end-90-persent inset-inline-start-50-percent line-height-1 translate-middle-x'>
                   <li>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      to='/sign-in'
                       className='text-28 text-white hover-text-main-500 transition-04'
                     >
                       <i className='ph ph-facebook-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      to='/sign-in'
                       className='text-28 text-white hover-text-main-500 transition-04'
                     >
                       <i className='ph ph-twitter-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      to='/sign-in'
                       className='text-28 text-white hover-text-main-500 transition-04'
                     >
                       <i className='ph ph-instagram-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      to='/sign-in'
                       className='text-28 text-white hover-text-main-500 transition-04'
                     >
                       <i className='ph ph-pinterest-logo' />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -235,36 +236,36 @@ const PopularTeacherTwo = () => {
                 />
                 <ul className='triangle-shape-right triangle-shape-left max-w-220-px py-11 ps-32 pe-32 bg-warning-800 d-flex align-items-center gap-12 justify-content-center text-center position-absolute inset-block-end-90-persent inset-inline-start-50-percent line-height-1 translate-middle-x'>
                   <li>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      to='/sign-in'
                       className='text-28 text-white hover-text-main-500 transition-04'
                     >
                       <i className='ph ph-facebook-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      to='/sign-in'
                       className='text-28 text-white hover-text-main-500 transition-04'
                     >
                       <i className='ph ph-twitter-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      to='/sign-in'
                       className='text-28 text-white hover-text-main-500 transition-04'
                     >
                       <i className='ph ph-instagram-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      to='/sign-in'
                       className='text-28 text-white hover-text-main-500 transition-04'
                     >
                       <i className='ph ph-pinterest-logo' />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -286,36 +287,36 @@ const PopularTeacherTwo = () => {
                 />
                 <ul className='triangle-shape-right triangle-shape-left max-w-220-px py-11 ps-32 pe-32 bg-warning-800 d-flex align-items-center gap-12 justify-content-center text-center position-absolute inset-block-end-90-persent inset-inline-start-50-percent line-height-1 translate-middle-x'>
                   <li>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      to='/sign-in'
                       className='text-28 text-white hover-text-main-500 transition-04'
                     >
                       <i className='ph ph-facebook-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      to='/sign-in'
                       className='text-28 text-white hover-text-main-500 transition-04'
                     >
                       <i className='ph ph-twitter-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      to='/sign-in'
                       className='text-28 text-white hover-text-main-500 transition-04'
                     >
                       <i className='ph ph-instagram-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='sign-in.html'
+                    <Link
+                      to='/sign-in'
                       className='text-28 text-white hover-text-main-500 transition-04'
                     >
                       <i className='ph ph-pinterest-logo' />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
