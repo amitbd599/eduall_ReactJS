@@ -1,23 +1,20 @@
 import { Link, useLocation } from "react-router-dom";
-import { useEffect, useState } from "react";
-import $ from "jquery";
-import "select2/dist/css/select2.min.css";
-import "select2/dist/js/select2.full.min.js";
-import "select2";
+import { useEffect, useRef, useState } from "react";
+import NiceSelect from "nice-select2";
 
 const HeaderThree = () => {
   let { pathname } = useLocation();
   const [scroll, setScroll] = useState(false);
   const [isMenuActive, setIsMenuActive] = useState(false);
+  let selectRef = useRef();
+  let selectRef_2 = useRef();
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      import("select2").then(() => {
-        const selectElement = $(".js-example-basic-single");
-        if (selectElement.length > 0) {
-          selectElement.select2(); // Initialize Select2
-        }
-      });
+    if (selectRef.current) {
+      new NiceSelect(selectRef.current);
+    }
+    if (selectRef_2.current) {
+      new NiceSelect(selectRef_2.current);
     }
 
     window.onscroll = () => {
@@ -144,14 +141,15 @@ const HeaderThree = () => {
               {/* Logo End  */}
               {/* Select Start */}
               <div className='d-sm-block d-none'>
-                <div className='header-select border border-neutral-30 bg-main-25 rounded-pill position-relative'>
+                <div className='header-select  rounded-pill position-relative'>
                   <span className='select-icon position-absolute top-50 translate-middle-y inset-inline-start-0 z-1 ms-lg-4 ms-12 text-xl pointer-event-none d-flex'>
                     <i className='ph-bold ph-squares-four' />
                   </span>
                   <select
-                    className='js-example-basic-single border-0'
+                    ref={selectRef}
+                    className='js-example-basic-single_ categories border'
                     name='state'
-                    defaultValue='categories'
+                    defaultValue='Categories'
                   >
                     <option value={"Categories"}>Categories</option>
                     <option value={"Design"}>Design</option>
@@ -314,13 +312,15 @@ const HeaderThree = () => {
               )}
             </ul>
             <div className='d-sm-none d-block mt-24'>
-              <div className='header-select mobile border border-neutral-30 bg-main-25 rounded-pill position-relative'>
+              <div className='header-select mobile   rounded-pill position-relative'>
                 <span className='select-icon position-absolute top-50 translate-middle-y inset-inline-start-0 z-1 ms-lg-4 ms-12 text-xl pointer-event-none d-flex'>
                   <i className='ph-bold ph-squares-four' />
                 </span>
                 <select
-                  className='js-example-basic-single border-0'
+                  className='js-example-basic-single js-example-basic-single_ categories border-0'
                   name='state'
+                  ref={selectRef_2}
+                  defaultValue='Categories'
                 >
                   <option value={"Categories"}>Categories</option>
                   <option value={"Design"}>Design</option>

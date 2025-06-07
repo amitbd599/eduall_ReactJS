@@ -46,6 +46,7 @@ function App() {
   return (
     <BrowserRouter>
       <RouteScrollToTop />
+
       <Routes>
         <Route exact path='/' element={<HomePageOne />} />
         <Route exact path='/index-2' element={<HomePageTwo />} />

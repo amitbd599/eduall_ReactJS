@@ -2,17 +2,18 @@ import { useEffect, useRef, useState } from "react";
 import Slider from "react-slick";
 import ModalVideo from "react-modal-video";
 import { Link } from "react-router-dom";
+import AOS from "aos";
 const BannerThree = () => {
   const sliderRef = useRef();
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    let WOW;
-    if (typeof window !== "undefined") {
-      WOW = require("wowjs");
-      const wowInstance = new WOW.WOW({ live: false });
-      wowInstance.init();
-    }
+    AOS.init({
+      duration: 1000,
+      once: true,
+      easing: "ease-in-out",
+      offset: 0,
+    });
   }, []);
 
   const handleBeforeChange = () => {
@@ -27,10 +28,7 @@ const BannerThree = () => {
 
   const handleAfterChange = () => {
     if (typeof window !== "undefined") {
-      const WOW = require("wowjs");
-      const wowInstance = new WOW.WOW({ live: false });
-      wowInstance.init();
-
+      AOS.refreshHard(); // Use refreshHard to reset and restart AOS
       const wowElements = document.querySelectorAll(".wow");
       wowElements.forEach((el) => {
         el.style.visibility = "visible";

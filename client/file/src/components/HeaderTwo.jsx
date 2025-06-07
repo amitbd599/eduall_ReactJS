@@ -1,19 +1,22 @@
-import { useEffect, useState } from "react";
-import $ from "jquery";
+import { useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-
+import NiceSelect from "nice-select2";
 const HeaderTwo = () => {
   let { pathname } = useLocation();
   const [scroll, setScroll] = useState(false);
   const [isMenuActive, setIsMenuActive] = useState(false);
+  let selectRef = useRef();
+  let selectRef_2 = useRef();
+  let selectRef_3 = useRef();
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      import("select2").then(() => {
-        const selectElement = $(".js-example-basic-single");
-        if (selectElement.length > 0) {
-          selectElement.select2(); // Initialize Select2
-        }
-      });
+    if (selectRef.current) {
+      new NiceSelect(selectRef.current);
+    }
+    if (selectRef_2.current) {
+      new NiceSelect(selectRef_2.current);
+    }
+    if (selectRef_3.current) {
+      new NiceSelect(selectRef_3.current);
     }
 
     window.onscroll = () => {
@@ -140,10 +143,14 @@ const HeaderTwo = () => {
             </div>
             {/* Logo End  */}
             {/* Search Start */}
-            <div className='d-md-flex d-none bg-white border border-neutral-30 rounded-pill p-8 ps-24 pe-56 position-relative d-flex align-items-center  min-w-320 max-w-708 w-100'>
-              <div className='header-select style-two bg-white rounded-pill position-relative'>
+            <div className='d-md-flex d-none bg-white  rounded-pill p-8 ps-24 pe-56 position-relative d-flex align-items-center  min-w-320 max-w-708 w-100'>
+              <div className='header-select style-two bg-white rounded-pill position-relative '>
+                <span className='select-icon position-absolute  translate-middle-y inset-inline-start-0 z-1 ms-lg-4 ms-12 text-xl pointer-event-none d-flex'>
+                  <i className='ph-bold ph-squares-four' />
+                </span>
                 <select
-                  className='js-example-basic-single border-0'
+                  ref={selectRef}
+                  className='js-example-basic-single js-example-basic-single_ categories border-0 '
                   name='state'
                   defaultValue={1}
                 >
@@ -158,7 +165,7 @@ const HeaderTwo = () => {
               </div>
               <form
                 action='#'
-                className='border-start border-neutral-30 ps-24 w-100'
+                className='border-start border-neutral-30 ps-24 w-100 ms-5'
               >
                 <input
                   type='text'
@@ -211,14 +218,15 @@ const HeaderTwo = () => {
         <div className='container'>
           <nav className='header-inner flex-between gap-8'>
             {/* Select Start */}
-            <div className='header-select border border-neutral-30 bg-main-25 rounded-pill position-relative ms-0'>
+            <div className='header-select   rounded-pill position-relative ms-0'>
               <span className='select-icon position-absolute top-50 translate-middle-y inset-inline-start-0 z-1 ms-lg-4 ms-12 text-xl pointer-event-none d-flex'>
                 <i className='ph-bold ph-squares-four' />
               </span>
               <select
-                className='js-example-basic-single border-0'
+                className='js-example-basic-single js-example-basic-single_ categories border-0'
                 name='state'
-                defaultValue='categories'
+                defaultValue='Categories'
+                ref={selectRef_2}
               >
                 <option value={"Categories"}>Categories</option>
                 <option value={"Design"}>Design</option>
@@ -363,9 +371,10 @@ const HeaderTwo = () => {
                   <i className='ph-bold ph-squares-four' />
                 </span>
                 <select
-                  className='js-example-basic-single border-0'
+                  className='js-example-basic-single js-example-basic-single_ categories border-0'
                   name='state'
                   defaultValue={"Categories"}
+                  ref={selectRef_3}
                 >
                   <option value={"Categories"}>Categories</option>
                   <option value={"Design"}>Design</option>
